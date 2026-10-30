@@ -1,0 +1,1201 @@
+student_id,name,gender,age,attendance_rate,study_hours_per_week,sleep_hours,previous_marks,assignment_scores,midterm_marks,math_score,science_score,english_score,parent_education,internet_access,extracurricular,tutoring,stress_level,final_marks,performance_category,passed,needs_academic_support,data_source
+STU1001,Aarav Bhatia,Female,19,89.6,23.8,6.4,74.7,98.7,77.2,43.4,78.2,79.3,High School,Yes,No,No,High,77.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1002,Yash Bhatia,Male,20,74.6,20.1,5.4,50.6,86.8,57.6,30.5,40.8,74.5,Associate,Yes,Yes,Yes,High,57.4,Average,1,0,Realistic Synthetic Benchmark
+STU1003,Neha Smith,Female,20,80.3,21.9,6.0,78.3,89.2,65.8,30.4,54.2,67.3,Master,Yes,Yes,No,Moderate,70.1,Average,1,0,Realistic Synthetic Benchmark
+STU1004,Madhav Das,Female,21,86.7,23.6,5.0,77.7,95.4,78.0,48.9,64.2,99.2,Master,No,Yes,No,Moderate,77.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1005,Pranav Sharma,Male,20,49.0,13.1,7.2,60.7,69.6,54.3,23.8,46.0,61.1,Master,Yes,No,No,Moderate,56.5,Average,1,1,Realistic Synthetic Benchmark
+STU1006,Rhea Verma,Female,18,71.7,25.4,6.3,65.7,87.9,69.6,31.9,64.2,77.3,High School,Yes,No,No,High,73.5,Average,1,0,Realistic Synthetic Benchmark
+STU1007,James Saxena,Female,19,74.0,26.9,4.6,50.8,89.2,56.8,30.4,35.3,72.1,Bachelor,Yes,No,No,Moderate,59.6,Average,1,0,Realistic Synthetic Benchmark
+STU1008,Madhav Malhotra,Female,19,57.1,6.0,7.3,49.4,63.6,32.6,18.0,22.0,53.0,High School,Yes,Yes,No,Low,38.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1009,Shreya Rao,Male,19,69.3,10.5,6.7,50.6,70.3,40.3,18.0,39.5,65.1,Associate,Yes,Yes,Yes,High,50.9,Average,1,0,Realistic Synthetic Benchmark
+STU1010,Isha Singh,Male,21,100.0,27.6,6.6,89.7,100.0,87.1,80.2,86.3,93.5,Bachelor,Yes,Yes,No,Moderate,88.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1011,Harsh Menon,Male,20,80.0,22.2,6.0,69.7,92.5,70.5,41.2,66.8,70.7,Master,Yes,Yes,No,High,72.1,Average,1,0,Realistic Synthetic Benchmark
+STU1012,Bhavya Smith,Female,22,54.8,14.0,5.9,50.2,64.5,39.1,18.0,26.6,52.3,Bachelor,Yes,Yes,No,Moderate,46.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1013,Kavya Bhatia,Female,19,62.7,12.4,6.0,41.3,65.8,28.8,18.0,22.0,53.9,Associate,Yes,No,No,Moderate,48.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1014,Devansh Gupta,Female,19,74.3,19.9,5.9,69.7,78.8,56.1,22.6,50.7,70.1,Bachelor,Yes,Yes,No,Moderate,63.0,Average,1,0,Realistic Synthetic Benchmark
+STU1015,Zoya Nair,Male,19,94.8,31.9,5.9,79.2,100.0,73.5,59.6,78.8,92.4,Doctorate,Yes,Yes,Yes,High,79.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1016,Chetan Kapoor,Male,18,73.7,16.7,6.7,77.0,75.4,48.2,19.7,49.3,78.0,High School,Yes,No,Yes,Low,59.2,Average,1,0,Realistic Synthetic Benchmark
+STU1017,Devansh Iyer,Female,18,100.0,28.4,5.9,96.4,100.0,90.4,57.2,89.5,89.9,Master,Yes,Yes,Yes,Moderate,83.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1018,Pranav Bhatia,Male,19,65.2,21.1,6.0,80.4,80.2,82.0,44.2,68.3,80.5,Associate,Yes,No,Yes,High,73.8,Average,1,0,Realistic Synthetic Benchmark
+STU1019,Siddharth Roy,Female,18,80.5,18.0,6.2,79.8,91.0,83.6,42.8,79.8,65.4,High School,No,Yes,No,High,77.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1020,Liam Verma,Female,21,62.6,7.9,9.1,48.1,72.8,36.6,18.0,27.7,54.8,Master,Yes,Yes,No,Low,45.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1021,Madhav Sharma,Female,18,82.9,22.2,5.6,85.2,98.8,83.6,50.9,69.1,86.9,High School,Yes,No,Yes,Moderate,80.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1022,Aarav Kulkarni,Male,18,80.9,21.1,5.9,61.1,87.8,51.9,32.1,52.9,78.0,Bachelor,Yes,No,No,Moderate,63.0,Average,1,0,Realistic Synthetic Benchmark
+STU1023,Sanya Williams,Female,20,94.0,27.1,9.1,67.9,100.0,67.6,46.4,71.1,79.0,High School,Yes,No,Yes,Low,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1024,Zoya Sen,Female,18,68.3,16.9,6.9,64.4,77.7,48.5,31.1,44.7,78.4,Bachelor,No,Yes,No,Low,56.8,Average,1,0,Realistic Synthetic Benchmark
+STU1025,Alex Joshi,Female,21,78.0,15.3,5.3,75.1,83.1,66.6,43.9,51.3,81.0,Bachelor,Yes,Yes,No,Moderate,70.5,Average,1,0,Realistic Synthetic Benchmark
+STU1026,Liam Williams,Male,20,81.2,17.7,7.3,70.4,87.3,67.0,43.9,74.0,70.8,Master,No,No,No,Moderate,69.7,Average,1,0,Realistic Synthetic Benchmark
+STU1027,Aryan Malhotra,Male,18,75.4,21.3,5.5,56.6,86.0,58.7,45.0,58.6,66.6,Master,Yes,Yes,Yes,Moderate,61.8,Average,1,0,Realistic Synthetic Benchmark
+STU1028,Liam Malhotra,Male,20,82.1,13.9,7.5,67.7,86.1,69.7,41.2,61.8,75.5,Bachelor,Yes,No,No,Moderate,67.2,Average,1,0,Realistic Synthetic Benchmark
+STU1029,Liam Jones,Male,19,73.5,22.3,6.1,51.6,82.2,51.3,26.3,42.2,60.8,Bachelor,Yes,Yes,No,High,57.3,Average,1,0,Realistic Synthetic Benchmark
+STU1030,Pranav Verma,Female,20,72.4,10.4,6.4,63.2,79.7,55.8,24.8,53.9,79.1,High School,Yes,Yes,No,Moderate,64.7,Average,1,0,Realistic Synthetic Benchmark
+STU1031,Kavya Kulkarni,Female,20,100.0,33.5,7.3,77.3,100.0,77.8,68.8,73.8,74.0,Bachelor,No,Yes,Yes,High,81.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1032,Pranav Bansal,Female,20,80.8,23.4,6.8,81.4,92.7,72.7,49.4,86.7,83.3,Bachelor,Yes,No,No,Moderate,75.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1033,Pranav Joshi,Male,19,61.4,18.1,7.4,51.0,72.0,38.6,18.0,31.2,65.3,High School,No,Yes,No,High,51.0,Average,1,1,Realistic Synthetic Benchmark
+STU1034,Ishaan Roy,Male,19,71.4,33.1,6.3,64.8,97.1,73.0,49.7,81.1,73.0,Doctorate,Yes,No,No,High,76.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1035,Aditi Kulkarni,Male,20,76.0,8.7,6.5,57.8,76.3,49.5,18.0,40.9,60.9,Associate,Yes,Yes,No,Moderate,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU1036,Noah Patel,Male,21,66.3,15.0,7.2,48.6,76.1,34.5,18.0,41.5,60.0,High School,No,Yes,No,Moderate,51.0,Average,1,0,Realistic Synthetic Benchmark
+STU1037,Nikhil Kulkarni,Male,19,93.7,21.4,7.4,84.5,100.0,83.1,58.1,74.5,90.7,Master,Yes,Yes,No,Moderate,85.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1038,Bhavya Singh,Male,20,47.7,9.8,6.9,36.2,57.6,21.8,18.0,22.0,45.0,Bachelor,Yes,No,Yes,Moderate,36.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1039,Rahul Joshi,Male,19,100.0,26.4,7.8,73.5,100.0,85.6,59.7,85.0,72.6,Bachelor,Yes,No,Yes,High,82.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1040,Aryan Deshmukh,Female,20,70.5,18.7,7.2,48.4,86.0,49.9,18.0,53.2,71.9,High School,Yes,Yes,No,Moderate,56.3,Average,1,0,Realistic Synthetic Benchmark
+STU1041,Tanvi Johnson,Male,22,76.8,16.1,6.7,50.1,79.5,55.0,29.6,56.9,65.2,Bachelor,Yes,Yes,Yes,Moderate,54.6,Average,1,0,Realistic Synthetic Benchmark
+STU1042,Diya Iyer,Female,18,89.1,25.9,6.4,82.1,95.4,82.3,45.5,69.7,89.4,Bachelor,Yes,No,No,High,80.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1043,Kavya Reddy,Female,18,77.3,18.7,6.6,86.1,90.9,73.6,67.2,69.0,87.9,Associate,Yes,Yes,No,Low,78.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1044,Gaurav Verma,Male,19,64.4,18.6,5.3,55.8,62.8,45.3,18.6,43.4,74.3,Bachelor,Yes,No,No,Low,51.5,Average,1,1,Realistic Synthetic Benchmark
+STU1045,Rhea Reddy,Female,19,87.6,23.6,6.2,70.4,98.8,76.9,44.3,68.9,86.1,Associate,Yes,No,Yes,Low,79.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1046,Kavya Rao,Female,19,100.0,18.1,6.7,65.7,89.4,65.4,26.7,64.1,67.8,Associate,No,Yes,No,High,68.1,Average,1,0,Realistic Synthetic Benchmark
+STU1047,James Saxena,Male,18,65.8,17.5,6.1,54.9,77.2,48.7,25.3,36.7,67.0,High School,Yes,No,No,Low,50.4,Average,1,0,Realistic Synthetic Benchmark
+STU1048,Nikhil Kulkarni,Male,19,88.1,19.9,6.7,60.7,86.7,53.0,25.0,52.6,65.8,Associate,Yes,No,No,Low,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU1049,Emma Williams,Female,19,100.0,35.0,5.8,85.4,100.0,88.8,55.3,85.3,82.3,Associate,Yes,Yes,No,Moderate,80.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1050,Aditi Brown,Male,19,100.0,35.0,6.5,87.7,100.0,86.5,65.2,80.7,76.6,Master,Yes,Yes,Yes,High,86.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1051,Varun Patel,Male,20,78.8,21.7,6.9,71.9,85.7,72.0,50.9,65.4,72.3,Bachelor,Yes,Yes,No,Moderate,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU1052,Zoya Mehta,Male,20,72.3,13.0,6.8,47.4,64.0,43.6,18.0,33.0,59.5,High School,Yes,No,Yes,High,53.1,Average,1,0,Realistic Synthetic Benchmark
+STU1053,Ananya Mehta,Female,19,72.4,22.9,5.1,74.1,96.7,77.2,47.0,70.6,78.7,Bachelor,Yes,No,No,Low,77.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1054,Pranav Saxena,Female,20,99.8,31.5,7.6,71.2,100.0,77.4,51.4,85.3,71.3,Associate,Yes,Yes,Yes,Moderate,76.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1055,Nikhil Mehta,Female,19,87.8,26.4,6.0,78.1,100.0,81.6,53.2,82.8,71.5,Bachelor,No,Yes,Yes,Moderate,77.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1056,Diya Johnson,Female,19,67.2,24.3,6.2,73.4,87.0,75.3,51.0,71.5,90.3,Master,Yes,Yes,Yes,Moderate,74.0,Average,1,0,Realistic Synthetic Benchmark
+STU1057,Mia Menon,Male,19,79.6,21.7,6.0,71.5,91.2,77.3,49.0,63.8,78.4,Bachelor,Yes,Yes,Yes,High,76.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1058,Bhavya Smith,Female,18,82.1,20.0,6.0,73.4,84.7,65.7,43.7,52.4,68.9,Bachelor,Yes,Yes,No,Moderate,63.0,Average,1,0,Realistic Synthetic Benchmark
+STU1059,Varun Kapoor,Male,19,69.2,20.4,7.8,57.1,84.6,55.3,25.4,61.3,70.5,Associate,No,Yes,No,Low,61.9,Average,1,0,Realistic Synthetic Benchmark
+STU1060,Chetan Miller,Male,19,61.5,8.5,8.1,46.8,62.1,38.4,18.0,22.0,70.1,High School,Yes,Yes,Yes,Low,40.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1061,Pooja Verma,Female,21,75.5,20.6,6.8,59.7,94.3,62.4,36.3,62.8,76.2,Bachelor,Yes,No,Yes,Low,65.4,Average,1,0,Realistic Synthetic Benchmark
+STU1062,Esha Singh,Male,20,70.3,18.8,6.4,65.6,95.6,60.7,40.7,62.8,55.5,Bachelor,Yes,No,No,High,69.9,Average,1,0,Realistic Synthetic Benchmark
+STU1063,Ananya Iyer,Female,18,83.9,22.0,6.9,73.4,93.4,75.2,33.0,67.8,96.3,Bachelor,Yes,Yes,Yes,Moderate,84.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1064,Pranav Jones,Female,19,62.9,7.2,7.0,60.2,71.1,45.9,18.0,27.7,51.0,Doctorate,Yes,No,No,High,52.1,Average,1,1,Realistic Synthetic Benchmark
+STU1065,Aryan Bansal,Female,18,82.8,21.8,6.2,62.6,90.7,60.9,46.2,57.4,70.5,Associate,Yes,Yes,Yes,Low,63.7,Average,1,0,Realistic Synthetic Benchmark
+STU1066,Olivia Smith,Female,20,100.0,35.0,6.1,92.1,100.0,95.9,82.6,89.8,80.5,Master,Yes,Yes,No,High,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1067,Olivia Joshi,Female,20,72.5,19.6,6.0,75.8,91.1,77.4,33.8,62.0,72.8,Bachelor,Yes,No,No,High,72.9,Average,1,0,Realistic Synthetic Benchmark
+STU1068,Emma Miller,Male,19,79.6,22.3,6.5,60.5,80.5,49.9,27.6,57.3,69.4,Associate,Yes,Yes,Yes,Low,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU1069,Kavya Malhotra,Male,19,82.1,14.3,6.8,68.7,91.3,73.3,40.1,66.3,60.4,High School,Yes,Yes,No,Low,68.6,Average,1,0,Realistic Synthetic Benchmark
+STU1070,Rhea Malhotra,Male,19,89.7,34.2,6.4,94.4,100.0,81.7,61.3,82.7,88.8,Bachelor,Yes,Yes,No,High,83.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1071,Isha Miller,Male,19,56.3,12.4,6.1,53.8,75.1,45.0,18.0,38.0,70.5,Associate,Yes,No,No,Low,54.0,Average,1,1,Realistic Synthetic Benchmark
+STU1072,Mia Gupta,Male,20,80.4,20.0,7.0,78.0,89.6,80.8,36.6,73.1,72.6,Bachelor,Yes,Yes,No,Moderate,74.8,Average,1,0,Realistic Synthetic Benchmark
+STU1073,Emma Gupta,Female,20,83.7,16.9,5.7,58.3,78.0,50.0,18.0,40.2,55.8,Bachelor,Yes,No,No,High,55.7,Average,1,0,Realistic Synthetic Benchmark
+STU1074,Alex Bansal,Male,19,76.1,15.5,6.1,66.9,81.4,59.1,25.3,55.7,69.6,Bachelor,Yes,Yes,No,High,61.9,Average,1,0,Realistic Synthetic Benchmark
+STU1075,Pranav Mehta,Male,19,64.5,12.1,6.2,63.2,77.9,62.4,32.8,45.9,65.3,Bachelor,Yes,Yes,No,High,60.3,Average,1,1,Realistic Synthetic Benchmark
+STU1076,Tanvi Iyer,Male,18,70.2,30.0,5.0,79.1,100.0,74.1,44.4,84.8,78.4,Bachelor,Yes,Yes,Yes,High,72.9,Average,1,0,Realistic Synthetic Benchmark
+STU1077,Esha Joshi,Male,18,100.0,32.7,6.8,88.1,100.0,90.2,71.7,88.5,78.3,Bachelor,Yes,No,No,Moderate,85.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1078,Lucas Mehta,Female,18,82.4,22.1,5.4,64.9,93.7,68.3,38.5,65.3,77.6,Master,Yes,Yes,No,High,72.6,Average,1,0,Realistic Synthetic Benchmark
+STU1079,Alex Johnson,Female,19,82.2,15.4,6.0,64.0,79.4,66.8,30.2,49.9,72.8,High School,Yes,No,Yes,Moderate,65.1,Average,1,0,Realistic Synthetic Benchmark
+STU1080,Aditi Bansal,Female,21,100.0,31.0,7.1,96.1,100.0,91.8,75.0,86.6,82.8,Doctorate,Yes,No,Yes,High,84.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1081,Sanya Reddy,Female,19,75.7,18.4,6.0,56.4,89.6,55.1,25.5,40.4,62.2,High School,Yes,Yes,Yes,Moderate,64.4,Average,1,0,Realistic Synthetic Benchmark
+STU1082,Tanvi Singh,Male,18,77.8,22.2,6.1,61.6,79.9,50.7,29.0,40.1,68.6,Associate,Yes,Yes,No,Moderate,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU1083,Pooja Singh,Female,18,54.2,9.2,5.9,36.1,57.2,22.2,18.0,22.0,41.5,Bachelor,Yes,Yes,Yes,High,33.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1084,Emma Saxena,Male,19,90.9,24.5,7.0,88.8,98.0,92.7,53.1,80.0,87.5,High School,Yes,No,Yes,Moderate,84.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1085,Neha Brown,Male,20,89.3,27.2,6.9,75.7,100.0,78.8,49.7,66.6,91.3,Associate,Yes,No,Yes,Moderate,76.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1086,Emma Brown,Male,19,100.0,35.0,6.5,99.0,100.0,96.2,75.1,90.3,91.1,High School,Yes,Yes,No,Moderate,93.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1087,Yash Gupta,Female,20,61.9,14.1,7.1,45.6,71.4,36.9,18.0,26.9,49.0,Bachelor,Yes,No,Yes,Moderate,46.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1088,Zoya Iyer,Male,20,100.0,32.0,6.0,88.7,100.0,85.3,49.6,81.3,89.7,Bachelor,No,Yes,Yes,Moderate,84.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1089,Harsh Chopra,Male,18,75.3,10.9,6.3,68.0,88.0,62.9,36.6,57.5,72.2,High School,Yes,No,Yes,High,66.5,Average,1,0,Realistic Synthetic Benchmark
+STU1090,Mia Bansal,Male,19,77.3,26.4,5.4,80.9,100.0,74.0,42.3,79.8,82.4,Bachelor,Yes,No,No,Moderate,72.6,Average,1,0,Realistic Synthetic Benchmark
+STU1091,Neha Chopra,Male,21,73.9,7.6,8.1,45.2,68.1,35.3,18.0,33.8,59.5,Associate,Yes,Yes,Yes,Moderate,52.9,Average,1,0,Realistic Synthetic Benchmark
+STU1092,Isha Sen,Female,19,90.3,24.7,6.9,75.1,100.0,79.6,64.2,93.8,85.6,Doctorate,Yes,Yes,No,Moderate,82.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1093,Madhav Bhatia,Male,18,82.8,24.3,5.6,82.3,100.0,77.1,44.7,63.9,84.3,High School,Yes,Yes,Yes,High,75.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1094,Madhav Iyer,Male,21,77.1,21.3,6.4,65.0,86.6,63.4,43.1,51.8,71.1,Bachelor,Yes,No,Yes,High,67.1,Average,1,0,Realistic Synthetic Benchmark
+STU1095,Mia Reddy,Male,21,85.9,19.2,6.2,79.1,88.4,75.6,47.6,73.7,93.0,Bachelor,Yes,Yes,No,Low,79.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1096,Ananya Gupta,Female,19,66.3,17.3,5.5,60.2,79.5,50.5,23.1,40.4,75.3,Bachelor,Yes,No,No,Moderate,58.4,Average,1,0,Realistic Synthetic Benchmark
+STU1097,Rhea Patel,Male,19,71.2,19.0,6.6,53.8,83.6,52.0,21.8,52.3,71.3,Doctorate,Yes,Yes,No,Moderate,63.7,Average,1,0,Realistic Synthetic Benchmark
+STU1098,Ishaan Deshmukh,Male,18,72.4,17.4,6.1,54.5,88.1,66.1,18.0,57.4,68.3,Associate,Yes,Yes,Yes,Low,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU1099,Rahul Das,Male,20,58.0,5.7,6.1,45.8,63.8,44.7,18.0,37.9,47.9,Bachelor,Yes,No,No,Moderate,47.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1100,Mia Gupta,Female,19,70.2,21.2,5.0,75.4,100.0,72.6,46.7,79.5,88.8,Bachelor,Yes,Yes,No,Moderate,73.4,Average,1,0,Realistic Synthetic Benchmark
+STU1101,Sophia Kulkarni,Female,18,100.0,31.8,4.5,87.1,100.0,81.1,58.1,86.4,87.2,Bachelor,Yes,No,No,Low,81.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1102,Alex Bhatia,Female,20,68.8,10.8,6.4,55.8,75.1,44.7,18.0,36.9,59.4,Associate,Yes,Yes,No,High,47.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1103,Zoya Menon,Male,21,86.4,26.2,6.1,76.7,88.4,76.7,44.9,66.8,75.8,Associate,Yes,Yes,No,High,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1104,Rhea Rao,Female,20,64.6,17.2,5.7,65.1,83.0,58.0,21.1,49.9,63.6,High School,Yes,Yes,No,Moderate,60.3,Average,1,1,Realistic Synthetic Benchmark
+STU1105,Rhea Smith,Female,19,78.2,21.8,6.9,72.0,89.1,70.4,43.4,54.6,83.0,High School,Yes,Yes,Yes,Low,73.7,Average,1,0,Realistic Synthetic Benchmark
+STU1106,Mia Brown,Female,18,65.7,10.3,6.7,55.6,75.2,60.3,27.4,57.6,68.1,Doctorate,Yes,No,No,High,62.7,Average,1,0,Realistic Synthetic Benchmark
+STU1107,Diya Bansal,Male,21,78.9,15.0,7.1,55.9,75.5,49.0,24.6,45.4,64.9,Master,Yes,Yes,No,Moderate,54.3,Average,1,0,Realistic Synthetic Benchmark
+STU1108,Bhavya Roy,Male,21,85.7,28.6,5.9,86.8,100.0,88.2,66.0,79.7,85.8,Associate,Yes,Yes,No,High,81.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1109,Lucas Verma,Male,19,83.0,16.0,5.9,64.8,84.8,64.3,38.2,65.6,66.1,Bachelor,Yes,Yes,Yes,Low,72.6,Average,1,0,Realistic Synthetic Benchmark
+STU1110,Tanvi Jones,Female,19,96.4,34.4,5.9,95.5,100.0,91.9,75.2,87.0,75.1,Bachelor,Yes,No,Yes,Low,88.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1111,Liam Gupta,Male,19,75.1,20.5,5.2,66.9,74.2,65.0,33.5,43.2,58.2,Associate,Yes,No,Yes,Moderate,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1112,Bhavya Brown,Male,19,65.5,12.1,7.2,54.7,72.7,43.0,36.5,42.9,56.9,Bachelor,Yes,No,No,High,50.5,Average,1,0,Realistic Synthetic Benchmark
+STU1113,Olivia Bansal,Male,18,100.0,31.5,5.1,92.3,100.0,95.2,54.3,78.5,82.3,Bachelor,Yes,No,No,Low,87.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1114,Lucas Sharma,Female,18,71.1,16.1,7.4,81.4,100.0,76.5,43.8,71.7,85.7,Associate,No,Yes,No,Moderate,81.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1115,Shreya Verma,Male,18,76.5,25.2,5.9,75.9,100.0,74.9,54.5,74.2,86.8,Bachelor,Yes,Yes,No,Moderate,78.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1116,James Roy,Female,20,77.1,31.9,6.9,82.8,100.0,78.1,59.3,80.5,83.4,Associate,Yes,Yes,Yes,High,79.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1117,Olivia Bhatia,Female,18,62.3,20.0,5.4,53.3,79.1,45.8,23.0,47.2,73.5,High School,Yes,Yes,No,High,60.1,Average,1,1,Realistic Synthetic Benchmark
+STU1118,Aryan Sharma,Female,18,70.4,20.2,5.8,63.3,85.2,58.6,36.1,57.7,64.8,Bachelor,Yes,No,No,High,67.7,Average,1,0,Realistic Synthetic Benchmark
+STU1119,Kavya Menon,Male,19,63.9,17.2,6.9,65.6,85.0,49.4,18.0,52.5,70.3,Bachelor,Yes,No,Yes,Moderate,60.9,Average,1,1,Realistic Synthetic Benchmark
+STU1120,Devansh Johnson,Female,18,57.7,9.5,7.9,54.3,65.5,41.2,23.0,25.4,59.0,Doctorate,Yes,Yes,No,High,57.6,Average,1,1,Realistic Synthetic Benchmark
+STU1121,Gaurav Malhotra,Female,18,59.9,16.4,8.0,67.1,76.6,56.2,27.0,51.0,76.7,High School,Yes,No,No,Moderate,59.7,Average,1,1,Realistic Synthetic Benchmark
+STU1122,Esha Chopra,Female,19,85.7,29.9,6.0,76.7,100.0,85.3,68.3,72.9,82.3,Bachelor,Yes,Yes,No,Low,84.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1123,Pranav Sharma,Male,19,89.7,19.9,8.1,74.9,85.8,71.0,25.9,73.2,76.7,Master,Yes,No,No,Moderate,71.2,Average,1,0,Realistic Synthetic Benchmark
+STU1124,Rohan Pillai,Male,19,65.5,14.3,6.4,48.0,70.8,37.2,18.0,22.0,46.8,Bachelor,Yes,Yes,Yes,Moderate,50.7,Average,1,0,Realistic Synthetic Benchmark
+STU1125,James Iyer,Male,21,61.5,17.2,7.5,39.9,66.9,31.7,18.0,22.0,47.1,Doctorate,Yes,No,Yes,Moderate,43.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1126,Noah Williams,Male,18,89.6,30.1,5.1,95.7,100.0,91.7,69.7,79.8,97.7,Doctorate,Yes,Yes,Yes,Moderate,89.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1127,Lucas Gupta,Male,21,65.4,14.4,7.0,73.6,79.2,71.4,40.8,54.0,58.3,Master,Yes,No,No,High,73.8,Average,1,0,Realistic Synthetic Benchmark
+STU1128,Sophia Bhatia,Male,21,62.0,11.1,4.6,59.2,76.4,48.3,23.5,42.3,74.8,Doctorate,Yes,No,No,High,59.2,Average,1,1,Realistic Synthetic Benchmark
+STU1129,Ananya Nair,Male,20,74.5,20.9,5.4,66.7,88.3,59.0,22.0,50.5,76.4,Bachelor,No,Yes,No,Moderate,66.4,Average,1,0,Realistic Synthetic Benchmark
+STU1130,Tanvi Deshmukh,Female,19,67.5,11.1,7.2,51.4,59.7,32.1,18.0,30.3,50.8,Bachelor,Yes,Yes,No,High,43.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1131,Pooja Pillai,Male,19,100.0,32.6,4.7,92.9,100.0,82.6,56.9,83.4,83.0,Master,Yes,No,No,Moderate,86.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1132,Chetan Malhotra,Female,19,78.2,16.4,6.9,65.3,86.0,61.9,34.2,50.8,84.8,Master,Yes,No,No,Low,63.4,Average,1,0,Realistic Synthetic Benchmark
+STU1133,Esha Bhatia,Female,20,88.2,31.2,6.8,75.8,100.0,82.1,64.9,80.4,91.0,High School,Yes,Yes,No,Low,83.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1134,Gaurav Jones,Male,18,78.8,20.1,5.9,78.7,90.8,77.9,44.4,74.5,78.4,Associate,Yes,No,Yes,Moderate,78.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1135,Aryan Jones,Female,21,92.0,26.9,5.3,91.0,100.0,94.3,55.2,93.8,88.9,Associate,Yes,No,No,Low,87.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1136,Alex Johnson,Male,19,79.4,20.5,6.0,66.3,98.7,81.2,47.8,64.7,71.9,Master,Yes,No,No,Moderate,79.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1137,Sophia Joshi,Female,20,100.0,22.9,5.4,70.9,100.0,75.2,68.6,69.6,79.8,Associate,Yes,Yes,No,High,83.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1138,James Bansal,Male,19,73.1,30.2,5.9,78.4,100.0,77.2,61.3,77.1,77.6,Associate,Yes,No,No,Moderate,77.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1139,Mia Williams,Female,18,83.4,23.8,6.3,72.4,100.0,68.4,20.9,71.2,79.0,Bachelor,Yes,Yes,No,High,74.7,Average,1,0,Realistic Synthetic Benchmark
+STU1140,Sanya Gupta,Male,19,91.1,25.3,5.9,72.5,83.7,71.1,42.7,56.4,86.6,High School,Yes,Yes,No,High,70.4,Average,1,0,Realistic Synthetic Benchmark
+STU1141,Bhavya Mehta,Male,19,64.3,16.1,8.1,67.4,78.9,60.5,38.2,57.0,69.3,Doctorate,Yes,No,Yes,Moderate,62.2,Average,1,1,Realistic Synthetic Benchmark
+STU1142,Neha Smith,Male,19,95.2,28.8,5.4,87.5,100.0,93.5,67.3,85.3,79.0,Bachelor,Yes,Yes,No,Low,83.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1143,Rahul Malhotra,Female,19,63.6,13.4,7.9,47.5,70.7,37.4,18.0,41.6,48.6,High School,Yes,Yes,Yes,Low,47.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1144,Gaurav Bhatia,Female,18,76.4,23.7,5.3,68.4,95.3,69.3,36.2,66.7,77.0,Associate,Yes,No,Yes,Moderate,70.7,Average,1,0,Realistic Synthetic Benchmark
+STU1145,Siddharth Miller,Male,19,66.2,17.7,6.6,63.0,84.8,62.3,38.5,49.3,64.7,Master,Yes,No,Yes,Moderate,58.5,Average,1,0,Realistic Synthetic Benchmark
+STU1146,Yash Saxena,Male,19,87.1,20.4,7.4,72.1,93.7,72.0,34.6,63.7,79.0,Bachelor,Yes,Yes,No,Moderate,75.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1147,Olivia Singh,Male,21,78.1,18.4,7.5,52.4,80.5,48.4,31.7,41.6,52.4,Bachelor,Yes,Yes,No,Moderate,60.2,Average,1,0,Realistic Synthetic Benchmark
+STU1148,James Gupta,Female,18,85.4,24.2,5.9,68.6,91.2,74.1,43.2,67.8,79.6,Associate,Yes,Yes,Yes,Moderate,73.1,Average,1,0,Realistic Synthetic Benchmark
+STU1149,Chetan Singh,Male,19,69.5,23.9,6.7,68.1,83.7,72.6,31.4,58.8,64.5,Master,Yes,Yes,No,Low,59.3,Average,1,0,Realistic Synthetic Benchmark
+STU1150,Chetan Mehta,Male,19,60.5,11.3,7.1,49.1,64.9,32.2,18.0,22.0,57.1,Master,Yes,Yes,Yes,Moderate,44.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1151,Noah Pillai,Female,19,71.4,21.8,5.8,61.4,83.7,63.7,23.5,48.0,66.6,Bachelor,Yes,Yes,No,Moderate,59.0,Average,1,0,Realistic Synthetic Benchmark
+STU1152,Esha Johnson,Female,19,62.8,15.3,7.1,44.7,75.8,27.9,18.0,32.0,70.7,Bachelor,Yes,No,Yes,High,45.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1153,Ananya Nair,Male,19,74.2,6.7,8.6,43.5,64.4,37.2,18.0,26.8,55.3,Doctorate,No,No,No,Moderate,52.0,Average,1,0,Realistic Synthetic Benchmark
+STU1154,Veda Iyer,Female,21,80.3,18.1,6.9,71.1,93.7,59.8,50.2,59.7,90.4,Bachelor,Yes,No,No,Moderate,63.1,Average,1,0,Realistic Synthetic Benchmark
+STU1155,Yash Williams,Male,19,74.7,19.2,6.9,74.8,86.3,67.9,36.6,65.3,79.8,Bachelor,Yes,No,No,Moderate,67.6,Average,1,0,Realistic Synthetic Benchmark
+STU1156,Ananya Sharma,Female,20,85.4,19.5,7.0,69.8,85.3,61.4,22.3,56.2,83.2,Doctorate,Yes,No,No,Moderate,70.1,Average,1,0,Realistic Synthetic Benchmark
+STU1157,James Kapoor,Male,18,74.4,25.6,4.9,75.2,95.9,73.5,41.2,71.0,77.9,Master,Yes,No,No,Low,71.7,Average,1,0,Realistic Synthetic Benchmark
+STU1158,Rahul Chopra,Female,19,46.8,8.0,7.3,49.9,70.9,42.4,18.0,44.5,61.7,Bachelor,Yes,Yes,Yes,Low,46.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1159,Pooja Roy,Female,19,54.5,11.1,5.8,49.5,71.4,32.3,18.0,35.0,67.8,Master,Yes,No,No,Low,53.6,Average,1,1,Realistic Synthetic Benchmark
+STU1160,Sanya Deshmukh,Female,18,97.4,24.3,5.7,81.9,100.0,86.0,82.1,85.9,90.2,Bachelor,Yes,Yes,Yes,Low,86.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1161,Siddharth Roy,Male,19,73.0,20.7,8.3,53.6,77.7,45.1,25.9,34.6,67.0,Bachelor,Yes,Yes,No,Moderate,58.3,Average,1,0,Realistic Synthetic Benchmark
+STU1162,Bhavya Gupta,Female,20,89.4,21.6,6.1,86.2,99.9,89.6,56.2,60.8,83.5,High School,Yes,Yes,No,High,84.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1163,Alex Saxena,Male,20,74.0,22.7,5.6,49.3,73.8,48.5,18.0,48.2,58.9,Bachelor,Yes,Yes,No,Low,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1164,Chetan Verma,Male,19,70.7,15.5,7.6,67.2,92.0,60.4,46.1,63.5,82.4,Associate,Yes,Yes,No,Low,71.6,Average,1,0,Realistic Synthetic Benchmark
+STU1165,Sanya Chopra,Female,19,66.7,13.3,5.8,56.4,74.9,48.3,18.1,38.3,73.0,Associate,Yes,No,Yes,Low,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU1166,Mia Kapoor,Male,19,86.5,17.0,6.1,73.9,92.6,80.5,44.4,62.9,73.5,Master,Yes,Yes,Yes,Moderate,70.7,Average,1,0,Realistic Synthetic Benchmark
+STU1167,James Kulkarni,Female,18,74.9,21.9,7.4,68.9,89.6,70.2,36.7,55.5,69.2,High School,Yes,Yes,No,Low,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU1168,Pooja Deshmukh,Female,18,70.8,13.7,6.7,67.0,84.1,55.7,18.0,52.6,65.3,Master,Yes,Yes,Yes,Low,62.1,Average,1,0,Realistic Synthetic Benchmark
+STU1169,Rohan Joshi,Male,20,69.2,10.3,5.4,52.9,66.1,41.9,18.0,32.3,64.7,Associate,Yes,No,No,Moderate,49.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1170,Priya Reddy,Female,22,78.5,17.4,7.0,77.1,80.5,67.2,37.6,64.3,68.4,High School,Yes,Yes,Yes,High,72.0,Average,1,0,Realistic Synthetic Benchmark
+STU1171,Diya Patel,Male,18,65.7,15.1,6.2,49.5,71.7,39.9,18.0,32.9,65.1,High School,Yes,Yes,Yes,Moderate,51.4,Average,1,0,Realistic Synthetic Benchmark
+STU1172,Rahul Jones,Male,19,94.9,26.2,7.5,69.5,87.0,59.2,33.5,65.2,77.5,Bachelor,Yes,No,Yes,Low,75.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1173,Diya Singh,Male,20,100.0,35.0,5.3,96.1,100.0,95.4,66.6,99.8,86.4,Bachelor,Yes,No,No,Moderate,94.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1174,Esha Smith,Female,20,100.0,27.2,7.1,72.6,100.0,86.3,47.6,88.7,90.6,Associate,Yes,Yes,Yes,Low,86.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1175,Nikhil Miller,Male,19,90.5,25.9,7.8,77.0,100.0,75.9,49.8,59.8,71.4,Bachelor,Yes,No,No,Moderate,73.6,Average,1,0,Realistic Synthetic Benchmark
+STU1176,Gaurav Patel,Male,19,66.0,14.7,5.8,77.2,87.5,68.2,37.3,51.7,89.0,Bachelor,Yes,Yes,Yes,Moderate,67.1,Average,1,0,Realistic Synthetic Benchmark
+STU1177,Sanya Sen,Male,20,47.4,6.1,6.8,43.5,58.5,31.3,18.0,22.0,54.3,High School,No,No,No,High,39.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1178,Lucas Williams,Female,20,56.5,9.6,7.2,52.9,77.1,56.6,18.0,48.5,48.3,Associate,Yes,No,No,High,59.3,Average,1,1,Realistic Synthetic Benchmark
+STU1179,Noah Sen,Female,18,86.3,29.4,5.3,80.2,100.0,82.8,60.0,93.2,94.2,High School,Yes,No,No,Moderate,79.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1180,Madhav Singh,Female,21,68.2,18.4,6.7,54.3,78.7,55.4,33.8,44.3,70.8,High School,Yes,Yes,Yes,Low,56.0,Average,1,0,Realistic Synthetic Benchmark
+STU1181,Chetan Singh,Female,18,74.6,19.3,6.2,62.8,76.7,51.1,18.0,39.3,64.1,Associate,Yes,No,Yes,Moderate,55.1,Average,1,0,Realistic Synthetic Benchmark
+STU1182,Madhav Verma,Female,20,85.5,17.2,6.3,75.9,89.8,67.1,36.1,46.5,70.8,Bachelor,No,Yes,No,Moderate,79.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1183,Esha Bhatia,Male,18,68.1,16.8,6.6,61.1,72.6,49.7,25.0,44.3,53.9,Bachelor,No,Yes,No,High,55.8,Average,1,0,Realistic Synthetic Benchmark
+STU1184,Madhav Miller,Male,18,60.5,12.0,6.8,54.9,76.4,43.0,18.0,31.6,80.4,Master,Yes,No,Yes,Low,55.1,Average,1,1,Realistic Synthetic Benchmark
+STU1185,Priya Jones,Female,18,61.8,17.6,6.6,65.6,81.0,59.8,32.3,73.1,63.4,Bachelor,Yes,No,No,Moderate,59.4,Average,1,1,Realistic Synthetic Benchmark
+STU1186,Tanvi Verma,Female,19,68.3,12.3,6.2,55.7,79.6,54.8,21.8,39.8,56.1,Bachelor,Yes,Yes,Yes,Moderate,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU1187,Esha Das,Male,19,69.7,13.7,6.2,51.8,78.0,44.8,18.0,53.9,64.5,Associate,Yes,No,No,Moderate,49.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1188,Rhea Iyer,Male,18,70.4,20.9,6.3,47.2,78.1,46.2,19.6,45.5,49.1,High School,Yes,Yes,No,Moderate,50.6,Average,1,0,Realistic Synthetic Benchmark
+STU1189,Rahul Brown,Female,19,99.8,25.8,6.1,66.0,100.0,74.7,46.0,64.6,69.8,Bachelor,Yes,No,Yes,Moderate,73.7,Average,1,0,Realistic Synthetic Benchmark
+STU1190,Neha Verma,Male,19,84.6,20.1,6.0,63.3,87.0,56.6,33.2,54.2,77.9,Associate,Yes,Yes,No,Moderate,66.2,Average,1,0,Realistic Synthetic Benchmark
+STU1191,Ishaan Jones,Female,20,81.8,18.7,6.7,61.9,87.0,65.8,25.7,62.7,73.6,Associate,Yes,Yes,No,Moderate,64.6,Average,1,0,Realistic Synthetic Benchmark
+STU1192,Zoya Johnson,Male,21,77.6,31.3,4.5,64.9,98.5,70.9,44.4,68.0,73.0,Doctorate,Yes,No,No,Low,76.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1193,Olivia Mehta,Male,20,72.5,23.2,5.6,63.9,83.2,59.4,41.8,59.0,70.0,High School,No,Yes,No,Low,65.8,Average,1,0,Realistic Synthetic Benchmark
+STU1194,Isha Verma,Female,18,74.1,16.1,6.3,60.5,80.2,46.6,38.7,50.6,64.2,High School,Yes,No,No,High,57.1,Average,1,0,Realistic Synthetic Benchmark
+STU1195,Aarav Johnson,Male,19,77.6,21.9,5.6,65.1,85.0,63.3,48.7,64.6,70.6,Master,Yes,Yes,No,Moderate,70.2,Average,1,0,Realistic Synthetic Benchmark
+STU1196,James Deshmukh,Male,21,89.4,24.1,7.7,72.5,100.0,77.1,39.6,73.5,74.3,Associate,No,No,Yes,Moderate,75.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1197,Veda Bhatia,Female,18,79.0,20.0,6.4,62.2,79.7,66.8,38.8,48.6,63.8,Bachelor,Yes,Yes,No,Moderate,63.2,Average,1,0,Realistic Synthetic Benchmark
+STU1198,Ananya Brown,Female,19,70.8,17.9,6.6,63.3,85.2,64.8,32.7,58.1,66.0,High School,Yes,No,Yes,Moderate,67.7,Average,1,0,Realistic Synthetic Benchmark
+STU1199,Sophia Bansal,Male,21,78.0,17.3,6.1,61.4,80.7,59.9,28.0,49.4,62.8,Bachelor,Yes,No,Yes,Moderate,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1200,Veda Gupta,Male,21,68.9,19.4,6.4,43.4,80.7,38.7,18.0,24.9,67.1,Doctorate,Yes,No,No,Low,53.2,Average,1,0,Realistic Synthetic Benchmark
+STU1201,Alex Chopra,Female,19,73.9,19.9,5.3,64.1,86.4,66.3,30.5,65.9,76.5,Bachelor,Yes,Yes,Yes,Moderate,64.9,Average,1,0,Realistic Synthetic Benchmark
+STU1202,Lucas Verma,Female,20,82.7,19.5,6.3,71.8,92.1,76.9,43.7,68.8,70.0,Bachelor,Yes,No,No,Moderate,71.8,Average,1,0,Realistic Synthetic Benchmark
+STU1203,Devansh Miller,Male,19,85.3,21.8,5.5,72.5,96.4,68.3,47.1,58.1,70.0,Associate,Yes,No,No,Low,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1204,Isha Iyer,Male,20,88.5,21.2,6.1,72.1,92.6,75.0,45.9,65.2,75.8,Associate,Yes,Yes,Yes,Moderate,73.0,Average,1,0,Realistic Synthetic Benchmark
+STU1205,Alex Joshi,Male,18,76.0,26.7,4.5,63.4,97.7,69.8,41.8,62.5,89.8,Bachelor,Yes,No,No,Low,74.2,Average,1,0,Realistic Synthetic Benchmark
+STU1206,Rahul Nair,Male,18,92.2,28.4,5.0,69.5,96.8,74.2,48.7,83.9,70.0,Associate,Yes,No,No,Low,76.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1207,Diya Jones,Male,19,90.2,29.4,7.3,78.1,93.6,75.8,53.1,74.4,78.8,High School,Yes,No,No,High,78.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1208,Diya Patel,Female,18,78.6,24.5,7.0,75.2,100.0,73.1,52.4,80.1,81.5,Bachelor,No,Yes,No,High,75.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1209,Tanvi Williams,Male,20,66.2,17.8,7.7,74.0,81.1,73.7,37.6,59.7,72.9,Master,Yes,Yes,No,Low,67.7,Average,1,0,Realistic Synthetic Benchmark
+STU1210,Chetan Das,Male,19,100.0,25.0,7.4,82.1,99.0,87.2,61.1,71.5,80.4,Master,No,No,No,Moderate,88.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1211,Rhea Smith,Female,21,89.6,24.9,6.8,68.7,92.9,69.9,53.6,68.9,83.5,Master,Yes,No,No,Low,76.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1212,Chetan Miller,Female,20,87.7,26.1,5.7,89.1,100.0,81.3,51.5,71.1,90.3,Bachelor,Yes,Yes,Yes,Moderate,80.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1213,Shreya Johnson,Male,19,92.5,27.1,5.2,68.5,89.4,67.4,39.9,60.5,80.0,Master,Yes,No,No,Moderate,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1214,Madhav Jones,Female,20,88.8,21.8,7.4,72.5,100.0,73.6,43.5,61.8,83.8,Master,Yes,Yes,Yes,High,74.2,Average,1,0,Realistic Synthetic Benchmark
+STU1215,Siddharth Mehta,Female,19,74.7,15.5,6.6,60.3,72.4,53.1,20.9,43.2,70.7,High School,Yes,Yes,Yes,Moderate,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU1216,Olivia Pillai,Female,19,79.2,24.7,8.5,79.5,98.0,81.9,48.1,82.5,93.2,Bachelor,Yes,No,Yes,Moderate,83.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1217,Ishaan Bhatia,Male,18,100.0,35.0,5.5,99.0,100.0,97.7,80.9,100.0,100.0,Associate,Yes,No,No,High,94.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1218,Neha Bhatia,Male,20,77.7,13.4,8.4,62.3,80.1,49.6,20.1,56.3,84.3,Doctorate,Yes,No,No,Low,56.2,Average,1,0,Realistic Synthetic Benchmark
+STU1219,Mia Williams,Female,20,75.9,22.8,6.1,67.5,88.6,65.6,35.6,71.1,81.9,Master,Yes,No,No,Low,71.2,Average,1,0,Realistic Synthetic Benchmark
+STU1220,Esha Miller,Male,21,67.9,16.9,7.7,56.7,72.2,42.2,18.0,26.1,58.1,Master,No,Yes,Yes,Moderate,56.3,Average,1,0,Realistic Synthetic Benchmark
+STU1221,Pooja Das,Male,21,74.3,13.9,8.2,61.6,92.6,58.7,28.7,45.7,78.1,Associate,Yes,Yes,No,Moderate,65.4,Average,1,0,Realistic Synthetic Benchmark
+STU1222,Zoya Malhotra,Male,21,83.2,22.5,5.4,98.2,100.0,90.8,68.2,75.2,96.2,Doctorate,Yes,Yes,No,Low,93.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1223,Pranav Chopra,Female,18,75.5,15.9,6.1,64.5,75.1,57.0,23.7,50.1,80.8,High School,No,No,Yes,Moderate,57.8,Average,1,0,Realistic Synthetic Benchmark
+STU1224,Sophia Gupta,Female,21,65.4,21.3,5.4,61.7,86.1,68.1,18.1,51.8,63.1,High School,Yes,Yes,No,Moderate,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU1225,Isha Reddy,Male,19,62.5,15.6,5.5,50.5,74.9,32.2,18.0,23.5,64.8,Bachelor,Yes,Yes,Yes,Moderate,45.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1226,Diya Gupta,Female,19,65.4,16.2,7.2,50.9,81.2,60.7,27.5,47.6,58.6,Master,Yes,Yes,No,High,62.0,Average,1,0,Realistic Synthetic Benchmark
+STU1227,Bhavya Patel,Male,19,56.4,15.4,6.4,42.2,57.7,29.9,18.0,22.0,54.8,Master,Yes,Yes,No,Moderate,43.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1228,Veda Patel,Female,19,79.6,23.7,6.3,79.9,97.4,79.6,55.3,64.1,80.5,Associate,Yes,Yes,Yes,Moderate,83.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1229,Rohan Pillai,Female,19,100.0,35.0,6.3,99.0,100.0,94.2,66.5,89.9,94.9,Bachelor,Yes,No,Yes,Moderate,92.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1230,Veda Chopra,Male,18,88.0,17.6,4.8,56.6,87.8,61.8,38.5,54.5,58.3,Bachelor,Yes,Yes,No,Low,64.2,Average,1,0,Realistic Synthetic Benchmark
+STU1231,Diya Brown,Male,18,69.2,8.7,8.0,41.4,54.1,29.8,18.0,26.4,55.1,High School,Yes,No,No,High,41.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1232,Liam Saxena,Male,19,91.0,24.1,5.9,90.8,96.9,84.4,37.5,77.9,88.2,Master,Yes,No,Yes,High,81.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1233,Aryan Verma,Female,21,69.5,9.0,7.3,57.1,72.8,40.0,18.0,31.2,64.2,Associate,Yes,Yes,Yes,High,51.2,Average,1,0,Realistic Synthetic Benchmark
+STU1234,Ishaan Deshmukh,Female,19,99.3,33.2,6.4,93.8,100.0,90.1,58.2,70.8,100.0,High School,Yes,No,No,High,91.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1235,Sophia Kulkarni,Female,19,83.2,17.1,7.7,63.6,82.1,63.1,28.0,60.3,66.7,Bachelor,Yes,Yes,No,Moderate,69.3,Average,1,0,Realistic Synthetic Benchmark
+STU1236,Isha Miller,Female,19,64.5,13.1,6.6,59.3,82.9,53.7,18.3,42.2,70.1,Bachelor,Yes,Yes,No,Moderate,54.4,Average,1,1,Realistic Synthetic Benchmark
+STU1237,Emma Kulkarni,Male,19,75.4,15.3,4.7,61.9,86.4,66.0,33.7,50.1,70.8,Master,No,Yes,No,Low,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU1238,Neha Kapoor,Female,18,73.0,23.4,6.3,81.5,100.0,86.0,50.5,67.5,85.1,Associate,Yes,No,No,High,79.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1239,Tanvi Jones,Male,20,83.8,25.1,6.4,71.2,82.0,59.7,18.0,43.4,88.3,High School,Yes,No,No,Moderate,63.6,Average,1,0,Realistic Synthetic Benchmark
+STU1240,Sophia Miller,Male,18,87.8,25.0,5.3,53.3,94.1,64.6,40.6,50.6,69.4,Master,Yes,Yes,Yes,Moderate,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1241,Aditi Rao,Female,20,76.3,13.7,6.8,61.3,77.8,56.9,27.7,48.7,62.8,Bachelor,Yes,No,No,High,65.4,Average,1,0,Realistic Synthetic Benchmark
+STU1242,Rohan Verma,Female,20,47.4,9.7,6.5,55.0,73.2,45.7,18.0,27.4,75.5,Associate,Yes,No,No,Moderate,54.1,Average,1,1,Realistic Synthetic Benchmark
+STU1243,Madhav Deshmukh,Male,19,87.1,19.8,5.2,70.4,100.0,73.1,35.3,70.7,76.5,High School,Yes,No,Yes,High,78.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1244,James Verma,Female,20,50.7,11.4,7.3,39.8,62.7,31.5,18.0,22.0,40.6,Doctorate,Yes,Yes,Yes,High,39.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1245,Chetan Joshi,Female,19,67.9,17.9,6.0,66.3,85.4,47.2,18.0,60.3,66.5,Bachelor,Yes,No,Yes,High,60.4,Average,1,0,Realistic Synthetic Benchmark
+STU1246,Chetan Bansal,Female,21,91.4,23.5,5.9,82.5,83.7,74.2,48.6,56.8,69.7,Associate,Yes,No,No,Moderate,72.2,Average,1,0,Realistic Synthetic Benchmark
+STU1247,Madhav Brown,Female,20,83.4,22.6,5.9,67.2,91.7,60.7,31.7,61.2,61.7,High School,Yes,Yes,No,Moderate,68.3,Average,1,0,Realistic Synthetic Benchmark
+STU1248,Harsh Bhatia,Male,20,81.1,22.2,7.4,74.9,100.0,84.1,47.6,77.6,78.2,High School,Yes,No,No,High,79.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1249,Tanvi Saxena,Male,20,72.4,24.6,6.2,57.9,92.9,69.0,29.1,55.2,70.1,Associate,Yes,Yes,Yes,Low,69.5,Average,1,0,Realistic Synthetic Benchmark
+STU1250,Alex Kulkarni,Male,20,92.4,29.6,6.1,75.8,100.0,84.2,52.2,81.5,89.4,High School,Yes,No,No,Low,85.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1251,Rahul Smith,Female,22,85.6,28.1,5.7,78.8,100.0,78.8,51.7,81.3,86.9,Associate,Yes,No,Yes,High,81.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1252,Sophia Saxena,Female,19,74.8,13.9,7.1,72.0,76.2,60.3,38.9,57.0,75.2,High School,Yes,Yes,No,High,62.5,Average,1,0,Realistic Synthetic Benchmark
+STU1253,Tanvi Johnson,Male,20,86.2,25.8,7.4,72.3,100.0,73.4,42.8,82.7,73.3,Associate,Yes,Yes,Yes,High,71.9,Average,1,0,Realistic Synthetic Benchmark
+STU1254,Shreya Jones,Male,20,89.2,31.9,6.5,71.5,93.5,82.7,51.6,60.9,83.1,Bachelor,Yes,No,No,Low,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1255,Chetan Reddy,Male,19,71.6,21.6,7.0,53.9,88.2,51.7,31.1,43.5,76.9,Bachelor,Yes,No,No,Moderate,64.8,Average,1,0,Realistic Synthetic Benchmark
+STU1256,Bhavya Patel,Female,21,51.9,4.8,7.6,51.3,67.8,29.5,18.0,34.6,61.6,Master,No,No,No,High,45.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1257,Pranav Kulkarni,Female,19,90.3,22.5,5.1,59.7,92.3,69.8,42.1,71.7,74.1,Associate,Yes,No,Yes,Low,66.4,Average,1,0,Realistic Synthetic Benchmark
+STU1258,Nikhil Chopra,Male,19,63.7,18.3,5.7,67.0,93.4,77.0,40.1,74.1,66.0,Master,Yes,Yes,Yes,Moderate,77.0,Excellent,1,1,Realistic Synthetic Benchmark
+STU1259,Shreya Jones,Male,18,87.2,32.4,5.7,69.0,100.0,84.3,48.3,88.3,85.4,Master,Yes,Yes,No,Moderate,80.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1260,Liam Gupta,Female,18,62.6,14.6,6.0,56.3,73.7,53.5,23.0,29.4,75.6,Doctorate,Yes,No,No,High,56.5,Average,1,1,Realistic Synthetic Benchmark
+STU1261,Kavya Pillai,Male,20,68.7,12.1,5.8,43.4,66.6,45.6,18.0,41.2,57.1,High School,No,Yes,No,Moderate,46.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1262,Bhavya Bhatia,Female,19,87.5,23.6,4.6,72.2,98.5,73.6,35.5,76.7,74.8,Associate,Yes,No,No,Moderate,75.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1263,Nikhil Joshi,Male,19,85.6,12.1,5.5,74.9,75.3,53.0,38.4,44.3,70.9,Bachelor,Yes,Yes,No,Moderate,66.2,Average,1,0,Realistic Synthetic Benchmark
+STU1264,Shreya Iyer,Male,18,51.0,4.2,6.8,51.5,46.3,30.8,18.0,32.2,48.4,High School,Yes,Yes,No,Low,42.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1265,Diya Sen,Female,19,86.7,23.1,6.2,60.0,93.5,68.1,26.3,66.2,69.2,High School,Yes,No,No,Moderate,67.1,Average,1,0,Realistic Synthetic Benchmark
+STU1266,Devansh Roy,Male,20,58.2,11.2,6.0,43.7,59.2,30.8,18.0,22.0,56.9,High School,Yes,No,No,Moderate,42.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1267,Devansh Chopra,Male,21,54.3,6.9,7.0,47.8,68.9,41.4,18.7,36.8,59.6,Bachelor,Yes,No,No,Moderate,46.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1268,Emma Kulkarni,Male,18,100.0,28.2,5.7,76.4,100.0,76.5,52.1,73.7,88.4,Master,Yes,Yes,No,Moderate,85.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1269,Zoya Das,Male,19,88.2,34.3,6.8,89.0,100.0,85.4,74.6,94.0,89.6,Associate,Yes,No,No,Moderate,88.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1270,Olivia Joshi,Male,19,67.2,8.0,6.7,57.6,67.5,54.3,23.5,41.8,55.5,Master,Yes,Yes,Yes,Low,53.9,Average,1,0,Realistic Synthetic Benchmark
+STU1271,Veda Jones,Male,19,77.1,19.1,7.1,65.3,84.3,69.6,37.6,53.7,67.4,Master,Yes,No,Yes,High,63.8,Average,1,0,Realistic Synthetic Benchmark
+STU1272,Zoya Joshi,Male,19,80.6,20.9,6.5,62.3,89.6,62.8,27.3,68.4,67.5,High School,Yes,No,Yes,Moderate,67.6,Average,1,0,Realistic Synthetic Benchmark
+STU1273,Emma Mehta,Male,19,94.8,35.0,4.5,93.4,100.0,93.8,71.3,96.4,87.7,Bachelor,Yes,Yes,No,Moderate,87.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1274,Sanya Malhotra,Female,19,78.5,16.8,6.4,46.1,83.3,44.3,18.0,38.1,74.5,High School,Yes,No,No,Moderate,54.5,Average,1,0,Realistic Synthetic Benchmark
+STU1275,Rhea Kapoor,Female,19,60.8,15.7,5.5,55.3,80.1,56.0,36.3,47.5,78.6,Master,Yes,No,Yes,High,55.8,Average,1,1,Realistic Synthetic Benchmark
+STU1276,Aditi Kapoor,Male,19,95.3,32.9,5.8,81.2,100.0,93.7,68.6,91.8,89.4,Bachelor,Yes,Yes,Yes,High,83.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1277,James Chopra,Male,19,69.5,13.3,6.0,61.6,69.7,45.3,18.0,38.4,64.9,Bachelor,No,No,Yes,Low,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1278,Isha Miller,Male,20,81.2,23.8,6.6,74.2,88.7,74.8,53.7,67.3,66.9,Bachelor,Yes,Yes,Yes,Moderate,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU1279,Aryan Malhotra,Female,20,64.2,9.6,5.6,45.9,63.9,39.1,25.0,27.9,56.6,Associate,Yes,No,Yes,Moderate,55.1,Average,1,1,Realistic Synthetic Benchmark
+STU1280,Rahul Malhotra,Female,19,84.1,19.3,6.4,62.7,84.9,62.7,31.3,48.6,64.4,Master,Yes,Yes,Yes,High,67.2,Average,1,0,Realistic Synthetic Benchmark
+STU1281,Olivia Singh,Male,20,56.3,12.1,7.2,44.6,65.4,43.4,18.0,22.0,66.4,Master,Yes,Yes,No,High,44.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1282,Mia Patel,Male,20,71.7,15.7,7.4,55.5,72.9,57.1,18.7,44.1,51.2,Bachelor,Yes,No,No,Moderate,52.4,Average,1,0,Realistic Synthetic Benchmark
+STU1283,Yash Bansal,Male,18,88.0,23.3,5.6,77.8,100.0,77.8,51.0,62.3,84.7,Bachelor,No,Yes,Yes,High,79.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1284,Gaurav Kulkarni,Male,19,70.7,19.8,6.4,63.6,79.6,62.7,22.7,48.4,62.4,High School,Yes,No,Yes,Moderate,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1285,Veda Sen,Female,19,72.4,22.8,6.5,64.3,84.5,60.2,30.2,41.5,70.4,High School,Yes,Yes,Yes,Moderate,67.4,Average,1,0,Realistic Synthetic Benchmark
+STU1286,Shreya Verma,Male,20,67.1,12.6,8.1,61.2,67.4,46.5,19.2,27.1,67.8,High School,Yes,Yes,No,Moderate,54.7,Average,1,0,Realistic Synthetic Benchmark
+STU1287,Sanya Miller,Male,18,70.2,18.9,5.1,59.8,85.4,59.8,44.4,56.6,76.0,Bachelor,Yes,Yes,No,Moderate,58.1,Average,1,0,Realistic Synthetic Benchmark
+STU1288,Aarav Malhotra,Male,20,84.7,21.8,5.5,69.6,83.0,69.0,27.2,60.2,71.9,Master,Yes,Yes,No,Low,65.7,Average,1,0,Realistic Synthetic Benchmark
+STU1289,Priya Williams,Female,19,91.1,26.5,8.7,85.7,100.0,84.8,53.4,78.1,90.9,Master,Yes,Yes,No,Moderate,81.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1290,Isha Malhotra,Male,19,40.0,2.0,6.9,25.3,37.6,20.0,18.0,22.0,31.9,High School,No,Yes,No,Low,29.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1291,Veda Verma,Female,21,56.0,18.4,4.8,66.0,72.9,51.2,18.9,37.0,68.9,Associate,Yes,Yes,Yes,Low,53.1,Average,1,1,Realistic Synthetic Benchmark
+STU1292,Emma Smith,Male,19,83.0,19.0,5.9,60.0,93.7,61.5,34.0,62.5,78.8,High School,Yes,Yes,No,High,68.2,Average,1,0,Realistic Synthetic Benchmark
+STU1293,Veda Sen,Female,21,70.7,22.4,4.5,62.6,87.7,57.2,24.3,53.8,73.2,Doctorate,Yes,Yes,No,Low,59.2,Average,1,0,Realistic Synthetic Benchmark
+STU1294,Yash Pillai,Male,22,84.9,21.0,6.6,65.5,84.9,66.5,33.2,67.1,67.5,Master,Yes,Yes,Yes,High,68.2,Average,1,0,Realistic Synthetic Benchmark
+STU1295,Olivia Singh,Female,21,86.9,20.4,7.1,82.6,88.2,75.9,30.5,72.7,78.1,Bachelor,Yes,Yes,No,Moderate,76.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1296,Pranav Sen,Female,18,65.0,21.4,5.5,59.0,75.6,59.0,25.0,48.3,72.1,Bachelor,Yes,Yes,Yes,Moderate,63.9,Average,1,0,Realistic Synthetic Benchmark
+STU1297,Diya Johnson,Female,20,61.4,19.2,6.0,56.1,70.7,45.3,18.0,27.9,54.3,Bachelor,Yes,Yes,No,High,52.5,Average,1,1,Realistic Synthetic Benchmark
+STU1298,Zoya Saxena,Female,18,87.7,20.3,7.2,60.6,86.6,56.2,29.6,47.3,63.0,Associate,Yes,Yes,Yes,High,61.5,Average,1,0,Realistic Synthetic Benchmark
+STU1299,Ishaan Reddy,Female,19,93.8,30.3,4.5,81.5,100.0,90.4,54.2,83.2,87.9,High School,Yes,Yes,No,High,88.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1300,Pooja Sen,Female,21,66.4,14.4,5.4,54.5,77.3,49.1,18.0,37.2,60.5,Associate,Yes,Yes,Yes,Moderate,54.6,Average,1,0,Realistic Synthetic Benchmark
+STU1301,Alex Roy,Female,20,70.3,19.3,6.2,64.4,88.4,62.9,30.6,50.6,61.7,Associate,Yes,No,No,Moderate,67.0,Average,1,0,Realistic Synthetic Benchmark
+STU1302,James Jones,Male,19,76.3,19.0,5.8,47.2,88.6,54.8,31.4,55.8,73.7,Bachelor,Yes,Yes,No,Moderate,59.0,Average,1,0,Realistic Synthetic Benchmark
+STU1303,Veda Gupta,Female,19,87.0,32.4,5.6,86.6,100.0,93.3,61.4,100.0,78.3,Associate,Yes,Yes,No,High,86.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1304,Sanya Singh,Male,20,81.2,16.6,5.4,62.2,77.4,62.2,23.5,48.9,65.7,Bachelor,Yes,No,No,High,60.6,Average,1,0,Realistic Synthetic Benchmark
+STU1305,Siddharth Smith,Female,20,83.2,30.7,6.2,84.7,100.0,88.7,58.1,81.5,80.8,Bachelor,Yes,Yes,Yes,Moderate,84.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1306,Madhav Kapoor,Male,19,100.0,27.8,6.0,89.9,100.0,87.5,67.2,74.5,85.4,Bachelor,Yes,Yes,No,Low,88.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1307,Aditi Menon,Male,21,74.3,19.7,6.9,64.0,81.8,55.9,31.1,60.1,63.2,Doctorate,Yes,No,Yes,Moderate,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1308,Priya Chopra,Female,18,67.8,20.7,6.6,68.2,84.6,72.1,33.2,65.5,77.3,Associate,Yes,No,No,High,66.6,Average,1,0,Realistic Synthetic Benchmark
+STU1309,Rhea Kulkarni,Male,18,71.0,17.9,6.7,55.1,81.3,58.3,28.2,56.3,66.0,Bachelor,No,No,Yes,Moderate,61.8,Average,1,0,Realistic Synthetic Benchmark
+STU1310,Sanya Menon,Male,19,55.4,16.1,5.3,67.3,95.2,63.2,18.0,67.1,82.5,High School,Yes,No,No,High,63.5,Average,1,1,Realistic Synthetic Benchmark
+STU1311,Kavya Mehta,Male,22,86.9,25.6,6.6,73.7,93.9,82.0,51.7,72.8,73.8,Bachelor,Yes,No,No,Moderate,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1312,Neha Joshi,Male,18,79.4,24.5,5.9,61.9,91.7,61.8,33.1,58.2,86.9,Bachelor,No,No,No,High,68.5,Average,1,0,Realistic Synthetic Benchmark
+STU1313,Madhav Saxena,Male,18,86.9,20.1,6.2,67.9,83.9,71.8,34.6,73.9,58.6,Associate,Yes,Yes,No,High,69.7,Average,1,0,Realistic Synthetic Benchmark
+STU1314,Bhavya Menon,Male,18,50.9,11.5,7.7,59.8,65.5,53.5,18.0,42.1,50.7,High School,Yes,No,Yes,Moderate,52.3,Average,1,1,Realistic Synthetic Benchmark
+STU1315,Esha Williams,Male,20,75.6,14.8,6.0,54.5,72.1,42.1,18.0,22.0,74.0,Bachelor,Yes,No,No,High,55.0,Average,1,0,Realistic Synthetic Benchmark
+STU1316,Yash Nair,Male,18,100.0,35.0,7.0,99.0,100.0,98.0,80.6,98.0,94.9,Bachelor,Yes,Yes,Yes,Moderate,95.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1317,Rohan Mehta,Male,19,85.3,19.5,7.7,59.2,83.8,61.8,40.6,50.9,70.4,Bachelor,Yes,Yes,Yes,Moderate,64.8,Average,1,0,Realistic Synthetic Benchmark
+STU1318,Aryan Jones,Female,22,68.7,21.0,7.0,62.2,77.3,66.6,22.7,56.5,70.1,Bachelor,Yes,No,No,High,59.7,Average,1,0,Realistic Synthetic Benchmark
+STU1319,Emma Deshmukh,Male,18,100.0,29.4,5.1,80.7,100.0,80.2,53.1,83.5,87.3,Bachelor,Yes,Yes,No,Moderate,80.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1320,Isha Joshi,Female,19,70.2,20.4,4.5,71.0,82.7,73.3,39.2,52.3,75.0,Bachelor,Yes,No,No,Moderate,70.3,Average,1,0,Realistic Synthetic Benchmark
+STU1321,Neha Nair,Female,19,90.0,23.8,7.2,74.8,93.8,73.8,51.9,71.1,71.7,Associate,Yes,Yes,No,Moderate,76.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1322,Kavya Kapoor,Male,20,70.6,14.7,6.7,68.2,80.4,55.2,30.2,52.1,76.6,Bachelor,Yes,No,Yes,High,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1323,Diya Williams,Male,19,61.9,13.9,6.0,63.4,79.2,56.9,29.1,52.2,72.9,Bachelor,Yes,Yes,Yes,Low,58.2,Average,1,1,Realistic Synthetic Benchmark
+STU1324,Yash Menon,Female,19,67.6,16.8,7.6,59.4,85.4,58.6,34.7,57.4,78.6,Master,Yes,No,No,Moderate,64.9,Average,1,0,Realistic Synthetic Benchmark
+STU1325,Devansh Das,Female,18,62.1,15.0,5.8,53.3,66.6,36.4,18.0,37.5,71.6,Bachelor,Yes,Yes,Yes,Moderate,48.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1326,Liam Joshi,Female,20,70.8,19.1,6.1,75.2,83.8,68.0,46.8,61.2,77.5,Bachelor,No,Yes,No,Moderate,71.6,Average,1,0,Realistic Synthetic Benchmark
+STU1327,Zoya Reddy,Female,20,84.2,20.8,6.8,66.3,83.2,68.8,40.5,61.7,62.4,Doctorate,Yes,Yes,No,Moderate,71.0,Average,1,0,Realistic Synthetic Benchmark
+STU1328,Alex Malhotra,Female,18,85.7,35.0,4.8,79.0,100.0,86.8,58.0,94.7,95.0,Master,Yes,Yes,Yes,Moderate,82.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1329,Emma Deshmukh,Female,19,63.0,24.5,6.1,70.1,85.3,62.7,33.5,72.2,66.3,Associate,Yes,Yes,No,High,68.5,Average,1,1,Realistic Synthetic Benchmark
+STU1330,Neha Nair,Male,21,61.4,10.1,7.8,33.7,58.5,22.6,18.0,22.0,50.0,Master,Yes,No,No,Moderate,39.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1331,Gaurav Iyer,Female,18,83.7,17.4,6.7,64.0,92.3,63.7,31.0,60.2,71.3,High School,Yes,Yes,No,High,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU1332,Neha Mehta,Male,19,100.0,35.0,6.9,99.0,100.0,98.0,85.7,100.0,88.5,Master,Yes,No,No,High,86.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1333,Veda Bhatia,Female,19,87.9,31.6,7.0,74.5,98.8,82.6,48.5,79.1,85.5,High School,Yes,No,No,Low,76.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1334,Liam Das,Female,19,76.3,16.4,6.6,53.8,76.4,50.1,18.0,42.0,64.7,Bachelor,Yes,Yes,Yes,High,54.0,Average,1,0,Realistic Synthetic Benchmark
+STU1335,Chetan Patel,Male,19,87.9,23.4,4.5,73.1,98.5,67.6,47.4,81.9,83.0,Doctorate,Yes,No,No,Moderate,74.3,Average,1,0,Realistic Synthetic Benchmark
+STU1336,Nikhil Malhotra,Female,19,70.6,17.9,5.5,65.2,75.7,51.8,18.0,38.2,62.1,High School,Yes,No,No,Low,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU1337,Gaurav Pillai,Male,18,70.6,15.4,7.3,48.6,66.5,40.3,18.0,37.5,55.9,Master,Yes,No,No,Moderate,50.4,Average,1,0,Realistic Synthetic Benchmark
+STU1338,Sanya Menon,Female,19,68.5,15.7,5.2,54.1,83.1,59.7,32.3,51.3,60.0,Bachelor,Yes,No,No,High,61.4,Average,1,0,Realistic Synthetic Benchmark
+STU1339,Bhavya Smith,Male,20,79.3,21.5,6.0,60.0,91.8,69.2,32.3,53.2,69.7,High School,Yes,No,No,Low,65.7,Average,1,0,Realistic Synthetic Benchmark
+STU1340,Esha Chopra,Female,19,56.3,11.2,7.1,42.5,58.0,39.2,18.0,22.0,50.6,Doctorate,Yes,No,No,Moderate,45.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1341,Pooja Smith,Male,18,62.7,9.0,8.2,44.3,59.1,36.6,18.0,23.9,65.5,Bachelor,Yes,Yes,Yes,Moderate,50.9,Average,1,1,Realistic Synthetic Benchmark
+STU1342,Isha Rao,Female,20,75.2,20.1,5.9,56.8,89.5,63.6,37.7,62.5,67.1,Master,Yes,Yes,No,Moderate,64.3,Average,1,0,Realistic Synthetic Benchmark
+STU1343,Kavya Reddy,Female,18,73.9,14.1,6.1,64.5,75.6,49.0,37.4,44.7,52.6,Master,Yes,No,No,High,56.7,Average,1,0,Realistic Synthetic Benchmark
+STU1344,Diya Joshi,Female,20,82.8,19.6,6.4,75.2,93.2,74.7,41.9,61.6,88.2,High School,Yes,Yes,No,Low,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1345,Gaurav Malhotra,Female,19,56.2,10.0,7.1,48.0,67.1,34.8,18.0,38.0,60.2,Associate,Yes,No,No,High,47.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1346,Kavya Gupta,Female,20,92.2,26.8,6.0,77.0,90.9,74.3,47.5,76.9,77.5,Associate,Yes,Yes,No,High,74.7,Average,1,0,Realistic Synthetic Benchmark
+STU1347,Veda Rao,Female,18,57.1,11.0,7.7,51.7,67.7,57.6,21.2,50.5,55.9,Bachelor,Yes,Yes,No,Moderate,49.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1348,Olivia Menon,Male,18,95.3,28.6,5.3,91.0,100.0,91.9,64.1,89.8,81.3,High School,Yes,No,No,Moderate,83.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1349,Devansh Iyer,Female,19,56.1,9.2,6.9,47.3,63.6,31.3,18.0,22.0,69.1,Bachelor,Yes,Yes,No,Low,47.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1350,Diya Nair,Male,18,68.1,9.8,7.2,36.2,69.6,37.9,18.0,36.2,53.0,Master,Yes,Yes,No,Low,50.8,Average,1,0,Realistic Synthetic Benchmark
+STU1351,Madhav Mehta,Female,18,66.9,23.0,5.9,70.0,82.2,63.7,36.6,55.9,60.1,High School,Yes,No,No,Moderate,69.6,Average,1,0,Realistic Synthetic Benchmark
+STU1352,Aarav Chopra,Male,20,100.0,34.8,6.6,90.7,100.0,85.5,55.2,86.1,90.1,Bachelor,Yes,No,No,Low,86.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1353,Veda Iyer,Female,20,76.5,21.6,6.5,67.6,93.5,78.9,53.8,68.7,83.6,Bachelor,No,No,No,High,71.3,Average,1,0,Realistic Synthetic Benchmark
+STU1354,Sophia Gupta,Female,18,93.6,23.9,7.0,73.5,91.4,77.5,48.4,60.9,78.2,High School,Yes,Yes,No,Moderate,74.6,Average,1,0,Realistic Synthetic Benchmark
+STU1355,Olivia Rao,Male,21,74.6,21.3,6.5,70.7,83.9,66.5,35.0,59.4,66.9,High School,Yes,No,Yes,Low,62.9,Average,1,0,Realistic Synthetic Benchmark
+STU1356,Rhea Menon,Female,20,65.8,7.1,7.3,53.1,69.3,42.7,24.3,31.6,53.2,High School,No,No,Yes,Moderate,46.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1357,Ananya Brown,Female,20,86.7,20.0,5.8,68.7,86.4,60.1,18.0,50.7,66.7,Bachelor,Yes,No,No,High,66.9,Average,1,0,Realistic Synthetic Benchmark
+STU1358,Madhav Malhotra,Female,20,62.0,22.2,5.7,57.0,70.8,53.7,28.2,41.4,73.1,High School,Yes,Yes,No,Moderate,57.9,Average,1,1,Realistic Synthetic Benchmark
+STU1359,Siddharth Sen,Male,20,72.6,12.4,7.8,48.7,73.0,43.8,18.0,42.5,59.0,Master,Yes,Yes,No,Moderate,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU1360,Aarav Williams,Female,19,82.9,22.5,6.9,70.0,84.7,51.6,33.6,48.7,61.4,Master,Yes,Yes,Yes,Low,63.6,Average,1,0,Realistic Synthetic Benchmark
+STU1361,Shreya Miller,Female,20,68.2,15.7,5.7,34.3,66.5,45.8,18.0,32.2,53.4,High School,Yes,No,Yes,High,43.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1362,Pranav Saxena,Male,21,82.2,27.6,6.3,68.2,84.9,66.6,32.6,56.2,73.4,Master,Yes,Yes,No,Moderate,67.7,Average,1,0,Realistic Synthetic Benchmark
+STU1363,Pooja Williams,Male,18,69.4,15.5,4.5,41.0,65.3,37.3,18.7,23.1,50.2,Doctorate,No,Yes,No,Moderate,45.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1364,Liam Brown,Male,19,76.3,14.8,6.1,71.2,95.4,76.2,58.5,65.1,70.3,High School,Yes,No,No,Moderate,72.6,Average,1,0,Realistic Synthetic Benchmark
+STU1365,Rahul Pillai,Female,18,65.0,18.3,7.3,60.6,89.9,61.2,27.6,52.6,63.3,Doctorate,Yes,Yes,No,Moderate,64.1,Average,1,0,Realistic Synthetic Benchmark
+STU1366,Madhav Chopra,Male,21,89.4,35.0,5.7,88.5,100.0,91.4,65.4,90.1,94.4,Associate,Yes,Yes,No,Moderate,83.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1367,Zoya Patel,Female,19,82.5,24.4,6.3,78.6,90.5,70.8,42.3,67.1,80.8,Bachelor,Yes,Yes,No,Low,74.2,Average,1,0,Realistic Synthetic Benchmark
+STU1368,Veda Sharma,Female,20,90.6,24.4,4.5,81.9,100.0,77.2,66.6,71.0,87.2,High School,Yes,No,Yes,Low,82.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1369,Sanya Malhotra,Male,20,74.6,16.7,6.2,69.9,79.4,59.6,18.0,56.4,73.0,Master,Yes,No,No,Low,68.2,Average,1,0,Realistic Synthetic Benchmark
+STU1370,Pranav Malhotra,Female,22,88.4,17.3,6.8,68.1,80.1,69.6,41.6,65.4,73.0,Master,Yes,No,No,Moderate,70.5,Average,1,0,Realistic Synthetic Benchmark
+STU1371,Priya Singh,Female,18,59.4,17.3,6.9,45.4,70.1,38.1,18.0,26.9,53.7,Doctorate,No,No,No,High,50.5,Average,1,1,Realistic Synthetic Benchmark
+STU1372,Pranav Bansal,Male,20,67.7,14.1,7.5,57.3,85.8,52.6,18.0,56.9,66.4,Doctorate,Yes,No,No,Low,58.4,Average,1,0,Realistic Synthetic Benchmark
+STU1373,Zoya Bhatia,Male,21,64.2,17.9,6.3,60.4,76.5,61.5,28.8,53.9,74.1,High School,Yes,Yes,No,High,60.1,Average,1,1,Realistic Synthetic Benchmark
+STU1374,Siddharth Johnson,Male,18,84.9,14.1,6.5,60.1,73.5,49.1,34.3,40.1,74.7,Bachelor,Yes,No,Yes,High,63.6,Average,1,0,Realistic Synthetic Benchmark
+STU1375,Lucas Mehta,Male,20,66.3,10.9,5.6,44.5,68.1,36.7,18.0,32.0,47.3,Associate,Yes,No,Yes,Low,43.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1376,Veda Kulkarni,Male,19,65.3,16.2,6.4,45.8,69.8,37.0,18.0,28.7,55.6,High School,Yes,Yes,No,Low,46.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1377,Diya Pillai,Female,19,41.0,4.7,5.9,34.6,46.4,20.0,18.0,22.0,49.7,High School,Yes,No,No,Moderate,36.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1378,Ananya Johnson,Male,19,65.8,11.7,5.1,49.6,70.5,35.3,18.0,32.1,72.2,Master,Yes,Yes,No,Low,49.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1379,Zoya Miller,Male,19,89.0,20.9,5.4,79.0,99.1,75.3,48.0,69.9,94.7,Bachelor,Yes,No,Yes,High,77.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1380,Tanvi Williams,Female,18,57.7,3.8,8.4,49.1,69.0,40.3,18.0,22.0,52.7,High School,Yes,No,No,Moderate,47.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1381,Bhavya Williams,Female,18,70.3,8.1,6.6,55.2,64.8,43.2,18.0,34.2,68.4,Doctorate,Yes,No,Yes,Moderate,52.4,Average,1,0,Realistic Synthetic Benchmark
+STU1382,Devansh Iyer,Female,18,100.0,32.2,6.1,87.3,100.0,95.2,75.3,88.6,86.7,Master,Yes,No,Yes,Moderate,92.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1383,Chetan Singh,Female,19,63.6,18.7,6.0,64.9,85.6,67.8,32.0,59.9,78.5,Associate,Yes,Yes,Yes,Moderate,68.7,Average,1,1,Realistic Synthetic Benchmark
+STU1384,Yash Nair,Male,19,74.0,19.9,4.8,62.0,87.6,71.1,44.7,67.4,76.1,Bachelor,Yes,Yes,No,High,68.8,Average,1,0,Realistic Synthetic Benchmark
+STU1385,Emma Saxena,Male,18,78.8,28.9,6.9,66.0,92.3,73.7,47.3,67.1,65.2,Bachelor,No,No,No,Moderate,74.6,Average,1,0,Realistic Synthetic Benchmark
+STU1386,Siddharth Jones,Female,20,97.7,23.2,4.5,67.3,99.9,71.8,61.9,77.5,81.1,Bachelor,Yes,Yes,Yes,Moderate,78.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1387,Pooja Reddy,Female,20,68.3,10.3,6.3,46.3,70.0,35.4,18.0,28.6,64.4,Bachelor,Yes,Yes,Yes,Moderate,51.2,Average,1,0,Realistic Synthetic Benchmark
+STU1388,Lucas Bhatia,Female,19,74.3,15.2,6.5,70.2,83.8,63.1,44.7,56.0,72.8,Bachelor,Yes,No,No,Moderate,63.9,Average,1,0,Realistic Synthetic Benchmark
+STU1389,Shreya Nair,Male,21,59.7,13.0,6.9,41.4,63.4,36.1,18.0,24.0,51.1,High School,Yes,Yes,Yes,High,49.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1390,Esha Joshi,Female,19,100.0,35.0,5.1,94.9,100.0,98.0,88.6,100.0,78.7,Bachelor,Yes,Yes,Yes,Moderate,92.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1391,Esha Joshi,Female,20,66.3,4.9,5.3,44.0,60.6,36.8,18.0,22.0,57.8,Associate,Yes,Yes,No,High,37.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1392,Yash Verma,Male,18,63.1,12.2,6.0,55.8,76.3,47.7,18.2,36.8,65.3,Associate,Yes,Yes,No,High,59.6,Average,1,1,Realistic Synthetic Benchmark
+STU1393,Siddharth Jones,Female,20,64.1,17.5,5.8,49.6,66.8,45.9,18.0,27.1,51.2,Associate,Yes,No,No,Moderate,50.0,Average,1,1,Realistic Synthetic Benchmark
+STU1394,Zoya Singh,Female,22,65.4,6.4,6.2,43.3,61.4,40.5,18.0,32.2,50.7,Bachelor,Yes,Yes,No,Moderate,45.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1395,Ananya Johnson,Male,20,92.1,30.6,6.8,75.5,100.0,85.3,68.3,79.0,82.1,Bachelor,Yes,Yes,No,Moderate,80.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1396,Aarav Roy,Male,19,100.0,35.0,4.7,94.1,100.0,96.4,77.7,93.3,85.4,Bachelor,Yes,No,No,Low,92.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1397,Tanvi Joshi,Female,19,72.6,17.4,6.8,66.9,81.4,54.9,35.1,44.9,70.6,High School,No,Yes,No,High,59.8,Average,1,0,Realistic Synthetic Benchmark
+STU1398,Yash Joshi,Male,19,68.8,14.0,6.8,49.4,70.9,37.3,18.0,30.4,46.8,Doctorate,Yes,No,No,Moderate,47.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1399,Gaurav Smith,Male,20,64.6,12.5,7.6,32.5,59.6,20.3,18.0,22.0,56.9,Associate,Yes,Yes,Yes,High,37.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1400,Lucas Rao,Male,20,79.6,25.3,6.1,70.2,82.6,63.8,33.0,40.3,72.6,Bachelor,Yes,Yes,Yes,Moderate,65.3,Average,1,0,Realistic Synthetic Benchmark
+STU1401,Olivia Brown,Male,22,80.4,18.5,7.2,58.4,75.2,56.2,27.8,51.3,56.9,High School,Yes,No,Yes,Low,58.5,Average,1,0,Realistic Synthetic Benchmark
+STU1402,Zoya Deshmukh,Female,19,69.0,14.2,6.5,66.1,77.5,49.2,19.8,29.2,51.7,Bachelor,No,No,No,Moderate,59.7,Average,1,0,Realistic Synthetic Benchmark
+STU1403,Isha Roy,Female,18,75.2,18.3,6.9,77.3,86.1,67.6,32.0,66.8,84.1,Bachelor,Yes,No,No,Low,71.4,Average,1,0,Realistic Synthetic Benchmark
+STU1404,Lucas Smith,Male,19,87.4,26.3,4.8,71.5,100.0,74.3,53.4,80.2,83.1,Bachelor,Yes,Yes,Yes,Low,78.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1405,Nikhil Rao,Female,18,83.0,18.0,4.5,61.2,99.9,63.0,34.8,62.8,76.0,Master,Yes,Yes,No,Moderate,71.3,Average,1,0,Realistic Synthetic Benchmark
+STU1406,Mia Nair,Female,18,63.7,16.5,6.9,75.6,90.4,69.7,46.2,68.0,83.7,Bachelor,Yes,Yes,No,Low,70.6,Average,1,1,Realistic Synthetic Benchmark
+STU1407,Kavya Jones,Male,19,62.9,13.3,7.1,54.0,65.4,41.7,18.0,32.1,65.2,Bachelor,Yes,Yes,No,High,47.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1408,Rohan Rao,Female,20,85.0,22.9,6.7,72.7,99.8,71.7,50.3,81.2,81.0,Bachelor,Yes,Yes,Yes,Moderate,81.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1409,Aarav Singh,Male,18,74.3,20.9,5.9,71.9,91.9,68.5,42.0,58.9,74.7,Doctorate,Yes,No,No,Moderate,73.2,Average,1,0,Realistic Synthetic Benchmark
+STU1410,Lucas Singh,Female,18,99.3,35.0,7.1,81.8,100.0,83.2,47.6,62.9,80.9,Doctorate,Yes,No,No,Moderate,86.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1411,Varun Rao,Female,18,90.7,25.2,5.8,84.1,98.4,77.0,52.2,73.4,87.2,Bachelor,Yes,Yes,Yes,Low,83.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1412,Alex Pillai,Female,21,71.9,10.5,7.2,43.5,72.6,37.4,22.2,40.9,66.8,Master,Yes,Yes,No,Moderate,49.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1413,Shreya Pillai,Male,20,63.5,14.4,7.2,49.3,67.0,41.8,18.0,33.7,56.9,Master,Yes,Yes,Yes,Moderate,42.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1414,Sanya Gupta,Female,18,69.9,16.2,8.1,49.1,76.8,43.1,23.7,35.6,71.3,Doctorate,Yes,Yes,No,Moderate,50.0,Average,1,0,Realistic Synthetic Benchmark
+STU1415,Yash Johnson,Male,18,58.8,17.5,6.2,56.3,64.5,36.1,18.0,31.6,62.5,High School,Yes,No,Yes,Moderate,50.4,Average,1,1,Realistic Synthetic Benchmark
+STU1416,Liam Kulkarni,Male,19,86.8,25.6,5.6,75.7,100.0,69.7,47.4,76.8,83.7,Doctorate,Yes,No,No,Low,76.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1417,Varun Sharma,Male,19,82.1,21.7,5.0,72.3,91.3,68.1,42.0,63.5,93.3,Bachelor,Yes,Yes,Yes,Moderate,71.1,Average,1,0,Realistic Synthetic Benchmark
+STU1418,Rohan Bansal,Female,19,80.4,20.8,7.8,79.4,100.0,74.7,55.1,92.7,94.3,Bachelor,Yes,Yes,No,Moderate,71.7,Average,1,0,Realistic Synthetic Benchmark
+STU1419,Madhav Miller,Male,19,78.5,17.3,6.9,69.6,91.6,67.5,46.4,60.8,87.1,Bachelor,Yes,Yes,Yes,Low,71.0,Average,1,0,Realistic Synthetic Benchmark
+STU1420,Noah Verma,Female,21,78.0,15.5,7.0,63.5,88.3,72.2,31.4,70.7,65.9,Associate,Yes,Yes,No,High,65.8,Average,1,0,Realistic Synthetic Benchmark
+STU1421,Esha Kulkarni,Female,19,94.9,29.4,8.8,86.3,100.0,78.5,55.8,83.2,100.0,Master,Yes,No,Yes,Low,81.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1422,Noah Kapoor,Male,20,86.9,19.2,6.7,81.0,97.1,75.9,44.6,66.1,81.9,Bachelor,Yes,No,No,Moderate,80.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1423,Yash Smith,Male,18,74.4,24.3,5.1,63.5,88.8,73.9,38.3,61.3,70.1,Associate,Yes,No,No,Moderate,66.1,Average,1,0,Realistic Synthetic Benchmark
+STU1424,Zoya Patel,Male,21,98.5,30.1,5.8,88.6,100.0,90.2,72.7,92.8,71.8,Bachelor,Yes,No,No,Moderate,84.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1425,Chetan Gupta,Female,22,78.0,20.1,5.5,70.1,91.5,65.9,31.8,62.2,77.9,High School,Yes,Yes,Yes,High,70.1,Average,1,0,Realistic Synthetic Benchmark
+STU1426,Kavya Menon,Female,20,53.0,13.9,6.3,62.1,73.9,54.3,18.0,49.2,58.2,Bachelor,Yes,No,No,High,58.7,Average,1,1,Realistic Synthetic Benchmark
+STU1427,Devansh Gupta,Male,19,64.7,16.6,6.2,45.9,68.2,43.9,22.6,25.5,59.4,Bachelor,No,No,No,High,48.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1428,Gaurav Joshi,Female,18,94.2,22.8,5.8,67.3,93.3,79.0,39.1,77.0,66.8,Bachelor,Yes,Yes,No,Moderate,79.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1429,Devansh Joshi,Male,20,79.6,24.0,5.0,77.4,100.0,78.5,39.8,80.4,94.4,High School,Yes,Yes,No,Moderate,74.4,Average,1,0,Realistic Synthetic Benchmark
+STU1430,Rohan Singh,Female,20,78.3,23.8,7.7,52.5,88.3,53.1,35.6,52.2,70.4,High School,Yes,No,No,Low,57.2,Average,1,0,Realistic Synthetic Benchmark
+STU1431,Pooja Malhotra,Female,18,100.0,30.3,6.3,91.5,98.9,81.3,57.7,82.5,100.0,Associate,Yes,No,No,High,80.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1432,Yash Johnson,Female,19,49.6,6.4,6.7,42.6,53.6,28.8,18.0,22.0,42.8,Bachelor,Yes,Yes,No,Moderate,34.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1433,Rhea Sen,Female,19,77.4,21.9,7.0,65.1,93.5,57.9,28.0,52.7,84.9,Master,Yes,No,Yes,Moderate,67.6,Average,1,0,Realistic Synthetic Benchmark
+STU1434,Yash Roy,Female,20,67.8,19.2,6.9,52.3,83.0,52.6,18.2,49.3,52.0,Master,Yes,No,Yes,Moderate,54.1,Average,1,0,Realistic Synthetic Benchmark
+STU1435,Chetan Miller,Male,20,81.8,17.8,6.7,45.6,77.9,41.2,18.0,35.5,61.2,Bachelor,Yes,No,No,High,49.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1436,Devansh Singh,Male,19,100.0,32.5,6.5,97.0,100.0,98.0,73.3,100.0,86.2,Associate,Yes,Yes,No,Moderate,93.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1437,Tanvi Singh,Male,19,77.6,26.5,6.3,77.0,93.8,68.4,27.5,67.8,76.3,High School,Yes,Yes,No,Low,74.5,Average,1,0,Realistic Synthetic Benchmark
+STU1438,Gaurav Brown,Male,19,83.5,16.6,7.1,56.5,86.9,58.2,30.6,45.8,64.2,Master,Yes,No,Yes,High,66.3,Average,1,0,Realistic Synthetic Benchmark
+STU1439,Ananya Rao,Female,19,83.3,25.8,6.8,71.5,77.3,54.9,27.0,64.1,64.8,Bachelor,Yes,Yes,No,Low,66.8,Average,1,0,Realistic Synthetic Benchmark
+STU1440,Lucas Das,Female,18,48.4,6.3,7.1,37.1,63.6,29.5,18.0,22.0,42.1,High School,Yes,Yes,No,High,37.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1441,Aryan Menon,Female,20,64.4,17.6,6.3,56.5,79.4,45.5,19.3,41.1,62.1,Bachelor,No,No,No,Moderate,56.0,Average,1,1,Realistic Synthetic Benchmark
+STU1442,Mia Patel,Male,19,93.0,29.2,7.4,86.1,100.0,81.8,56.7,84.1,86.6,Bachelor,Yes,Yes,No,High,84.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1443,Nikhil Malhotra,Female,19,66.1,19.5,6.0,55.7,74.9,61.3,31.8,35.6,71.4,Associate,Yes,Yes,Yes,High,57.6,Average,1,0,Realistic Synthetic Benchmark
+STU1444,Chetan Kulkarni,Male,18,52.6,11.0,7.1,51.1,61.9,46.9,18.0,34.3,58.7,High School,Yes,No,No,Moderate,49.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1445,Devansh Joshi,Male,18,92.7,32.1,6.3,91.5,100.0,88.0,61.6,80.1,96.3,Bachelor,Yes,Yes,Yes,High,82.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1446,Nikhil Chopra,Female,19,82.3,33.9,5.3,83.7,100.0,98.0,67.7,90.4,74.3,High School,Yes,No,No,Low,83.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1447,Gaurav Nair,Female,18,96.1,23.7,5.5,79.3,100.0,73.2,26.7,72.9,79.7,Bachelor,Yes,Yes,No,Low,78.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1448,Diya Pillai,Female,18,74.1,17.5,6.2,56.0,86.0,61.2,34.4,52.5,72.3,Master,Yes,Yes,Yes,Moderate,67.9,Average,1,0,Realistic Synthetic Benchmark
+STU1449,Esha Brown,Male,20,68.5,16.5,6.1,71.3,81.4,55.0,29.2,49.3,75.0,Doctorate,Yes,Yes,No,Moderate,66.4,Average,1,0,Realistic Synthetic Benchmark
+STU1450,Rhea Smith,Female,19,63.5,13.5,5.3,57.2,72.3,47.9,23.3,46.5,57.0,Associate,Yes,Yes,No,Low,56.5,Average,1,1,Realistic Synthetic Benchmark
+STU1451,Siddharth Rao,Male,19,52.4,18.2,5.9,55.7,75.1,41.4,18.0,37.7,69.9,High School,Yes,Yes,No,Moderate,52.0,Average,1,1,Realistic Synthetic Benchmark
+STU1452,Shreya Nair,Female,19,57.7,9.7,7.1,53.2,67.0,45.1,18.0,35.1,55.7,Bachelor,Yes,No,No,High,50.1,Average,1,1,Realistic Synthetic Benchmark
+STU1453,Bhavya Rao,Female,20,78.5,13.9,7.8,54.9,75.9,50.6,18.0,44.4,57.8,Associate,Yes,No,No,High,52.7,Average,1,0,Realistic Synthetic Benchmark
+STU1454,Isha Deshmukh,Male,19,82.8,20.1,6.9,52.5,81.8,47.1,22.2,52.3,67.7,Master,Yes,Yes,No,Low,56.0,Average,1,0,Realistic Synthetic Benchmark
+STU1455,Aarav Jones,Male,20,65.5,12.6,4.5,43.0,71.3,42.5,18.0,32.0,56.3,Bachelor,Yes,Yes,No,Moderate,47.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1456,Rahul Singh,Male,21,79.8,28.4,6.6,74.6,99.6,70.6,33.8,63.5,76.8,Bachelor,Yes,No,No,Low,75.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1457,James Kulkarni,Female,20,77.5,20.0,5.9,67.8,89.0,68.1,43.6,50.1,69.8,Master,Yes,Yes,Yes,Moderate,71.5,Average,1,0,Realistic Synthetic Benchmark
+STU1458,Nikhil Johnson,Male,19,90.4,31.0,6.4,79.1,100.0,88.9,59.5,77.9,75.1,Associate,Yes,Yes,Yes,High,84.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1459,Siddharth Gupta,Female,20,85.8,15.1,6.6,47.2,77.8,39.4,18.0,35.0,57.7,Bachelor,Yes,Yes,Yes,High,57.1,Average,1,0,Realistic Synthetic Benchmark
+STU1460,Harsh Verma,Female,19,80.0,22.5,6.1,59.5,88.3,58.7,41.8,57.4,77.4,Master,Yes,Yes,No,Low,65.7,Average,1,0,Realistic Synthetic Benchmark
+STU1461,Aryan Deshmukh,Female,19,97.5,17.8,6.4,73.8,91.4,71.0,49.0,61.7,78.9,Associate,Yes,Yes,No,Low,72.0,Average,1,0,Realistic Synthetic Benchmark
+STU1462,Alex Sen,Male,19,85.5,21.6,6.3,55.8,82.9,58.5,35.3,54.5,72.8,Associate,Yes,Yes,Yes,Moderate,63.5,Average,1,0,Realistic Synthetic Benchmark
+STU1463,Pooja Pillai,Female,19,73.5,25.0,7.4,77.5,97.4,84.4,59.5,73.3,84.6,Master,Yes,No,No,Moderate,76.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1464,Devansh Kulkarni,Male,18,81.9,24.6,6.2,76.9,93.5,74.7,46.3,65.3,75.0,Bachelor,Yes,Yes,No,Low,76.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1465,Neha Brown,Female,19,76.7,20.7,7.3,69.9,84.8,65.0,37.2,64.4,61.6,Associate,Yes,Yes,Yes,Low,66.3,Average,1,0,Realistic Synthetic Benchmark
+STU1466,Shreya Johnson,Female,18,74.5,15.7,7.4,65.3,88.1,57.6,24.5,62.2,65.7,High School,Yes,Yes,No,Moderate,64.2,Average,1,0,Realistic Synthetic Benchmark
+STU1467,Gaurav Johnson,Female,19,73.4,20.2,7.0,62.3,78.1,58.0,29.9,42.6,62.7,Bachelor,Yes,Yes,No,Low,63.0,Average,1,0,Realistic Synthetic Benchmark
+STU1468,Ananya Kulkarni,Female,19,84.7,9.5,5.2,32.0,67.9,30.1,18.0,26.7,44.9,Bachelor,Yes,No,Yes,High,42.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1469,Rahul Verma,Male,21,60.7,16.1,7.6,53.6,79.2,48.3,18.0,29.5,70.7,Bachelor,Yes,No,No,High,57.4,Average,1,1,Realistic Synthetic Benchmark
+STU1470,Sophia Williams,Male,18,72.6,23.0,5.9,60.5,85.9,56.1,29.8,39.6,76.1,Associate,Yes,No,Yes,Moderate,58.0,Average,1,0,Realistic Synthetic Benchmark
+STU1471,Rhea Iyer,Male,19,69.7,18.1,7.1,61.2,77.0,53.6,28.2,37.6,82.0,Associate,Yes,Yes,No,Moderate,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU1472,Aryan Saxena,Male,19,83.0,18.2,5.6,81.8,93.4,73.4,47.3,75.4,76.2,Bachelor,Yes,Yes,No,High,75.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1473,Rhea Menon,Male,18,92.6,26.3,5.1,73.4,100.0,75.0,65.5,71.4,91.2,Master,Yes,Yes,No,Low,81.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1474,Shreya Mehta,Male,18,59.7,15.1,8.4,52.1,79.6,50.6,18.0,37.1,74.4,Bachelor,Yes,Yes,No,High,51.2,Average,1,1,Realistic Synthetic Benchmark
+STU1475,Bhavya Pillai,Male,18,82.1,21.9,5.5,60.3,94.0,49.6,18.0,55.4,70.4,Bachelor,Yes,No,Yes,Low,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU1476,Devansh Jones,Male,18,69.9,9.4,7.9,61.7,60.5,42.8,19.6,32.0,64.3,Master,Yes,Yes,No,High,54.3,Average,1,0,Realistic Synthetic Benchmark
+STU1477,Bhavya Das,Male,19,77.0,19.7,6.5,68.1,81.1,54.8,21.6,44.3,79.7,High School,Yes,Yes,No,Low,61.7,Average,1,0,Realistic Synthetic Benchmark
+STU1478,Lucas Chopra,Female,19,74.3,16.1,6.2,59.1,80.9,59.7,24.6,61.9,66.5,Associate,Yes,Yes,No,High,62.0,Average,1,0,Realistic Synthetic Benchmark
+STU1479,Ananya Williams,Female,19,95.5,31.1,5.9,74.8,98.5,73.3,32.5,69.0,79.2,High School,Yes,Yes,No,Low,74.5,Average,1,0,Realistic Synthetic Benchmark
+STU1480,Diya Kapoor,Male,18,77.2,15.6,5.4,65.5,85.7,55.9,18.0,49.3,67.1,Associate,Yes,Yes,No,High,65.8,Average,1,0,Realistic Synthetic Benchmark
+STU1481,Lucas Menon,Male,18,90.2,30.5,6.0,86.4,100.0,84.0,44.0,77.0,69.4,Doctorate,Yes,No,Yes,Moderate,82.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1482,Aditi Smith,Male,18,66.4,13.9,5.7,69.8,80.6,58.7,26.8,54.5,72.1,Associate,No,No,No,Low,63.9,Average,1,0,Realistic Synthetic Benchmark
+STU1483,Devansh Menon,Female,19,66.0,12.4,6.3,60.3,80.6,52.4,20.0,53.5,62.4,Master,Yes,Yes,No,High,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1484,Shreya Nair,Male,19,61.9,14.4,7.5,47.6,67.9,40.5,18.0,42.0,49.7,High School,Yes,Yes,No,Low,50.4,Average,1,1,Realistic Synthetic Benchmark
+STU1485,Nikhil Mehta,Male,19,82.8,25.5,6.4,73.9,94.4,69.4,49.7,60.0,81.3,Bachelor,Yes,Yes,No,Moderate,70.4,Average,1,0,Realistic Synthetic Benchmark
+STU1486,Lucas Rao,Male,18,84.7,22.6,5.0,82.5,100.0,79.5,56.9,83.6,74.0,Associate,No,Yes,No,Moderate,78.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1487,Ishaan Kapoor,Male,18,74.1,21.5,7.1,68.4,83.3,59.9,23.2,60.6,77.6,Associate,Yes,No,No,High,61.0,Average,1,0,Realistic Synthetic Benchmark
+STU1488,Tanvi Kapoor,Male,21,94.8,29.5,6.0,93.0,100.0,89.2,73.8,97.7,92.2,Associate,Yes,Yes,No,High,88.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1489,Rahul Bansal,Female,18,82.1,27.9,5.6,91.4,100.0,89.6,63.0,84.9,85.3,Bachelor,Yes,No,No,Moderate,88.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1490,Sophia Gupta,Female,18,72.7,20.8,7.0,72.0,84.1,65.1,32.3,54.3,73.4,Bachelor,Yes,No,No,High,67.7,Average,1,0,Realistic Synthetic Benchmark
+STU1491,Liam Pillai,Female,18,63.3,15.9,6.4,57.4,87.4,50.2,24.6,55.0,60.1,Master,Yes,Yes,No,High,57.5,Average,1,1,Realistic Synthetic Benchmark
+STU1492,Mia Brown,Female,22,75.9,21.9,5.3,70.5,85.3,71.7,45.2,71.2,78.8,Master,Yes,No,Yes,Moderate,71.1,Average,1,0,Realistic Synthetic Benchmark
+STU1493,Alex Rao,Female,19,65.4,11.0,8.4,57.2,63.7,49.7,18.0,47.9,61.3,Bachelor,Yes,No,No,Moderate,53.9,Average,1,0,Realistic Synthetic Benchmark
+STU1494,Zoya Menon,Male,19,81.4,24.9,6.2,84.1,100.0,88.9,58.0,84.5,86.7,Doctorate,Yes,No,Yes,Moderate,83.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1495,Isha Roy,Female,22,85.0,28.4,6.0,67.6,100.0,72.5,52.0,68.3,80.9,High School,Yes,Yes,No,Low,75.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1496,Harsh Kapoor,Female,18,86.5,22.6,5.9,80.6,91.5,77.0,39.4,51.9,75.8,Associate,Yes,No,No,Moderate,72.2,Average,1,0,Realistic Synthetic Benchmark
+STU1497,Alex Joshi,Male,22,81.8,21.1,7.4,77.5,97.9,88.1,46.9,68.1,70.5,Bachelor,Yes,Yes,No,Low,79.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1498,Kavya Pillai,Female,18,94.5,30.0,5.5,91.6,100.0,89.6,64.3,85.2,94.9,Bachelor,No,Yes,No,High,82.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1499,Pranav Jones,Male,19,84.0,16.5,5.1,78.8,84.1,64.6,28.6,51.7,81.7,Bachelor,Yes,No,No,Moderate,71.5,Average,1,0,Realistic Synthetic Benchmark
+STU1500,Aarav Das,Male,19,71.3,15.8,6.0,61.8,79.7,50.4,18.0,53.6,64.0,Bachelor,Yes,Yes,Yes,Moderate,55.7,Average,1,0,Realistic Synthetic Benchmark
+STU1501,Emma Brown,Female,19,89.5,33.8,7.0,85.1,100.0,95.4,63.5,80.5,88.2,Master,Yes,Yes,No,Low,89.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1502,Devansh Miller,Female,21,98.1,26.7,6.9,71.1,100.0,85.2,66.4,76.6,87.8,Associate,Yes,Yes,No,Low,74.5,Average,1,0,Realistic Synthetic Benchmark
+STU1503,Neha Reddy,Female,18,80.9,24.8,6.0,60.8,80.7,52.1,25.5,44.8,75.6,Master,Yes,Yes,Yes,High,66.2,Average,1,0,Realistic Synthetic Benchmark
+STU1504,Madhav Sen,Male,22,82.6,20.3,7.6,57.1,87.1,55.4,31.9,61.7,64.2,Bachelor,Yes,Yes,Yes,Moderate,58.4,Average,1,0,Realistic Synthetic Benchmark
+STU1505,Tanvi Malhotra,Female,19,87.2,21.9,7.0,73.0,90.3,67.7,23.0,58.5,66.0,Bachelor,Yes,Yes,No,High,66.7,Average,1,0,Realistic Synthetic Benchmark
+STU1506,Ananya Miller,Female,19,67.3,23.4,6.0,73.2,93.8,77.7,49.3,72.6,68.5,Associate,Yes,Yes,No,Moderate,74.1,Average,1,0,Realistic Synthetic Benchmark
+STU1507,Esha Patel,Male,21,72.6,3.8,6.9,46.7,63.6,31.0,18.0,25.7,53.1,Associate,Yes,No,No,Low,48.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1508,Sanya Singh,Female,18,63.2,11.2,7.0,45.3,61.5,25.1,18.0,25.3,64.1,Bachelor,Yes,Yes,No,Moderate,42.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1509,Shreya Williams,Male,21,75.4,15.0,5.9,59.0,81.0,63.4,28.2,54.9,61.8,Master,Yes,No,No,Moderate,65.6,Average,1,0,Realistic Synthetic Benchmark
+STU1510,Aryan Nair,Male,19,69.8,19.0,6.4,46.6,72.6,44.5,18.0,36.6,54.2,Bachelor,Yes,No,Yes,Low,49.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1511,Rahul Pillai,Male,20,71.0,19.2,6.7,58.9,77.6,55.0,18.0,34.9,61.3,High School,Yes,No,No,Moderate,56.9,Average,1,0,Realistic Synthetic Benchmark
+STU1512,Shreya Gupta,Female,18,83.2,20.5,4.9,78.4,87.3,72.5,48.1,65.7,74.1,Bachelor,Yes,No,No,Low,72.6,Average,1,0,Realistic Synthetic Benchmark
+STU1513,Shreya Miller,Male,19,78.8,23.3,6.1,53.1,83.7,57.2,38.9,52.3,65.1,Bachelor,Yes,No,No,Moderate,60.2,Average,1,0,Realistic Synthetic Benchmark
+STU1514,Priya Williams,Male,20,77.9,20.5,6.1,72.7,92.3,62.3,34.3,62.2,68.1,Master,Yes,Yes,No,Low,63.2,Average,1,0,Realistic Synthetic Benchmark
+STU1515,Alex Iyer,Male,19,70.4,10.0,7.7,40.0,69.6,32.8,18.0,23.3,62.0,Bachelor,Yes,No,Yes,Moderate,46.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1516,Gaurav Pillai,Male,18,60.8,17.0,4.9,59.3,81.7,56.0,25.3,56.5,66.3,Bachelor,Yes,No,Yes,Moderate,59.3,Average,1,1,Realistic Synthetic Benchmark
+STU1517,Esha Reddy,Male,18,80.7,23.0,5.9,66.7,98.4,60.0,44.7,64.0,93.8,Bachelor,Yes,No,No,Low,73.9,Average,1,0,Realistic Synthetic Benchmark
+STU1518,Gaurav Saxena,Female,20,100.0,30.2,5.6,82.3,100.0,78.2,39.2,67.6,75.8,Bachelor,Yes,Yes,No,High,76.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1519,Isha Sen,Male,18,65.0,16.3,7.4,49.6,72.2,43.9,22.0,35.2,70.7,Bachelor,No,No,No,High,50.3,Average,1,0,Realistic Synthetic Benchmark
+STU1520,James Smith,Female,20,78.1,21.8,6.3,58.2,82.0,57.3,27.9,67.0,76.6,High School,Yes,No,No,Moderate,66.8,Average,1,0,Realistic Synthetic Benchmark
+STU1521,James Sharma,Female,22,96.7,35.0,7.4,95.4,100.0,93.1,72.8,97.4,87.0,Doctorate,Yes,Yes,No,Low,90.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1522,Pranav Kulkarni,Male,18,80.3,23.8,6.8,63.3,85.8,56.6,26.7,60.7,67.7,Bachelor,Yes,No,No,Moderate,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU1523,Olivia Das,Male,18,64.5,17.9,6.1,48.0,72.2,36.0,18.0,27.7,52.4,Bachelor,Yes,No,Yes,Low,49.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1524,Ishaan Bhatia,Female,20,74.6,23.6,6.5,66.9,87.3,63.7,44.9,52.3,66.3,Bachelor,Yes,Yes,Yes,High,68.1,Average,1,0,Realistic Synthetic Benchmark
+STU1525,Shreya Malhotra,Male,18,85.4,23.3,5.9,55.2,97.2,60.7,23.6,55.8,70.9,Bachelor,No,Yes,No,High,71.8,Average,1,0,Realistic Synthetic Benchmark
+STU1526,Pranav Verma,Male,19,71.0,19.4,7.2,57.8,92.3,53.4,31.6,54.5,70.5,High School,Yes,Yes,No,Low,62.8,Average,1,0,Realistic Synthetic Benchmark
+STU1527,Pranav Reddy,Female,20,83.6,24.5,5.0,62.1,92.5,63.5,47.6,58.1,61.1,Associate,Yes,No,No,Moderate,65.0,Average,1,0,Realistic Synthetic Benchmark
+STU1528,Emma Johnson,Female,19,67.6,11.2,6.0,52.0,76.5,42.6,18.0,30.2,78.2,High School,Yes,Yes,Yes,Moderate,55.5,Average,1,0,Realistic Synthetic Benchmark
+STU1529,Zoya Sharma,Female,19,74.8,14.8,7.0,61.3,72.0,47.8,18.0,35.9,63.0,High School,No,No,No,Low,54.5,Average,1,0,Realistic Synthetic Benchmark
+STU1530,Liam Gupta,Male,20,77.3,24.9,7.3,70.7,79.9,51.6,18.0,43.5,72.2,High School,Yes,Yes,Yes,Moderate,61.5,Average,1,0,Realistic Synthetic Benchmark
+STU1531,Nikhil Jones,Female,19,100.0,26.3,4.5,62.9,96.6,67.7,30.1,60.4,69.7,Bachelor,Yes,No,Yes,Low,72.9,Average,1,0,Realistic Synthetic Benchmark
+STU1532,Sophia Verma,Female,18,79.4,17.2,7.7,44.1,70.7,37.2,18.0,42.8,54.7,Associate,Yes,No,No,Low,47.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1533,Madhav Menon,Male,19,78.4,17.8,6.4,66.0,80.6,60.5,33.4,43.3,67.4,Master,Yes,No,No,Moderate,62.4,Average,1,0,Realistic Synthetic Benchmark
+STU1534,Rhea Rao,Female,21,72.1,24.8,4.5,75.6,92.3,66.4,27.5,63.6,78.3,Master,Yes,Yes,Yes,Moderate,71.5,Average,1,0,Realistic Synthetic Benchmark
+STU1535,Rahul Johnson,Male,20,87.5,28.5,4.5,85.0,100.0,80.9,46.0,86.1,85.1,High School,No,Yes,No,Moderate,79.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1536,Esha Menon,Male,19,87.6,21.5,5.0,67.5,87.2,69.4,31.2,58.9,78.5,Bachelor,Yes,No,No,Moderate,73.1,Average,1,0,Realistic Synthetic Benchmark
+STU1537,Yash Williams,Female,19,95.4,22.8,6.3,64.1,89.3,68.4,39.9,60.5,73.7,Bachelor,Yes,Yes,No,Moderate,67.9,Average,1,0,Realistic Synthetic Benchmark
+STU1538,Isha Kulkarni,Male,18,82.9,18.7,6.4,55.8,81.3,58.8,42.4,55.7,70.5,Master,Yes,Yes,No,Moderate,60.4,Average,1,0,Realistic Synthetic Benchmark
+STU1539,Rhea Kapoor,Male,18,90.5,24.3,6.8,85.0,100.0,82.6,43.6,69.2,85.2,Bachelor,No,Yes,Yes,Moderate,87.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1540,Nikhil Pillai,Female,18,72.9,19.8,5.9,62.4,90.9,67.3,33.1,63.6,73.5,Associate,Yes,Yes,No,High,62.9,Average,1,0,Realistic Synthetic Benchmark
+STU1541,Alex Rao,Female,22,91.6,26.5,5.1,70.4,97.6,65.6,35.4,61.8,76.2,Associate,Yes,No,No,Low,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU1542,Alex Kulkarni,Female,18,76.9,24.9,5.8,80.9,91.3,75.1,52.5,58.1,87.4,Master,No,Yes,Yes,Moderate,80.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1543,Nikhil Sharma,Female,20,73.6,21.9,6.4,71.1,90.2,69.5,43.2,65.2,77.8,Associate,Yes,Yes,No,Low,70.5,Average,1,0,Realistic Synthetic Benchmark
+STU1544,Kavya Jones,Female,18,78.7,22.6,6.5,57.6,89.6,65.7,28.5,50.8,68.2,Master,Yes,Yes,Yes,Moderate,69.6,Average,1,0,Realistic Synthetic Benchmark
+STU1545,Pooja Das,Male,19,84.7,26.2,5.4,78.4,95.7,71.6,38.9,66.3,79.5,High School,Yes,Yes,No,Moderate,77.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1546,Bhavya Sen,Male,19,97.0,30.7,6.8,82.6,100.0,84.0,49.8,87.2,83.4,Bachelor,Yes,Yes,No,High,83.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1547,Madhav Menon,Male,19,74.2,15.5,6.0,55.2,66.4,48.1,22.8,51.1,60.3,Bachelor,Yes,No,No,High,54.4,Average,1,0,Realistic Synthetic Benchmark
+STU1548,James Kapoor,Male,20,74.8,18.9,5.7,51.0,81.6,56.1,45.3,48.4,63.1,High School,Yes,No,Yes,Moderate,53.8,Average,1,0,Realistic Synthetic Benchmark
+STU1549,Bhavya Malhotra,Female,21,72.7,21.1,5.9,80.6,84.8,70.4,44.5,68.6,74.0,High School,Yes,No,Yes,Moderate,70.6,Average,1,0,Realistic Synthetic Benchmark
+STU1550,Bhavya Chopra,Male,21,82.0,18.9,7.4,71.3,95.3,75.6,44.6,72.1,82.8,Associate,Yes,Yes,No,High,75.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1551,Ananya Sen,Male,18,57.2,16.2,6.4,63.7,70.1,42.9,18.0,33.8,71.0,Master,Yes,Yes,Yes,Low,53.9,Average,1,1,Realistic Synthetic Benchmark
+STU1552,Ishaan Kulkarni,Male,20,62.1,19.0,5.8,70.4,79.2,54.4,19.2,37.9,83.9,Bachelor,Yes,Yes,No,Moderate,68.1,Average,1,1,Realistic Synthetic Benchmark
+STU1553,Aarav Williams,Male,18,82.5,28.4,6.9,61.7,91.8,51.0,32.7,62.9,67.7,Associate,Yes,No,No,High,65.2,Average,1,0,Realistic Synthetic Benchmark
+STU1554,Liam Smith,Female,21,46.9,10.2,8.7,34.1,66.1,30.8,18.0,22.0,55.1,Bachelor,Yes,No,Yes,Moderate,42.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1555,Ananya Reddy,Male,19,82.0,21.6,6.5,71.8,90.0,69.5,32.8,69.1,62.4,High School,Yes,No,No,Moderate,74.1,Average,1,0,Realistic Synthetic Benchmark
+STU1556,Mia Bansal,Male,19,84.5,20.7,7.5,72.7,87.4,70.5,46.5,63.8,81.1,Bachelor,Yes,Yes,Yes,Low,73.9,Average,1,0,Realistic Synthetic Benchmark
+STU1557,Chetan Deshmukh,Male,18,71.5,19.4,7.4,52.7,86.3,52.2,27.4,44.4,55.7,Master,Yes,No,No,Low,58.3,Average,1,0,Realistic Synthetic Benchmark
+STU1558,Harsh Miller,Male,18,98.7,26.5,5.6,87.7,99.9,84.5,65.0,84.9,79.5,Master,Yes,No,No,High,84.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1559,Devansh Brown,Female,18,59.1,6.5,7.0,49.5,59.4,37.6,18.0,41.4,57.4,Master,Yes,Yes,No,Low,45.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1560,Varun Brown,Male,21,54.7,11.0,5.6,49.1,58.4,47.3,18.0,45.0,50.2,Associate,Yes,No,No,Moderate,49.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1561,Liam Iyer,Male,20,48.9,3.4,6.9,33.6,55.5,29.0,18.0,22.0,41.2,Associate,Yes,No,No,Moderate,37.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1562,Liam Joshi,Male,21,68.9,10.1,6.2,51.7,83.7,56.2,25.5,45.0,61.2,Master,Yes,Yes,Yes,Moderate,60.6,Average,1,0,Realistic Synthetic Benchmark
+STU1563,Isha Kulkarni,Female,18,70.1,15.7,6.2,58.1,81.9,57.0,34.1,50.8,71.9,High School,Yes,No,Yes,Low,58.3,Average,1,0,Realistic Synthetic Benchmark
+STU1564,Chetan Patel,Female,19,87.0,17.4,5.8,54.6,82.2,59.7,24.4,49.6,58.8,High School,Yes,No,Yes,Low,62.7,Average,1,0,Realistic Synthetic Benchmark
+STU1565,Diya Mehta,Female,19,79.3,25.7,5.9,77.4,94.8,77.2,55.7,83.1,79.6,Associate,Yes,No,No,Moderate,81.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1566,Neha Patel,Female,19,90.8,23.9,6.7,76.8,99.2,76.3,41.6,79.2,78.6,Master,Yes,Yes,No,Moderate,77.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1567,Ananya Miller,Female,19,71.4,19.0,6.3,60.9,95.9,63.8,41.6,50.3,78.7,Bachelor,Yes,Yes,No,High,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1568,Aryan Patel,Male,19,80.5,23.9,4.6,70.6,86.2,58.4,31.1,55.3,79.9,Doctorate,Yes,No,No,Moderate,67.3,Average,1,0,Realistic Synthetic Benchmark
+STU1569,Aditi Mehta,Male,19,92.0,29.1,5.4,82.3,100.0,81.4,45.0,77.2,71.2,Associate,Yes,Yes,No,High,80.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1570,Rhea Smith,Female,18,80.6,18.5,5.1,76.5,77.9,59.8,31.0,53.4,81.0,Associate,Yes,Yes,Yes,Moderate,67.0,Average,1,0,Realistic Synthetic Benchmark
+STU1571,Yash Bansal,Male,19,61.5,14.2,6.9,54.4,80.4,55.6,30.2,47.4,60.3,Associate,Yes,Yes,Yes,Moderate,56.9,Average,1,1,Realistic Synthetic Benchmark
+STU1572,Aryan Pillai,Female,20,52.5,8.7,7.3,40.4,59.4,33.4,18.0,29.4,52.6,Master,Yes,Yes,No,High,36.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1573,Aditi Saxena,Male,18,79.9,15.5,6.8,70.8,71.7,65.0,23.7,57.1,62.4,Associate,Yes,No,No,High,67.0,Average,1,0,Realistic Synthetic Benchmark
+STU1574,Nikhil Williams,Female,21,100.0,23.7,5.5,72.3,95.5,66.0,42.6,62.4,80.6,Master,Yes,Yes,No,Moderate,80.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1575,Ishaan Sen,Female,19,100.0,35.0,6.0,94.5,100.0,98.0,90.4,95.7,100.0,Bachelor,Yes,Yes,Yes,Moderate,94.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1576,Pooja Kapoor,Male,20,72.0,18.8,6.0,71.1,86.1,58.2,27.5,52.5,75.0,Master,Yes,Yes,No,High,66.8,Average,1,0,Realistic Synthetic Benchmark
+STU1577,James Das,Female,20,71.7,12.0,5.7,48.6,75.2,40.0,18.8,25.9,57.0,Master,Yes,Yes,Yes,Low,50.7,Average,1,0,Realistic Synthetic Benchmark
+STU1578,Nikhil Chopra,Female,20,82.6,14.0,7.3,54.9,69.4,41.5,18.0,32.0,59.4,Bachelor,Yes,Yes,No,Moderate,57.0,Average,1,0,Realistic Synthetic Benchmark
+STU1579,Veda Reddy,Female,20,85.1,24.2,7.0,76.7,100.0,83.2,46.3,87.7,71.2,Bachelor,Yes,Yes,Yes,Moderate,79.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1580,Devansh Malhotra,Male,21,68.7,3.5,7.9,50.7,59.0,36.5,18.0,22.0,65.6,Associate,Yes,Yes,Yes,High,48.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1581,Ananya Joshi,Male,19,78.8,23.2,5.7,78.5,100.0,76.3,43.6,72.1,84.5,Master,No,Yes,No,Moderate,72.4,Average,1,0,Realistic Synthetic Benchmark
+STU1582,Nikhil Pillai,Female,19,87.1,28.2,7.1,84.4,99.8,78.1,47.6,74.8,77.6,Master,Yes,No,No,Moderate,78.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1583,Alex Rao,Male,18,87.7,24.9,5.8,71.0,100.0,66.2,27.9,68.2,71.8,Bachelor,Yes,Yes,No,High,73.7,Average,1,0,Realistic Synthetic Benchmark
+STU1584,Nikhil Deshmukh,Male,19,78.5,26.2,6.7,58.0,85.3,63.2,32.6,49.3,68.1,Associate,Yes,No,Yes,Low,66.9,Average,1,0,Realistic Synthetic Benchmark
+STU1585,Zoya Rao,Female,18,78.7,27.4,5.6,86.0,92.8,82.9,57.4,64.3,89.7,Doctorate,Yes,Yes,No,High,82.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1586,Alex Johnson,Female,18,73.9,25.5,6.0,59.1,86.4,67.6,39.1,52.0,60.8,Master,Yes,No,No,Low,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU1587,Varun Iyer,Male,18,76.5,24.8,4.5,47.3,80.0,49.0,28.1,51.3,69.1,Bachelor,Yes,No,No,Moderate,52.7,Average,1,0,Realistic Synthetic Benchmark
+STU1588,Mia Roy,Male,19,100.0,34.6,5.5,93.4,100.0,79.6,64.8,77.3,88.4,Doctorate,Yes,Yes,Yes,Moderate,86.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1589,Siddharth Johnson,Male,18,85.3,19.4,6.5,71.2,85.5,57.2,27.8,48.4,67.5,Bachelor,Yes,No,No,Moderate,63.7,Average,1,0,Realistic Synthetic Benchmark
+STU1590,Noah Patel,Male,19,100.0,29.4,5.7,77.2,93.7,78.4,45.4,86.8,76.3,Associate,Yes,No,No,Moderate,81.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1591,Noah Menon,Female,20,51.2,3.0,8.7,40.6,49.8,21.4,18.0,22.0,59.9,Bachelor,Yes,Yes,No,High,32.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1592,Esha Iyer,Male,20,90.3,28.6,5.0,70.6,100.0,75.2,41.8,79.4,69.1,High School,Yes,No,No,Moderate,75.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1593,Zoya Kulkarni,Male,19,100.0,28.0,5.6,82.1,100.0,79.3,54.8,87.6,78.8,Bachelor,No,No,No,Low,82.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1594,Pranav Roy,Female,19,83.7,22.1,5.5,55.1,92.4,64.8,37.0,66.9,75.8,Bachelor,Yes,Yes,Yes,Low,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU1595,Tanvi Brown,Male,19,77.1,21.2,5.8,77.9,100.0,79.6,61.7,65.3,83.6,High School,Yes,No,Yes,Moderate,75.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1596,Bhavya Nair,Male,19,76.7,21.0,7.3,64.0,88.5,68.8,46.8,60.5,66.2,Associate,Yes,Yes,Yes,Moderate,62.5,Average,1,0,Realistic Synthetic Benchmark
+STU1597,Lucas Bansal,Female,20,74.3,17.7,7.8,50.0,77.9,45.2,18.0,43.1,68.5,Bachelor,Yes,No,No,Moderate,55.6,Average,1,0,Realistic Synthetic Benchmark
+STU1598,Gaurav Nair,Female,18,83.0,23.2,5.6,76.2,92.0,74.5,35.1,81.5,85.6,Master,Yes,No,Yes,Low,76.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1599,Kavya Bhatia,Female,22,68.5,8.9,6.2,61.9,67.4,43.0,18.0,30.7,65.8,Doctorate,Yes,No,Yes,Moderate,56.3,Average,1,0,Realistic Synthetic Benchmark
+STU1600,Isha Saxena,Female,18,79.0,12.3,5.7,57.1,73.4,49.9,28.1,39.2,59.1,Associate,Yes,No,No,Moderate,56.1,Average,1,0,Realistic Synthetic Benchmark
+STU1601,Pooja Saxena,Male,20,96.7,24.3,7.4,84.1,100.0,71.2,47.6,76.8,81.6,Master,Yes,No,Yes,Low,81.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1602,Devansh Saxena,Female,19,99.2,24.5,7.2,81.9,100.0,74.0,53.5,78.3,85.8,High School,No,Yes,No,Moderate,82.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1603,Olivia Deshmukh,Female,18,55.4,15.9,6.5,55.5,86.1,52.0,20.9,51.0,57.9,High School,Yes,Yes,Yes,Moderate,61.1,Average,1,1,Realistic Synthetic Benchmark
+STU1604,Kavya Roy,Female,20,71.5,16.4,5.3,49.9,78.8,60.0,31.8,42.6,71.3,Bachelor,Yes,No,No,High,59.2,Average,1,0,Realistic Synthetic Benchmark
+STU1605,Shreya Roy,Female,18,75.8,19.9,5.2,61.0,74.9,43.8,18.0,36.1,77.6,Bachelor,Yes,Yes,No,Moderate,51.4,Average,1,0,Realistic Synthetic Benchmark
+STU1606,Rohan Roy,Female,20,75.0,26.4,6.3,79.2,96.4,71.5,58.0,71.6,79.7,Master,Yes,No,No,Low,75.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1607,Shreya Patel,Female,19,61.6,16.9,7.0,58.4,68.8,48.4,18.0,45.5,64.9,Associate,Yes,Yes,No,High,54.3,Average,1,1,Realistic Synthetic Benchmark
+STU1608,Zoya Chopra,Male,18,75.8,24.0,4.5,72.5,97.0,81.2,53.8,70.8,86.9,Associate,Yes,Yes,No,Moderate,78.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1609,Ananya Singh,Female,18,86.8,25.7,5.9,68.7,91.3,71.8,44.2,68.7,88.6,Bachelor,Yes,Yes,No,High,68.7,Average,1,0,Realistic Synthetic Benchmark
+STU1610,Pooja Patel,Male,20,89.2,24.2,7.7,69.0,83.1,66.6,35.0,50.9,83.0,High School,Yes,Yes,Yes,Moderate,68.2,Average,1,0,Realistic Synthetic Benchmark
+STU1611,Lucas Kulkarni,Female,19,100.0,30.5,5.8,79.1,100.0,78.9,50.7,89.1,70.4,Associate,No,Yes,No,High,83.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1612,Kavya Chopra,Female,21,68.4,19.0,7.8,59.1,85.8,55.2,29.5,52.1,66.4,High School,Yes,Yes,No,High,60.8,Average,1,0,Realistic Synthetic Benchmark
+STU1613,Liam Menon,Female,20,79.5,23.3,6.9,61.5,93.0,62.4,35.8,64.5,75.7,Associate,No,No,No,High,66.8,Average,1,0,Realistic Synthetic Benchmark
+STU1614,Zoya Rao,Female,20,71.0,6.8,6.0,49.2,76.1,42.1,22.3,36.7,57.3,Master,Yes,No,No,Low,58.4,Average,1,0,Realistic Synthetic Benchmark
+STU1615,Liam Smith,Male,19,92.6,26.1,5.9,84.6,100.0,87.0,67.6,81.7,97.5,High School,Yes,No,No,High,81.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1616,Pranav Bhatia,Female,20,72.2,14.6,6.5,47.5,75.1,37.4,18.0,25.7,71.1,Bachelor,Yes,Yes,No,Moderate,54.8,Average,1,0,Realistic Synthetic Benchmark
+STU1617,Aditi Menon,Female,21,84.3,26.4,5.3,64.6,99.1,73.5,56.4,55.1,70.0,Bachelor,Yes,Yes,No,Moderate,76.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1618,Mia Malhotra,Male,18,89.8,25.8,5.3,63.1,85.2,61.1,33.7,63.7,69.1,Bachelor,Yes,No,Yes,Moderate,66.3,Average,1,0,Realistic Synthetic Benchmark
+STU1619,Rhea Malhotra,Male,19,74.2,9.5,8.2,62.0,60.9,44.9,23.3,33.3,56.0,Bachelor,Yes,Yes,No,Moderate,53.0,Average,1,0,Realistic Synthetic Benchmark
+STU1620,Aryan Saxena,Male,18,63.0,20.2,5.5,64.4,81.1,48.7,24.5,45.5,68.0,Bachelor,Yes,Yes,Yes,High,58.3,Average,1,1,Realistic Synthetic Benchmark
+STU1621,Veda Brown,Female,19,99.9,25.8,7.1,74.1,100.0,75.4,49.8,70.0,78.8,Master,Yes,No,No,High,79.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1622,James Malhotra,Male,20,87.0,18.4,6.1,76.7,89.5,76.9,45.5,60.9,84.5,High School,Yes,Yes,No,Moderate,73.6,Average,1,0,Realistic Synthetic Benchmark
+STU1623,Mia Kapoor,Female,19,68.8,13.2,6.6,61.0,72.4,48.7,21.5,45.4,58.6,Master,Yes,No,No,Moderate,54.9,Average,1,0,Realistic Synthetic Benchmark
+STU1624,Siddharth Saxena,Male,19,90.0,21.9,6.8,62.9,94.3,67.7,39.7,75.7,55.0,High School,Yes,Yes,No,Low,69.5,Average,1,0,Realistic Synthetic Benchmark
+STU1625,Lucas Menon,Female,19,77.7,14.4,6.1,49.0,87.6,49.9,29.2,46.1,53.5,Bachelor,Yes,Yes,No,Moderate,57.4,Average,1,0,Realistic Synthetic Benchmark
+STU1626,Bhavya Patel,Male,18,100.0,35.0,6.3,99.0,100.0,98.0,91.5,100.0,84.4,Bachelor,Yes,Yes,No,High,92.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1627,Nikhil Kapoor,Female,19,82.2,24.3,4.5,76.4,94.1,66.0,38.7,64.6,74.7,High School,Yes,No,Yes,Moderate,65.5,Average,1,0,Realistic Synthetic Benchmark
+STU1628,Tanvi Malhotra,Male,20,58.5,20.0,6.8,70.6,78.6,61.0,18.0,50.4,72.6,High School,No,No,No,High,62.1,Average,1,1,Realistic Synthetic Benchmark
+STU1629,Rahul Brown,Female,19,93.7,27.9,4.5,79.2,100.0,85.0,72.1,95.2,75.1,High School,No,No,Yes,Moderate,81.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1630,Kavya Malhotra,Female,19,51.8,7.9,6.7,52.6,54.9,36.1,18.0,22.0,46.4,High School,Yes,Yes,Yes,Moderate,38.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1631,Rohan Malhotra,Female,20,70.2,20.0,7.2,53.9,86.5,53.3,24.0,61.4,60.0,Bachelor,Yes,No,No,Moderate,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU1632,Mia Jones,Female,18,100.0,35.0,6.4,89.7,100.0,90.1,59.1,92.5,79.6,High School,Yes,No,No,Low,85.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1633,Rahul Chopra,Male,19,80.4,10.7,5.6,62.0,82.6,61.9,30.5,54.7,64.9,Master,Yes,No,No,High,68.2,Average,1,0,Realistic Synthetic Benchmark
+STU1634,Sanya Joshi,Male,18,57.8,6.0,5.9,50.4,61.1,35.1,18.0,31.8,51.9,Master,Yes,No,Yes,High,44.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1635,Pooja Kulkarni,Male,22,69.2,17.4,5.9,68.6,77.1,57.5,22.5,50.8,74.7,Associate,No,No,No,High,64.0,Average,1,0,Realistic Synthetic Benchmark
+STU1636,Chetan Patel,Male,20,96.9,26.3,6.3,90.6,100.0,98.0,61.9,89.3,80.8,High School,No,No,Yes,High,93.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1637,Sanya Sharma,Female,19,89.8,22.4,4.5,62.8,97.9,63.2,42.1,72.8,72.0,Bachelor,Yes,Yes,Yes,Moderate,69.1,Average,1,0,Realistic Synthetic Benchmark
+STU1638,Siddharth Singh,Female,18,62.2,14.0,6.6,60.3,77.1,57.5,39.3,53.7,62.3,Master,Yes,No,Yes,Moderate,59.7,Average,1,1,Realistic Synthetic Benchmark
+STU1639,Madhav Pillai,Female,18,70.1,13.7,6.9,60.1,76.8,47.0,25.8,49.2,71.6,Bachelor,Yes,Yes,No,High,62.8,Average,1,0,Realistic Synthetic Benchmark
+STU1640,Rhea Menon,Female,19,78.1,17.4,6.2,48.7,85.1,54.1,33.1,23.1,62.6,High School,Yes,No,No,Moderate,59.1,Average,1,0,Realistic Synthetic Benchmark
+STU1641,Veda Sharma,Female,19,67.6,23.4,6.7,58.3,98.1,69.2,38.5,69.6,79.9,Doctorate,Yes,Yes,Yes,High,70.0,Average,1,0,Realistic Synthetic Benchmark
+STU1642,Esha Bansal,Female,21,93.0,28.0,6.3,89.6,100.0,85.3,59.7,84.1,79.3,Bachelor,Yes,Yes,Yes,Low,83.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1643,Lucas Deshmukh,Male,20,86.9,25.3,5.7,78.6,100.0,74.5,53.6,74.9,82.0,Associate,Yes,Yes,No,High,80.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1644,Bhavya Jones,Male,19,82.2,22.6,4.6,64.2,98.7,59.5,31.9,66.7,71.4,Master,Yes,No,No,Moderate,68.6,Average,1,0,Realistic Synthetic Benchmark
+STU1645,Mia Joshi,Female,20,58.9,11.4,6.9,47.4,61.6,34.2,18.0,27.3,46.3,Master,Yes,Yes,Yes,High,39.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1646,Nikhil Saxena,Female,22,63.8,6.2,6.1,50.9,60.6,41.3,18.0,33.3,55.6,Bachelor,Yes,No,No,Moderate,47.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1647,Diya Iyer,Male,19,98.6,26.3,5.6,72.4,98.6,68.5,50.7,66.1,91.2,Associate,No,No,No,Moderate,73.0,Average,1,0,Realistic Synthetic Benchmark
+STU1648,Neha Sen,Male,19,60.1,10.0,7.2,39.2,56.7,31.9,18.0,32.6,43.5,Bachelor,Yes,Yes,No,High,42.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1649,Ishaan Singh,Female,21,77.6,23.0,7.6,74.4,90.5,60.1,22.1,60.6,76.3,Associate,Yes,Yes,Yes,Moderate,65.3,Average,1,0,Realistic Synthetic Benchmark
+STU1650,Isha Menon,Male,18,96.5,25.3,6.2,76.0,90.8,70.4,39.2,68.2,68.8,Bachelor,Yes,No,No,Low,75.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1651,Devansh Kulkarni,Male,21,60.8,16.4,7.0,49.2,68.6,36.0,18.0,33.3,47.9,Associate,Yes,No,No,Low,47.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1652,Gaurav Brown,Female,18,79.8,11.5,5.4,50.9,71.0,43.8,18.0,43.0,54.2,Bachelor,Yes,Yes,No,Moderate,49.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1653,James Kapoor,Female,19,77.0,18.5,6.7,66.9,85.7,60.4,34.3,61.8,69.0,Bachelor,No,No,No,Moderate,64.5,Average,1,0,Realistic Synthetic Benchmark
+STU1654,Devansh Menon,Male,20,97.2,20.6,6.3,65.8,93.8,62.8,37.0,62.6,71.6,Doctorate,Yes,Yes,No,Moderate,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1655,Priya Johnson,Female,19,95.8,25.2,7.3,81.7,100.0,78.9,54.8,83.8,82.2,Master,Yes,No,No,Low,85.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1656,Madhav Miller,Male,19,87.3,28.3,5.6,65.9,99.0,66.6,45.2,68.7,64.8,High School,Yes,No,No,Low,69.2,Average,1,0,Realistic Synthetic Benchmark
+STU1657,Emma Kulkarni,Female,19,78.4,25.4,6.0,66.5,88.7,58.2,34.6,68.7,68.6,Associate,Yes,Yes,Yes,High,63.1,Average,1,0,Realistic Synthetic Benchmark
+STU1658,Yash Nair,Male,18,64.7,11.4,7.7,49.3,69.4,49.9,18.0,47.3,62.0,Bachelor,Yes,Yes,No,Moderate,58.9,Average,1,1,Realistic Synthetic Benchmark
+STU1659,Kavya Rao,Female,18,66.3,11.9,6.6,45.4,75.5,40.9,18.0,31.0,49.3,Associate,Yes,No,No,Low,50.0,Average,1,0,Realistic Synthetic Benchmark
+STU1660,Varun Rao,Male,19,78.9,17.3,5.5,69.2,70.0,45.0,23.2,54.8,65.2,High School,Yes,Yes,No,Low,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU1661,Siddharth Bansal,Male,19,82.6,24.7,8.5,71.7,93.7,68.0,52.9,51.5,79.1,Bachelor,Yes,Yes,No,Low,69.8,Average,1,0,Realistic Synthetic Benchmark
+STU1662,Zoya Miller,Female,19,79.5,16.6,5.6,71.6,87.2,72.9,41.1,69.3,69.3,Associate,Yes,Yes,Yes,High,72.0,Average,1,0,Realistic Synthetic Benchmark
+STU1663,Aarav Miller,Male,18,52.0,2.0,7.1,26.6,54.2,20.0,18.0,22.0,45.3,High School,No,No,No,Moderate,39.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1664,Bhavya Kapoor,Male,21,76.4,17.4,6.8,52.2,70.0,53.4,28.9,54.0,49.3,Bachelor,Yes,Yes,No,Moderate,57.2,Average,1,0,Realistic Synthetic Benchmark
+STU1665,Kavya Sen,Male,19,100.0,22.4,6.5,84.4,100.0,80.1,53.4,80.7,91.2,Doctorate,Yes,Yes,No,Moderate,86.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1666,Veda Johnson,Female,19,73.9,18.9,6.3,68.2,86.7,67.4,46.4,55.1,75.6,Bachelor,Yes,No,No,High,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1667,Nikhil Brown,Female,19,56.7,11.3,6.6,34.7,70.2,38.6,18.0,28.0,52.6,High School,Yes,No,Yes,Moderate,42.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1668,Ishaan Kulkarni,Female,18,100.0,35.0,5.6,97.9,100.0,98.0,85.5,92.0,98.9,Bachelor,Yes,Yes,Yes,Moderate,90.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1669,Neha Kapoor,Male,20,89.1,20.5,5.4,67.8,82.7,55.8,33.9,50.5,69.1,Master,Yes,Yes,No,Moderate,62.0,Average,1,0,Realistic Synthetic Benchmark
+STU1670,Tanvi Smith,Male,19,91.0,22.2,8.2,78.7,91.8,69.1,59.2,62.8,75.2,High School,Yes,Yes,No,High,75.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1671,Esha Iyer,Male,18,73.2,24.8,6.0,67.3,98.0,76.2,40.9,65.6,86.2,Bachelor,Yes,Yes,No,Moderate,77.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1672,James Chopra,Female,21,71.8,18.6,7.0,47.8,75.9,44.2,36.9,43.9,73.0,Bachelor,Yes,Yes,No,Moderate,55.4,Average,1,0,Realistic Synthetic Benchmark
+STU1673,Gaurav Miller,Female,20,62.7,12.9,6.4,50.6,73.6,51.6,27.6,45.0,55.7,Bachelor,Yes,Yes,No,High,53.5,Average,1,1,Realistic Synthetic Benchmark
+STU1674,Pooja Miller,Female,20,100.0,33.8,5.5,87.0,100.0,89.1,78.2,84.0,85.4,High School,Yes,Yes,No,Low,84.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1675,Olivia Brown,Female,20,100.0,28.7,5.6,83.5,100.0,83.5,52.6,68.5,91.9,Master,Yes,No,No,Moderate,84.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1676,Sanya Pillai,Male,21,76.8,30.2,4.6,60.4,100.0,63.2,48.5,69.8,73.6,Associate,Yes,Yes,No,Moderate,65.8,Average,1,0,Realistic Synthetic Benchmark
+STU1677,Mia Nair,Female,19,72.5,25.5,6.0,70.8,93.7,68.6,53.6,70.2,80.8,High School,Yes,Yes,No,High,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1678,Aditi Iyer,Male,19,60.2,17.2,6.1,61.5,75.0,46.6,18.0,43.0,71.4,High School,Yes,No,No,Low,58.2,Average,1,1,Realistic Synthetic Benchmark
+STU1679,Siddharth Bhatia,Male,19,94.8,26.7,7.2,82.7,100.0,85.1,57.1,85.7,80.3,Bachelor,Yes,Yes,Yes,Moderate,82.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1680,Aryan Bhatia,Male,19,73.0,13.5,5.6,60.4,76.9,52.5,18.0,53.2,69.0,High School,Yes,No,No,High,58.3,Average,1,0,Realistic Synthetic Benchmark
+STU1681,Devansh Kapoor,Male,18,84.5,21.6,5.8,59.8,96.4,67.7,38.4,71.4,72.6,Master,Yes,Yes,Yes,Moderate,69.8,Average,1,0,Realistic Synthetic Benchmark
+STU1682,Sanya Sen,Male,18,68.0,10.0,6.0,35.1,60.2,26.3,18.0,36.3,40.3,Master,Yes,No,No,Moderate,43.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1683,Nikhil Singh,Male,20,41.3,2.9,8.4,48.1,51.7,25.2,18.0,33.0,44.8,High School,Yes,Yes,No,Moderate,39.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1684,Varun Menon,Male,20,90.6,27.0,5.3,70.7,91.4,70.2,63.4,53.5,71.2,Master,No,Yes,No,Low,70.9,Average,1,0,Realistic Synthetic Benchmark
+STU1685,Emma Reddy,Female,20,66.4,17.7,7.0,56.1,70.2,42.6,29.0,22.0,68.3,Doctorate,Yes,No,Yes,Moderate,50.5,Average,1,0,Realistic Synthetic Benchmark
+STU1686,Nikhil Iyer,Male,19,60.6,6.9,7.8,33.4,62.0,31.9,18.0,22.0,55.5,High School,Yes,Yes,No,Moderate,41.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1687,Rhea Mehta,Male,18,74.3,25.0,6.1,73.6,92.6,71.9,48.6,71.1,82.8,Bachelor,Yes,Yes,Yes,High,74.0,Average,1,0,Realistic Synthetic Benchmark
+STU1688,Pooja Joshi,Female,19,100.0,34.4,4.6,86.7,100.0,89.4,74.2,90.1,89.1,Doctorate,Yes,Yes,No,Moderate,87.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1689,Rhea Johnson,Female,19,95.8,31.6,4.7,91.2,100.0,91.2,60.1,90.6,90.9,Master,Yes,Yes,No,High,87.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1690,Lucas Chopra,Female,21,83.7,15.0,7.4,79.0,78.7,65.1,34.8,52.5,77.0,Bachelor,Yes,Yes,No,Low,69.1,Average,1,0,Realistic Synthetic Benchmark
+STU1691,Ananya Kulkarni,Male,21,66.2,18.9,5.3,69.0,84.3,55.8,32.8,48.7,75.4,Master,Yes,Yes,No,Moderate,63.0,Average,1,0,Realistic Synthetic Benchmark
+STU1692,Bhavya Menon,Female,21,88.4,25.8,6.5,73.7,100.0,71.9,37.4,69.1,83.5,Bachelor,Yes,Yes,No,High,73.4,Average,1,0,Realistic Synthetic Benchmark
+STU1693,Lucas Bhatia,Male,20,82.8,28.8,6.2,65.4,100.0,79.7,46.2,77.0,66.6,Associate,Yes,No,No,Low,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1694,Diya Sharma,Male,21,77.8,16.3,6.9,51.4,80.9,52.4,27.0,53.4,57.9,Associate,Yes,No,No,Low,57.2,Average,1,0,Realistic Synthetic Benchmark
+STU1695,Lucas Iyer,Female,19,84.2,12.9,7.1,75.8,78.8,57.3,32.6,49.4,66.5,Bachelor,Yes,Yes,No,Moderate,66.0,Average,1,0,Realistic Synthetic Benchmark
+STU1696,Bhavya Joshi,Female,18,91.1,19.5,5.6,63.7,83.8,64.7,33.0,57.9,77.7,Associate,Yes,No,No,Low,61.8,Average,1,0,Realistic Synthetic Benchmark
+STU1697,Harsh Sen,Female,18,80.4,23.3,5.4,71.0,94.6,69.1,37.0,70.8,88.6,Associate,No,Yes,No,Low,72.1,Average,1,0,Realistic Synthetic Benchmark
+STU1698,Noah Nair,Female,19,83.4,20.1,7.0,68.2,88.4,59.9,31.1,54.2,58.4,High School,Yes,Yes,Yes,Moderate,63.1,Average,1,0,Realistic Synthetic Benchmark
+STU1699,Varun Verma,Female,19,86.8,25.7,5.6,73.3,91.5,62.2,39.8,64.9,88.0,Master,Yes,No,No,High,68.5,Average,1,0,Realistic Synthetic Benchmark
+STU1700,Aarav Verma,Male,18,81.5,30.0,4.5,82.7,100.0,89.6,61.1,79.2,84.8,Bachelor,Yes,No,No,Low,90.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1701,Olivia Bansal,Male,21,96.5,28.6,6.6,79.3,100.0,72.1,62.7,67.7,89.8,Associate,Yes,Yes,Yes,Moderate,80.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1702,Emma Sharma,Male,18,90.7,23.8,5.3,72.6,86.8,65.4,35.0,64.3,78.6,Associate,Yes,No,Yes,Moderate,74.6,Average,1,0,Realistic Synthetic Benchmark
+STU1703,Aarav Johnson,Male,21,95.8,34.7,6.2,84.6,100.0,88.2,65.4,89.6,95.2,High School,Yes,No,No,Moderate,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1704,Bhavya Deshmukh,Female,20,64.5,15.1,7.8,57.5,79.8,62.3,28.1,46.6,67.3,High School,Yes,Yes,No,Moderate,63.6,Average,1,1,Realistic Synthetic Benchmark
+STU1705,Rahul Saxena,Male,19,100.0,30.5,6.0,89.6,100.0,92.3,69.8,97.1,77.8,Bachelor,Yes,No,No,Low,87.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1706,Gaurav Chopra,Female,20,75.2,19.5,7.3,74.2,92.8,68.6,36.8,78.7,77.1,High School,No,No,No,Low,76.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1707,Tanvi Chopra,Female,19,100.0,35.0,5.9,99.0,100.0,98.0,97.8,99.5,95.2,Doctorate,Yes,No,No,Moderate,96.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1708,Neha Patel,Female,19,64.0,13.8,8.1,53.1,69.2,36.8,18.0,39.9,58.6,Associate,Yes,No,No,High,50.0,Average,1,1,Realistic Synthetic Benchmark
+STU1709,Pranav Smith,Male,18,75.4,14.0,5.7,63.9,74.8,55.3,37.1,29.4,71.5,High School,Yes,Yes,Yes,Moderate,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1710,Siddharth Williams,Male,21,78.1,22.2,6.3,65.0,95.3,70.8,43.4,74.1,74.1,Master,Yes,No,No,Moderate,71.1,Average,1,0,Realistic Synthetic Benchmark
+STU1711,Chetan Sharma,Female,19,77.4,24.0,6.8,74.3,93.8,68.0,45.1,59.5,74.1,Associate,Yes,Yes,No,High,71.8,Average,1,0,Realistic Synthetic Benchmark
+STU1712,Rhea Joshi,Female,19,100.0,31.9,5.8,87.0,100.0,93.7,79.1,97.8,78.5,Associate,Yes,No,No,High,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1713,Sanya Brown,Female,20,77.9,14.8,7.6,59.7,69.2,47.5,26.5,33.2,60.3,High School,Yes,No,Yes,High,57.0,Average,1,0,Realistic Synthetic Benchmark
+STU1714,Kavya Bhatia,Female,20,100.0,24.9,5.8,81.9,100.0,84.9,49.4,78.8,85.3,Bachelor,Yes,No,No,Moderate,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1715,Varun Deshmukh,Female,19,80.1,27.9,7.9,81.4,100.0,73.5,55.4,70.2,69.9,Associate,Yes,Yes,No,High,73.3,Average,1,0,Realistic Synthetic Benchmark
+STU1716,Noah Kulkarni,Male,19,88.5,23.8,8.2,89.6,98.7,85.2,67.2,76.1,81.4,Master,Yes,Yes,No,Moderate,87.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1717,Emma Sen,Female,18,58.8,12.0,7.0,62.1,74.6,49.3,18.0,51.7,52.1,Bachelor,Yes,No,No,Moderate,54.4,Average,1,1,Realistic Synthetic Benchmark
+STU1718,Chetan Das,Male,20,100.0,25.5,6.7,91.4,100.0,94.9,80.8,87.3,83.8,Master,Yes,Yes,No,High,93.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1719,Diya Bansal,Female,19,85.1,27.8,7.2,86.6,100.0,85.5,61.0,95.7,94.4,Bachelor,Yes,Yes,No,Moderate,83.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1720,Mia Jones,Female,19,79.8,23.1,5.2,84.4,91.6,84.1,48.4,71.5,73.7,Master,Yes,Yes,No,High,79.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1721,Sophia Malhotra,Male,18,75.9,20.2,5.2,60.0,90.4,65.4,31.1,71.0,75.6,Bachelor,Yes,No,Yes,High,66.8,Average,1,0,Realistic Synthetic Benchmark
+STU1722,Rohan Iyer,Male,19,80.0,22.3,7.4,77.2,97.3,73.4,40.7,57.0,100.0,Bachelor,Yes,Yes,No,Moderate,70.4,Average,1,0,Realistic Synthetic Benchmark
+STU1723,Olivia Malhotra,Male,19,79.5,22.3,6.6,59.0,90.5,64.6,20.2,57.0,80.4,Bachelor,Yes,No,No,Low,71.5,Average,1,0,Realistic Synthetic Benchmark
+STU1724,Zoya Reddy,Female,19,89.0,26.9,5.9,70.9,100.0,78.3,45.7,70.5,79.8,Bachelor,Yes,Yes,No,High,74.3,Average,1,0,Realistic Synthetic Benchmark
+STU1725,Yash Kulkarni,Male,18,78.3,22.2,6.3,69.8,86.5,67.7,35.5,70.0,79.7,High School,Yes,No,No,Moderate,69.9,Average,1,0,Realistic Synthetic Benchmark
+STU1726,Yash Verma,Male,18,58.3,13.2,4.5,62.4,71.3,39.6,18.0,36.0,55.4,Bachelor,Yes,Yes,No,Moderate,48.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1727,Bhavya Reddy,Male,19,71.4,12.1,6.5,45.4,70.5,36.2,18.0,22.0,46.1,Associate,Yes,Yes,No,Low,43.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1728,Priya Das,Male,18,69.0,12.0,6.0,53.1,73.8,54.8,21.7,35.4,61.9,Bachelor,Yes,Yes,No,High,55.5,Average,1,0,Realistic Synthetic Benchmark
+STU1729,Madhav Sharma,Male,20,89.3,20.5,7.2,69.5,97.2,63.8,32.3,56.1,80.1,High School,Yes,Yes,Yes,High,69.6,Average,1,0,Realistic Synthetic Benchmark
+STU1730,Kavya Chopra,Male,21,72.4,19.7,7.3,64.5,74.5,62.6,31.7,59.5,74.8,High School,Yes,No,No,Low,59.7,Average,1,0,Realistic Synthetic Benchmark
+STU1731,Rhea Sen,Male,19,68.5,18.1,7.0,73.9,87.8,72.5,44.5,69.4,72.0,High School,Yes,No,Yes,Moderate,70.6,Average,1,0,Realistic Synthetic Benchmark
+STU1732,Gaurav Saxena,Male,21,83.5,23.7,6.6,93.1,95.0,79.2,48.6,69.9,88.5,High School,Yes,No,No,High,76.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1733,Siddharth Pillai,Male,18,80.5,13.9,5.3,60.4,70.9,41.3,18.0,33.6,65.1,High School,Yes,No,No,Low,55.3,Average,1,0,Realistic Synthetic Benchmark
+STU1734,Rahul Smith,Male,18,96.1,24.4,6.8,80.6,100.0,81.2,58.8,86.2,82.4,High School,Yes,No,No,Low,81.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1735,Esha Das,Male,20,73.4,21.0,6.9,54.7,80.7,64.4,32.6,47.1,64.4,Bachelor,Yes,No,Yes,Moderate,54.6,Average,1,0,Realistic Synthetic Benchmark
+STU1736,Aditi Mehta,Female,20,66.5,15.4,7.7,58.4,77.1,49.3,18.0,47.5,59.3,Bachelor,Yes,No,No,High,54.8,Average,1,0,Realistic Synthetic Benchmark
+STU1737,Sophia Malhotra,Male,20,96.7,21.7,8.2,66.6,100.0,67.2,39.1,69.6,78.9,Doctorate,Yes,Yes,No,Moderate,75.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1738,Shreya Saxena,Male,18,49.2,4.3,5.5,44.9,60.9,27.8,18.0,22.0,54.9,Master,Yes,Yes,No,Low,38.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1739,Varun Rao,Male,20,63.5,16.1,6.2,58.4,77.8,57.8,29.0,48.9,62.4,High School,Yes,No,No,Moderate,60.6,Average,1,1,Realistic Synthetic Benchmark
+STU1740,Diya Verma,Male,19,93.6,31.3,5.3,76.0,100.0,77.7,49.8,76.9,85.9,Bachelor,Yes,No,No,Moderate,80.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1741,Sophia Kulkarni,Male,19,44.1,6.7,7.1,55.3,56.7,33.9,18.0,24.2,63.9,Bachelor,Yes,No,No,Low,41.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1742,Sanya Chopra,Male,18,100.0,27.5,6.1,76.1,100.0,86.8,50.4,73.1,86.0,Associate,Yes,Yes,Yes,Moderate,82.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1743,Devansh Singh,Female,22,100.0,33.7,5.6,84.9,100.0,89.4,55.7,90.0,77.9,Bachelor,Yes,No,Yes,Low,88.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1744,Aryan Joshi,Male,18,80.5,12.6,7.6,65.0,76.1,52.3,23.6,52.9,68.6,Bachelor,Yes,Yes,No,High,58.4,Average,1,0,Realistic Synthetic Benchmark
+STU1745,Chetan Smith,Male,20,85.5,28.7,5.1,75.1,88.8,64.3,49.2,63.1,70.5,Bachelor,Yes,Yes,No,Moderate,70.5,Average,1,0,Realistic Synthetic Benchmark
+STU1746,Rohan Brown,Male,19,89.7,35.0,4.9,88.2,100.0,91.6,61.7,88.1,87.4,Associate,Yes,No,Yes,High,89.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1747,Pooja Kulkarni,Male,20,64.7,7.9,6.0,62.5,74.3,54.5,23.7,45.3,59.8,Bachelor,No,No,Yes,Low,55.4,Average,1,1,Realistic Synthetic Benchmark
+STU1748,Shreya Brown,Male,20,86.9,25.4,5.9,83.6,93.5,72.0,59.0,76.4,91.3,Associate,Yes,Yes,No,Moderate,79.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1749,Rhea Sharma,Female,20,63.0,13.0,5.6,53.3,76.8,40.6,18.0,38.7,68.3,Master,Yes,Yes,Yes,High,49.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1750,Ishaan Brown,Female,18,76.2,16.6,6.5,65.3,78.8,51.8,41.0,38.5,77.0,Doctorate,Yes,No,No,Moderate,61.1,Average,1,0,Realistic Synthetic Benchmark
+STU1751,Rahul Jones,Male,18,74.9,14.3,6.5,61.0,78.0,46.8,18.0,46.1,74.1,Associate,Yes,Yes,No,Low,59.5,Average,1,0,Realistic Synthetic Benchmark
+STU1752,Rahul Sharma,Male,19,93.0,25.9,5.5,79.5,98.1,65.9,31.7,54.3,80.2,Master,Yes,Yes,No,Low,67.2,Average,1,0,Realistic Synthetic Benchmark
+STU1753,Sophia Menon,Male,19,94.1,27.5,6.9,71.0,100.0,72.0,48.8,76.5,76.0,Master,Yes,No,Yes,Moderate,74.9,Average,1,0,Realistic Synthetic Benchmark
+STU1754,Veda Miller,Male,18,82.8,16.7,6.5,58.2,87.4,54.0,26.2,49.3,81.0,Bachelor,Yes,No,Yes,Moderate,64.5,Average,1,0,Realistic Synthetic Benchmark
+STU1755,Diya Brown,Female,18,61.2,11.4,7.7,54.4,64.6,39.9,18.0,26.9,57.9,High School,Yes,Yes,Yes,High,49.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1756,Gaurav Miller,Male,19,62.0,14.7,6.4,36.0,68.7,44.0,34.0,35.6,42.8,Master,Yes,Yes,Yes,High,46.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1757,Diya Bhatia,Male,18,86.1,19.3,6.4,74.1,89.7,69.5,44.2,60.0,83.8,Bachelor,Yes,No,No,Moderate,69.4,Average,1,0,Realistic Synthetic Benchmark
+STU1758,Alex Patel,Female,18,96.3,26.6,5.6,96.3,100.0,93.4,71.4,93.9,91.3,Associate,Yes,Yes,No,High,91.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1759,Ananya Johnson,Male,21,84.5,29.3,6.0,67.7,95.7,72.3,39.8,68.2,86.5,Bachelor,Yes,Yes,Yes,Moderate,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU1760,Ananya Saxena,Male,19,65.6,15.1,7.2,58.4,86.0,55.8,22.9,46.8,70.1,Bachelor,Yes,Yes,No,Low,62.1,Average,1,0,Realistic Synthetic Benchmark
+STU1761,James Saxena,Female,22,80.2,24.2,5.9,69.5,100.0,76.3,56.6,82.6,78.1,High School,Yes,Yes,No,Low,77.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1762,Priya Singh,Male,21,80.0,17.8,7.0,59.8,80.2,57.9,18.0,52.5,77.7,Doctorate,Yes,No,Yes,High,61.0,Average,1,0,Realistic Synthetic Benchmark
+STU1763,Siddharth Bansal,Male,18,80.3,20.1,5.7,58.1,68.9,51.5,18.0,47.7,51.5,Associate,Yes,Yes,Yes,Moderate,59.8,Average,1,0,Realistic Synthetic Benchmark
+STU1764,Rahul Deshmukh,Male,20,59.6,19.2,7.1,49.4,79.4,60.6,22.8,56.1,57.9,Bachelor,Yes,No,No,High,55.8,Average,1,1,Realistic Synthetic Benchmark
+STU1765,Tanvi Menon,Female,19,99.2,31.5,5.4,79.9,100.0,88.0,71.2,93.7,76.7,Bachelor,Yes,Yes,No,Low,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1766,Veda Patel,Male,20,44.8,2.0,7.9,31.4,42.1,20.0,18.0,22.0,25.5,High School,Yes,No,No,Low,34.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1767,Veda Das,Male,18,87.3,20.9,6.4,74.7,94.8,77.2,52.8,71.1,84.9,Bachelor,Yes,Yes,Yes,High,80.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1768,Diya Johnson,Male,18,83.3,16.8,7.9,71.2,79.2,56.6,27.2,39.3,67.9,Bachelor,Yes,No,No,High,63.3,Average,1,0,Realistic Synthetic Benchmark
+STU1769,Rahul Malhotra,Male,18,79.3,17.2,5.5,58.3,88.1,59.8,38.9,54.6,75.4,Bachelor,Yes,No,Yes,High,72.7,Average,1,0,Realistic Synthetic Benchmark
+STU1770,Veda Kapoor,Female,19,100.0,25.8,4.8,90.1,100.0,83.3,49.2,91.5,90.3,Bachelor,Yes,Yes,No,Low,85.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1771,Rhea Iyer,Male,22,84.1,19.4,5.9,53.3,86.4,47.1,25.0,46.4,70.5,Doctorate,Yes,Yes,No,Moderate,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU1772,James Miller,Female,20,64.9,12.0,5.5,53.6,76.8,51.3,20.6,22.0,59.8,Master,Yes,No,No,Moderate,54.5,Average,1,1,Realistic Synthetic Benchmark
+STU1773,Chetan Das,Female,20,69.1,23.6,5.0,54.1,85.1,61.0,39.3,60.7,60.8,High School,Yes,No,Yes,High,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU1774,Aarav Gupta,Female,22,77.3,28.3,6.6,62.0,94.0,68.9,35.5,71.8,73.4,Associate,Yes,No,Yes,Low,73.5,Average,1,0,Realistic Synthetic Benchmark
+STU1775,Mia Joshi,Male,20,71.0,16.5,6.5,53.0,82.7,57.1,27.6,48.1,71.2,Bachelor,Yes,Yes,No,Moderate,58.3,Average,1,0,Realistic Synthetic Benchmark
+STU1776,Neha Kulkarni,Female,18,42.2,10.1,6.4,46.6,64.9,38.4,18.0,33.3,55.3,Master,Yes,Yes,Yes,Low,47.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1777,Yash Chopra,Female,20,66.5,10.6,6.4,61.2,76.7,53.1,18.0,47.1,61.5,Master,Yes,Yes,No,Moderate,61.4,Average,1,0,Realistic Synthetic Benchmark
+STU1778,Sanya Jones,Male,19,88.7,30.1,5.5,71.9,100.0,76.1,43.8,73.2,71.0,Bachelor,No,No,Yes,Low,78.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1779,Rahul Menon,Female,18,84.7,19.6,7.9,63.7,89.7,67.8,33.6,69.6,73.5,Master,Yes,Yes,Yes,High,67.4,Average,1,0,Realistic Synthetic Benchmark
+STU1780,Aryan Kulkarni,Female,19,85.8,19.9,5.7,63.7,96.1,73.3,45.3,60.6,70.4,Associate,Yes,Yes,No,Low,71.3,Average,1,0,Realistic Synthetic Benchmark
+STU1781,James Johnson,Male,21,70.5,17.3,5.3,61.0,80.3,56.7,23.2,50.1,67.1,Associate,Yes,No,Yes,Moderate,52.7,Average,1,0,Realistic Synthetic Benchmark
+STU1782,Tanvi Gupta,Female,19,74.8,14.9,7.3,63.9,71.5,52.4,20.4,41.7,64.1,Bachelor,Yes,Yes,No,High,57.9,Average,1,0,Realistic Synthetic Benchmark
+STU1783,Diya Johnson,Male,19,100.0,30.2,5.8,85.1,100.0,95.6,53.5,85.0,82.2,Associate,Yes,No,No,Moderate,89.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1784,Alex Rao,Female,18,70.1,21.6,8.2,63.3,83.9,59.8,28.4,55.6,71.9,Bachelor,Yes,Yes,Yes,Moderate,62.7,Average,1,0,Realistic Synthetic Benchmark
+STU1785,Sanya Saxena,Female,18,69.2,14.6,6.1,69.0,82.0,60.9,37.2,60.2,75.6,Bachelor,Yes,No,No,Moderate,63.4,Average,1,0,Realistic Synthetic Benchmark
+STU1786,Priya Brown,Male,18,73.9,31.5,6.7,83.0,100.0,85.5,62.2,89.1,98.1,Master,Yes,Yes,No,Moderate,81.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1787,Bhavya Rao,Female,20,61.5,10.7,7.7,52.0,66.0,44.3,18.0,41.2,63.8,Doctorate,Yes,No,No,Moderate,54.6,Average,1,1,Realistic Synthetic Benchmark
+STU1788,Aryan Roy,Male,20,65.6,21.1,5.9,59.2,76.9,48.8,23.3,32.0,76.7,Associate,Yes,Yes,No,Moderate,56.5,Average,1,0,Realistic Synthetic Benchmark
+STU1789,Siddharth Miller,Female,18,78.7,17.1,5.8,61.2,84.3,62.1,28.0,47.7,63.3,Bachelor,Yes,Yes,No,Low,69.4,Average,1,0,Realistic Synthetic Benchmark
+STU1790,Rhea Deshmukh,Female,19,70.9,19.7,7.1,68.5,90.3,65.7,48.3,61.0,63.2,Bachelor,Yes,Yes,No,High,66.4,Average,1,0,Realistic Synthetic Benchmark
+STU1791,Pranav Patel,Male,18,77.1,20.0,6.9,72.5,87.5,77.6,60.5,66.8,75.1,High School,Yes,No,No,Low,74.3,Average,1,0,Realistic Synthetic Benchmark
+STU1792,Tanvi Roy,Male,18,92.9,31.8,4.7,85.0,100.0,94.0,71.8,89.4,91.3,Master,Yes,Yes,No,Moderate,85.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1793,Sophia Reddy,Male,19,83.2,25.1,5.2,71.4,87.2,65.3,58.4,73.7,79.6,Bachelor,No,Yes,No,High,77.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1794,Ishaan Patel,Male,20,53.8,10.0,4.5,34.4,55.7,26.1,18.0,22.0,55.5,High School,Yes,No,Yes,High,39.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1795,Nikhil Malhotra,Male,19,84.8,26.4,6.7,73.5,94.2,73.2,33.8,70.8,60.3,Master,Yes,Yes,Yes,Low,79.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1796,Zoya Menon,Male,19,78.5,19.2,6.2,71.5,84.2,72.0,34.6,68.0,82.4,Bachelor,No,Yes,Yes,Low,69.4,Average,1,0,Realistic Synthetic Benchmark
+STU1797,Chetan Nair,Male,19,66.9,20.2,6.2,69.4,85.3,62.2,33.0,57.4,75.4,High School,No,Yes,Yes,Moderate,70.1,Average,1,0,Realistic Synthetic Benchmark
+STU1798,Rahul Reddy,Male,18,76.2,18.9,4.9,67.4,94.9,69.3,57.7,81.8,64.7,High School,Yes,Yes,No,Moderate,72.3,Average,1,0,Realistic Synthetic Benchmark
+STU1799,Aditi Johnson,Female,18,74.6,16.6,5.5,71.2,79.9,62.9,32.2,49.1,77.1,Master,Yes,Yes,No,Moderate,68.1,Average,1,0,Realistic Synthetic Benchmark
+STU1800,Yash Kapoor,Female,21,74.4,16.0,6.1,60.1,80.1,58.1,25.0,48.7,68.3,Master,Yes,Yes,Yes,Moderate,57.7,Average,1,0,Realistic Synthetic Benchmark
+STU1801,Ishaan Johnson,Female,20,85.6,22.8,5.7,66.0,100.0,67.3,35.8,62.1,79.4,Associate,Yes,Yes,No,Moderate,73.1,Average,1,0,Realistic Synthetic Benchmark
+STU1802,Aditi Chopra,Male,21,82.5,18.4,6.6,39.8,81.5,48.1,30.1,54.6,65.4,High School,Yes,Yes,No,Moderate,53.4,Average,1,0,Realistic Synthetic Benchmark
+STU1803,Emma Jones,Female,21,73.2,8.5,7.4,53.3,74.0,49.0,25.9,44.8,64.9,High School,No,No,No,Moderate,56.8,Average,1,0,Realistic Synthetic Benchmark
+STU1804,Harsh Sen,Female,19,100.0,35.0,7.8,99.0,100.0,98.0,77.5,98.1,81.2,Bachelor,Yes,No,No,High,87.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1805,Diya Mehta,Male,21,74.9,20.9,6.3,59.1,79.4,53.0,18.0,39.3,65.4,Associate,Yes,Yes,No,Moderate,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU1806,Madhav Williams,Male,19,84.0,24.9,7.2,55.5,89.9,57.8,24.2,65.6,57.1,Bachelor,Yes,Yes,No,Low,67.1,Average,1,0,Realistic Synthetic Benchmark
+STU1807,Varun Malhotra,Female,18,54.8,8.3,6.1,42.7,66.4,39.6,21.2,30.9,59.0,Associate,Yes,No,Yes,Moderate,48.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1808,Isha Deshmukh,Male,18,85.7,17.0,5.0,70.3,93.9,64.7,41.8,70.6,86.3,Bachelor,Yes,Yes,Yes,Moderate,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1809,Harsh Deshmukh,Male,18,66.1,15.6,6.3,47.7,78.9,51.3,20.3,41.9,52.4,Bachelor,Yes,No,No,High,48.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1810,Diya Roy,Female,18,62.3,9.1,5.4,62.7,69.2,58.3,42.1,49.9,59.7,Bachelor,No,Yes,Yes,High,60.2,Average,1,1,Realistic Synthetic Benchmark
+STU1811,Chetan Verma,Male,19,93.4,30.8,6.0,76.2,100.0,85.7,71.2,82.6,75.1,High School,Yes,Yes,Yes,High,87.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1812,Rhea Nair,Male,20,85.1,22.7,5.6,71.9,93.0,73.2,44.2,64.0,73.7,Bachelor,Yes,Yes,Yes,Moderate,70.6,Average,1,0,Realistic Synthetic Benchmark
+STU1813,Pranav Deshmukh,Female,20,82.8,29.6,4.5,77.0,95.2,72.8,45.0,68.3,82.9,Bachelor,Yes,No,No,High,81.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1814,Esha Chopra,Female,19,57.4,3.3,8.6,48.7,56.2,33.9,18.0,22.0,50.5,Bachelor,No,Yes,No,Moderate,43.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1815,Varun Singh,Male,18,93.7,34.5,5.3,90.4,100.0,93.1,65.6,93.5,92.2,High School,Yes,Yes,No,Moderate,82.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1816,Rhea Kapoor,Female,20,68.9,12.6,5.2,45.6,72.2,38.1,18.0,36.7,65.2,High School,Yes,Yes,No,Moderate,45.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1817,Harsh Nair,Female,19,95.3,29.0,6.8,83.1,100.0,92.4,53.4,94.1,92.1,Bachelor,Yes,No,No,High,88.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1818,Pooja Sharma,Female,18,91.0,22.5,5.6,83.1,100.0,85.6,43.4,84.8,76.6,Associate,Yes,Yes,No,High,82.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1819,Varun Saxena,Female,19,87.3,26.1,7.1,67.4,98.6,67.2,50.3,66.7,86.5,Bachelor,Yes,No,No,Moderate,78.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1820,Ishaan Gupta,Male,19,59.5,16.2,5.9,53.8,71.0,56.0,18.0,53.0,71.3,Associate,Yes,Yes,Yes,High,52.3,Average,1,1,Realistic Synthetic Benchmark
+STU1821,Kavya Sen,Male,19,73.0,26.4,5.7,65.7,88.1,65.1,51.8,65.9,83.3,Associate,Yes,Yes,Yes,High,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU1822,Zoya Mehta,Female,20,56.0,19.1,6.7,59.3,81.1,49.7,18.0,54.7,66.0,Bachelor,No,Yes,No,High,56.9,Average,1,1,Realistic Synthetic Benchmark
+STU1823,Nikhil Sharma,Male,20,82.6,18.9,7.0,60.3,87.3,56.7,44.5,64.2,64.4,Bachelor,No,No,No,Moderate,64.7,Average,1,0,Realistic Synthetic Benchmark
+STU1824,Pranav Rao,Female,20,66.0,14.7,7.3,51.6,73.6,57.5,26.6,48.1,54.1,High School,Yes,Yes,No,High,55.4,Average,1,0,Realistic Synthetic Benchmark
+STU1825,Kavya Chopra,Female,18,55.6,2.9,7.0,42.6,57.9,38.5,18.0,23.9,43.7,Master,No,Yes,No,High,42.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1826,Ishaan Gupta,Male,20,93.7,32.4,6.4,86.4,100.0,90.0,69.2,88.4,86.0,Bachelor,Yes,No,No,Moderate,86.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1827,Zoya Smith,Female,20,81.6,17.6,7.2,54.2,93.7,66.0,46.1,53.0,75.1,Master,Yes,Yes,Yes,Moderate,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1828,Aarav Gupta,Male,18,63.4,21.1,6.5,61.9,73.8,60.0,21.8,41.2,74.8,High School,Yes,Yes,No,High,60.1,Average,1,1,Realistic Synthetic Benchmark
+STU1829,Liam Kapoor,Female,19,71.1,18.3,6.3,65.2,78.6,59.5,25.2,40.7,65.5,Master,Yes,Yes,No,High,65.1,Average,1,0,Realistic Synthetic Benchmark
+STU1830,Esha Bansal,Male,19,94.6,24.6,4.9,74.2,92.1,73.1,36.6,66.2,77.4,Master,Yes,No,No,Moderate,71.3,Average,1,0,Realistic Synthetic Benchmark
+STU1831,Chetan Sharma,Female,19,80.6,14.6,7.2,51.9,70.3,47.9,18.0,36.2,59.2,High School,Yes,Yes,Yes,High,49.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1832,Siddharth Kapoor,Female,18,59.5,8.5,6.9,31.0,52.1,23.9,18.0,22.0,39.7,Bachelor,Yes,No,Yes,Low,39.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1833,Zoya Reddy,Male,19,85.2,23.0,5.9,71.8,100.0,69.6,39.3,68.8,84.5,Bachelor,Yes,No,No,Moderate,71.7,Average,1,0,Realistic Synthetic Benchmark
+STU1834,Sophia Singh,Female,18,76.4,21.8,7.5,74.2,94.5,76.9,33.3,70.1,81.0,Bachelor,No,Yes,Yes,Moderate,73.0,Average,1,0,Realistic Synthetic Benchmark
+STU1835,Yash Mehta,Female,18,81.1,21.6,5.1,64.0,82.4,66.9,30.6,64.4,70.6,Bachelor,Yes,Yes,Yes,Moderate,65.0,Average,1,0,Realistic Synthetic Benchmark
+STU1836,Aryan Pillai,Female,18,63.6,12.3,8.2,50.0,60.0,38.1,18.0,41.5,58.0,Master,Yes,No,No,Moderate,45.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1837,Liam Jones,Female,21,83.2,18.6,6.4,60.7,79.7,57.2,30.7,56.1,71.5,Bachelor,Yes,No,No,Moderate,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU1838,Ishaan Sharma,Female,19,56.4,12.4,7.0,49.5,62.2,40.1,18.0,23.2,60.3,Doctorate,Yes,No,Yes,Moderate,45.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1839,Lucas Saxena,Male,19,64.9,13.3,6.3,55.5,68.0,42.1,18.0,37.9,54.9,Master,Yes,Yes,No,Low,53.2,Average,1,1,Realistic Synthetic Benchmark
+STU1840,Gaurav Menon,Male,19,70.6,17.1,5.0,57.4,75.6,44.1,18.0,39.2,70.6,Master,Yes,No,Yes,Low,55.3,Average,1,0,Realistic Synthetic Benchmark
+STU1841,Olivia Nair,Male,21,89.6,24.4,6.1,77.6,88.9,80.7,62.5,71.8,79.8,Bachelor,Yes,No,No,Moderate,79.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1842,Zoya Pillai,Female,19,77.5,14.3,6.9,71.4,80.0,59.3,20.8,45.3,69.1,Bachelor,Yes,No,No,Moderate,62.5,Average,1,0,Realistic Synthetic Benchmark
+STU1843,Rahul Saxena,Female,21,68.5,22.6,6.9,56.4,87.7,56.3,32.3,48.1,69.7,Master,Yes,Yes,No,Low,64.1,Average,1,0,Realistic Synthetic Benchmark
+STU1844,Harsh Brown,Male,19,90.4,35.0,5.6,99.0,100.0,93.2,69.2,90.1,94.0,Bachelor,Yes,No,Yes,Low,88.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1845,Lucas Miller,Male,18,94.2,26.3,4.5,66.2,86.9,72.0,44.6,69.9,79.8,High School,Yes,No,No,Low,66.3,Average,1,0,Realistic Synthetic Benchmark
+STU1846,Yash Verma,Female,19,100.0,22.6,4.9,77.1,91.0,76.7,39.7,71.5,71.2,Bachelor,Yes,No,No,Low,77.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1847,Madhav Chopra,Male,19,77.1,17.2,8.4,68.6,77.5,58.0,25.9,61.3,79.3,High School,Yes,No,No,High,66.4,Average,1,0,Realistic Synthetic Benchmark
+STU1848,Mia Bhatia,Female,20,61.2,20.0,5.4,56.5,79.5,46.6,20.2,47.1,65.4,Master,Yes,No,No,Moderate,53.9,Average,1,1,Realistic Synthetic Benchmark
+STU1849,Rhea Deshmukh,Male,21,47.1,4.6,8.3,47.5,45.8,24.9,18.0,22.0,45.9,Bachelor,Yes,Yes,Yes,Moderate,41.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1850,Alex Reddy,Female,19,93.0,24.7,5.4,81.4,100.0,84.4,57.6,77.5,79.9,Bachelor,Yes,Yes,Yes,Moderate,79.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1851,Aryan Miller,Male,22,93.2,29.9,5.8,66.6,99.3,71.7,46.9,62.3,69.7,High School,No,Yes,No,Low,76.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1852,Diya Sharma,Male,19,66.8,18.2,7.0,61.4,82.5,59.0,47.1,49.2,56.3,Bachelor,Yes,No,No,Moderate,67.2,Average,1,0,Realistic Synthetic Benchmark
+STU1853,Aryan Chopra,Female,19,75.5,24.9,5.5,71.0,96.0,69.3,39.0,57.9,82.3,Associate,Yes,Yes,No,High,71.7,Average,1,0,Realistic Synthetic Benchmark
+STU1854,Bhavya Johnson,Female,19,87.9,20.6,7.8,81.1,96.9,82.7,37.8,59.3,96.3,Bachelor,Yes,No,Yes,Low,78.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1855,Rahul Iyer,Male,18,66.6,12.4,6.8,39.4,67.1,33.6,18.0,22.0,41.9,Bachelor,No,No,Yes,Low,44.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1856,Aarav Malhotra,Male,20,68.6,22.9,6.7,57.5,77.4,54.6,23.2,56.5,58.3,Bachelor,Yes,No,Yes,Moderate,63.4,Average,1,0,Realistic Synthetic Benchmark
+STU1857,Devansh Miller,Female,18,53.2,12.1,6.5,52.4,61.1,35.8,24.6,30.1,62.2,Associate,Yes,No,Yes,Low,47.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1858,Isha Malhotra,Female,19,100.0,30.9,6.6,86.0,100.0,98.0,80.9,89.8,85.4,Bachelor,No,No,No,Low,95.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1859,Aarav Mehta,Male,19,96.5,22.8,7.7,91.5,100.0,84.6,50.6,81.5,94.0,Bachelor,Yes,Yes,Yes,Moderate,86.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1860,Esha Verma,Male,18,52.0,9.5,6.7,38.8,57.9,27.5,18.0,22.0,49.0,Master,Yes,Yes,No,Moderate,37.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1861,Yash Jones,Female,18,63.6,8.3,8.4,46.0,64.5,39.3,18.0,29.5,51.2,Master,Yes,Yes,Yes,Low,45.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1862,Lucas Rao,Female,20,72.9,18.8,5.9,71.4,79.8,60.8,32.3,61.7,70.5,Bachelor,No,No,No,High,65.4,Average,1,0,Realistic Synthetic Benchmark
+STU1863,Alex Kapoor,Female,18,66.2,12.7,7.4,57.7,81.7,54.6,30.8,47.5,49.9,Associate,Yes,Yes,No,Low,52.5,Average,1,0,Realistic Synthetic Benchmark
+STU1864,Aditi Patel,Female,19,70.5,17.3,6.9,54.8,63.8,41.8,19.4,22.0,51.0,High School,Yes,Yes,Yes,Moderate,48.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1865,Rhea Singh,Male,19,100.0,35.0,4.8,81.3,100.0,82.7,69.7,83.2,90.2,Master,Yes,No,Yes,Moderate,82.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1866,Aarav Brown,Female,18,85.3,22.4,6.5,67.3,90.1,69.3,41.5,72.3,82.2,Doctorate,Yes,Yes,No,Moderate,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU1867,Yash Kapoor,Female,18,94.7,20.5,6.4,78.5,100.0,68.9,60.8,69.7,92.2,High School,Yes,No,Yes,Moderate,84.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1868,Lucas Miller,Female,20,62.1,20.1,5.6,66.4,87.4,68.4,28.7,46.0,75.6,Bachelor,Yes,Yes,Yes,Moderate,65.7,Average,1,1,Realistic Synthetic Benchmark
+STU1869,Mia Rao,Male,21,82.2,23.4,6.6,70.7,95.3,77.0,36.8,87.9,61.4,Bachelor,Yes,No,No,Moderate,68.7,Average,1,0,Realistic Synthetic Benchmark
+STU1870,Noah Kapoor,Male,18,74.8,14.4,6.8,55.7,76.6,55.6,18.0,39.8,59.4,High School,Yes,Yes,No,High,55.3,Average,1,0,Realistic Synthetic Benchmark
+STU1871,Yash Johnson,Female,21,70.5,12.4,6.6,65.7,71.3,47.4,34.6,41.4,75.8,Doctorate,Yes,No,No,Moderate,58.9,Average,1,0,Realistic Synthetic Benchmark
+STU1872,Devansh Chopra,Male,19,90.9,22.6,6.2,70.2,97.3,68.9,42.8,61.5,89.0,Master,Yes,No,Yes,Moderate,74.5,Average,1,0,Realistic Synthetic Benchmark
+STU1873,Chetan Nair,Female,19,57.9,5.0,6.9,43.2,60.3,39.9,18.0,22.0,62.1,Doctorate,Yes,Yes,Yes,High,50.3,Average,1,1,Realistic Synthetic Benchmark
+STU1874,Nikhil Johnson,Male,20,88.9,27.9,5.8,92.0,100.0,98.0,64.2,88.0,86.7,High School,Yes,Yes,No,Moderate,91.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1875,Sophia Gupta,Female,20,80.6,23.8,6.4,65.1,96.1,73.3,38.6,71.0,65.8,Bachelor,No,No,No,High,74.7,Average,1,0,Realistic Synthetic Benchmark
+STU1876,Kavya Kapoor,Female,20,94.0,27.4,5.5,70.9,100.0,83.3,51.4,89.6,78.6,Master,Yes,Yes,Yes,Moderate,79.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1877,Olivia Miller,Male,19,72.6,15.0,9.0,44.2,75.2,44.6,18.4,34.3,58.3,Bachelor,Yes,No,No,Moderate,55.4,Average,1,0,Realistic Synthetic Benchmark
+STU1878,Gaurav Joshi,Male,19,70.3,12.2,5.4,54.1,68.9,41.4,18.0,27.9,71.4,Bachelor,No,Yes,No,Moderate,49.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1879,Veda Iyer,Female,19,68.1,13.3,6.1,39.7,72.7,43.3,18.0,37.9,56.9,Bachelor,Yes,No,No,Moderate,52.8,Average,1,0,Realistic Synthetic Benchmark
+STU1880,Diya Sharma,Female,18,83.3,28.2,5.6,67.5,92.3,62.1,39.0,63.9,74.8,High School,Yes,Yes,No,Low,68.4,Average,1,0,Realistic Synthetic Benchmark
+STU1881,Nikhil Gupta,Male,20,77.3,19.4,8.3,58.5,90.0,55.1,27.7,56.6,70.3,Bachelor,No,No,No,Moderate,59.0,Average,1,0,Realistic Synthetic Benchmark
+STU1882,Rohan Kulkarni,Female,18,67.3,18.1,5.3,69.8,81.9,54.4,18.0,50.1,74.9,Master,Yes,No,No,High,63.7,Average,1,0,Realistic Synthetic Benchmark
+STU1883,Veda Roy,Female,19,68.5,8.9,7.2,65.8,69.9,56.2,18.0,40.7,70.5,High School,No,Yes,Yes,High,62.8,Average,1,0,Realistic Synthetic Benchmark
+STU1884,Pranav Joshi,Male,18,60.9,16.8,6.8,43.2,73.7,39.5,33.0,33.0,52.2,High School,Yes,Yes,No,Moderate,48.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1885,Rahul Roy,Male,18,90.1,19.4,6.7,66.9,80.1,61.7,44.6,53.3,62.7,Bachelor,Yes,No,No,Low,71.3,Average,1,0,Realistic Synthetic Benchmark
+STU1886,Madhav Rao,Male,19,82.7,21.4,7.5,54.2,78.2,51.6,34.2,52.7,73.4,Bachelor,Yes,No,No,Moderate,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1887,Rahul Reddy,Male,19,74.9,15.8,7.7,55.2,76.0,44.5,18.0,54.4,52.0,Associate,Yes,No,No,Moderate,51.8,Average,1,0,Realistic Synthetic Benchmark
+STU1888,Nikhil Reddy,Male,19,98.6,32.4,5.5,96.9,100.0,89.4,63.2,87.5,100.0,High School,Yes,No,Yes,Low,88.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1889,Ishaan Das,Male,18,76.4,21.8,6.5,62.1,85.1,57.2,24.6,53.5,56.4,Bachelor,Yes,No,No,High,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU1890,Pranav Chopra,Female,19,83.1,26.2,4.5,80.8,100.0,76.0,43.4,79.2,79.3,Associate,Yes,No,No,Moderate,76.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1891,Tanvi Reddy,Male,19,70.2,20.2,6.5,53.4,87.2,51.5,19.1,43.6,73.4,Bachelor,Yes,No,No,Moderate,59.4,Average,1,0,Realistic Synthetic Benchmark
+STU1892,Bhavya Johnson,Female,20,81.6,19.4,5.7,76.1,90.9,65.9,48.4,67.0,78.1,Bachelor,Yes,Yes,No,Moderate,70.6,Average,1,0,Realistic Synthetic Benchmark
+STU1893,Ananya Bansal,Male,19,79.1,22.5,6.1,45.7,93.3,58.1,37.8,59.5,56.0,Bachelor,Yes,Yes,Yes,Low,61.2,Average,1,0,Realistic Synthetic Benchmark
+STU1894,Harsh Kulkarni,Male,19,62.0,8.4,5.3,41.3,62.5,35.6,18.0,22.0,55.4,Bachelor,Yes,No,No,Moderate,45.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1895,Aditi Brown,Female,19,100.0,31.0,6.3,84.3,100.0,79.3,54.1,86.2,85.4,Bachelor,Yes,No,No,Moderate,81.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1896,Pooja Reddy,Female,21,71.3,17.5,5.0,60.3,84.5,57.4,36.0,53.2,67.2,Bachelor,Yes,Yes,No,Moderate,62.2,Average,1,0,Realistic Synthetic Benchmark
+STU1897,Yash Verma,Male,20,81.5,24.8,6.3,80.9,100.0,89.2,51.5,73.9,79.0,Bachelor,Yes,Yes,Yes,Moderate,79.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1898,Rohan Malhotra,Male,19,80.2,12.8,5.6,63.4,81.7,50.9,21.8,46.6,68.9,Bachelor,Yes,No,No,Moderate,57.5,Average,1,0,Realistic Synthetic Benchmark
+STU1899,Rohan Mehta,Male,19,81.9,20.4,5.6,55.4,85.6,58.8,33.9,55.4,62.8,Bachelor,Yes,No,Yes,Moderate,65.5,Average,1,0,Realistic Synthetic Benchmark
+STU1900,Mia Rao,Female,18,65.1,14.6,7.7,67.3,65.3,51.8,23.6,45.2,82.2,Bachelor,Yes,Yes,No,High,62.7,Average,1,0,Realistic Synthetic Benchmark
+STU1901,Varun Menon,Male,21,91.4,26.4,6.7,73.5,97.2,83.7,59.1,85.7,77.4,Bachelor,Yes,No,Yes,Moderate,83.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU1902,Kavya Mehta,Male,19,80.8,22.0,7.4,77.8,90.5,73.9,38.5,65.7,76.1,Bachelor,Yes,Yes,No,Moderate,74.7,Average,1,0,Realistic Synthetic Benchmark
+STU1903,Isha Smith,Male,19,82.5,23.0,7.7,71.7,81.7,64.5,34.6,56.4,69.1,Associate,No,Yes,Yes,High,65.7,Average,1,0,Realistic Synthetic Benchmark
+STU1904,Olivia Jones,Male,22,97.2,27.3,5.4,80.6,100.0,83.8,49.8,82.1,95.7,Bachelor,Yes,No,Yes,Moderate,82.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU1905,Gaurav Saxena,Female,20,100.0,27.9,7.4,78.6,100.0,81.6,43.6,81.8,70.9,High School,Yes,Yes,Yes,Moderate,84.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1906,Devansh Das,Female,18,88.2,22.0,5.0,75.7,94.8,75.2,47.4,74.9,81.8,Master,Yes,No,No,High,69.8,Average,1,0,Realistic Synthetic Benchmark
+STU1907,Nikhil Das,Male,18,66.6,19.0,7.1,48.8,64.3,31.8,18.0,26.5,54.8,Bachelor,Yes,Yes,No,Moderate,45.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1908,Varun Miller,Male,18,57.4,18.2,6.0,51.4,81.5,56.3,18.0,46.8,53.7,High School,Yes,No,No,High,58.4,Average,1,1,Realistic Synthetic Benchmark
+STU1909,Priya Reddy,Male,19,62.8,14.4,5.8,51.5,66.1,48.2,19.5,42.9,52.6,Bachelor,Yes,Yes,No,Moderate,48.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1910,Rhea Deshmukh,Male,18,95.6,29.4,6.6,70.8,97.1,68.5,50.1,64.5,80.1,Associate,Yes,No,No,Moderate,76.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1911,Bhavya Kapoor,Female,21,83.0,15.2,7.4,60.9,83.6,59.2,20.3,72.1,62.6,Master,Yes,No,Yes,Low,65.4,Average,1,0,Realistic Synthetic Benchmark
+STU1912,Liam Kapoor,Female,21,40.0,2.0,7.9,43.0,59.1,32.7,18.0,28.6,53.9,Master,Yes,Yes,Yes,Low,36.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1913,Alex Joshi,Female,19,80.9,18.2,6.7,56.6,87.8,52.1,39.3,43.6,80.3,Master,Yes,No,No,Moderate,62.9,Average,1,0,Realistic Synthetic Benchmark
+STU1914,Pooja Saxena,Female,19,75.2,7.4,7.0,44.1,70.3,28.4,18.0,25.3,57.6,Bachelor,Yes,Yes,No,Low,45.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1915,Kavya Sharma,Female,19,62.4,17.9,7.0,67.9,89.1,61.5,19.3,62.1,63.6,Master,Yes,Yes,Yes,Moderate,65.5,Average,1,1,Realistic Synthetic Benchmark
+STU1916,Ananya Brown,Female,18,70.4,11.2,7.0,45.2,63.8,33.2,18.0,22.0,48.7,Bachelor,Yes,No,No,Moderate,47.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1917,Shreya Rao,Male,20,63.3,24.9,6.7,84.7,99.0,73.0,39.3,60.4,82.8,Master,Yes,No,No,Low,75.6,Excellent,1,1,Realistic Synthetic Benchmark
+STU1918,Harsh Verma,Male,18,89.4,19.6,6.6,57.7,89.3,63.3,43.4,54.5,66.8,High School,Yes,No,No,Moderate,67.3,Average,1,0,Realistic Synthetic Benchmark
+STU1919,James Mehta,Male,18,99.9,33.8,6.6,93.6,100.0,98.0,65.9,96.8,90.2,Master,Yes,No,Yes,Moderate,91.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1920,Zoya Rao,Female,19,70.1,24.3,4.8,77.1,94.5,80.9,51.7,63.8,82.0,Bachelor,Yes,Yes,No,Moderate,72.1,Average,1,0,Realistic Synthetic Benchmark
+STU1921,Kavya Nair,Male,18,76.5,18.9,6.3,65.4,77.9,56.8,23.4,39.2,80.8,Associate,Yes,Yes,No,High,61.9,Average,1,0,Realistic Synthetic Benchmark
+STU1922,Emma Sharma,Female,19,96.0,24.5,5.0,80.9,97.6,70.3,46.1,74.1,82.5,Doctorate,Yes,Yes,No,Low,75.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1923,Madhav Nair,Female,20,64.7,15.9,6.8,46.8,63.5,40.8,18.0,27.5,47.2,Bachelor,Yes,Yes,No,Low,50.5,Average,1,1,Realistic Synthetic Benchmark
+STU1924,Harsh Joshi,Female,20,71.3,14.1,8.1,54.5,70.7,47.0,18.0,33.0,69.3,Master,Yes,No,Yes,High,56.2,Average,1,0,Realistic Synthetic Benchmark
+STU1925,Olivia Gupta,Male,19,78.7,27.8,5.7,65.9,98.1,71.4,33.5,64.4,84.8,High School,Yes,Yes,No,High,74.1,Average,1,0,Realistic Synthetic Benchmark
+STU1926,Nikhil Gupta,Male,20,40.0,2.8,7.2,41.6,59.0,38.2,18.0,22.0,53.0,Bachelor,No,No,No,Moderate,46.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1927,Lucas Reddy,Male,19,82.8,22.8,7.0,54.2,80.3,50.9,29.0,52.4,62.8,Bachelor,Yes,Yes,No,Moderate,58.7,Average,1,0,Realistic Synthetic Benchmark
+STU1928,Kavya Iyer,Female,20,79.4,14.5,4.8,57.4,67.1,31.7,18.0,23.1,65.7,High School,Yes,Yes,No,High,48.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1929,Kavya Patel,Female,19,87.6,20.5,5.9,67.2,85.9,59.0,40.8,52.5,70.8,Master,Yes,No,No,Moderate,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU1930,Shreya Sharma,Female,18,50.7,14.2,7.0,49.1,73.2,46.1,18.0,39.2,45.3,Bachelor,Yes,Yes,Yes,Low,45.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1931,Gaurav Kulkarni,Male,21,71.5,21.1,4.5,70.1,90.8,69.5,43.3,63.5,79.3,Associate,Yes,No,Yes,Low,65.7,Average,1,0,Realistic Synthetic Benchmark
+STU1932,Isha Menon,Male,19,71.9,11.3,5.9,65.3,78.9,54.3,35.8,46.4,75.2,Bachelor,No,No,No,Low,63.6,Average,1,0,Realistic Synthetic Benchmark
+STU1933,Sanya Miller,Male,18,82.2,18.5,7.5,92.0,100.0,82.3,60.3,68.7,98.5,High School,Yes,No,No,High,78.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1934,Madhav Brown,Female,18,78.4,24.4,7.1,85.5,94.5,74.1,49.6,67.8,78.4,Master,Yes,No,No,Moderate,73.3,Average,1,0,Realistic Synthetic Benchmark
+STU1935,Aditi Kapoor,Female,19,72.1,19.5,6.8,63.3,77.9,48.1,18.0,42.2,69.3,Master,Yes,No,No,Moderate,57.9,Average,1,0,Realistic Synthetic Benchmark
+STU1936,Alex Kapoor,Male,19,64.4,23.8,7.0,59.4,80.8,59.1,38.0,48.6,68.7,Bachelor,Yes,Yes,No,Low,59.8,Average,1,1,Realistic Synthetic Benchmark
+STU1937,James Iyer,Female,19,68.4,12.0,6.9,52.3,68.8,40.1,18.0,23.9,60.2,Bachelor,Yes,No,No,Low,53.0,Average,1,0,Realistic Synthetic Benchmark
+STU1938,Aditi Pillai,Male,21,87.2,19.1,6.9,75.3,91.3,68.9,45.4,65.0,78.6,Bachelor,Yes,Yes,No,Moderate,73.5,Average,1,0,Realistic Synthetic Benchmark
+STU1939,Ananya Menon,Female,19,80.7,22.4,6.0,68.1,94.2,66.8,45.1,69.2,75.9,Associate,Yes,Yes,No,High,68.8,Average,1,0,Realistic Synthetic Benchmark
+STU1940,Yash Johnson,Male,19,100.0,35.0,5.9,90.5,100.0,96.4,84.5,97.4,89.2,Master,Yes,No,Yes,Moderate,93.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1941,Priya Williams,Male,19,56.2,11.9,6.2,57.5,78.5,52.7,28.8,55.9,70.5,Associate,Yes,No,No,High,59.7,Average,1,1,Realistic Synthetic Benchmark
+STU1942,Devansh Chopra,Female,20,72.4,23.6,7.4,67.4,86.8,63.5,29.2,60.4,81.3,Bachelor,No,No,No,Moderate,62.5,Average,1,0,Realistic Synthetic Benchmark
+STU1943,Bhavya Pillai,Male,18,71.4,23.7,7.6,48.8,87.3,52.4,18.8,47.4,59.2,Associate,Yes,No,No,Moderate,58.7,Average,1,0,Realistic Synthetic Benchmark
+STU1944,Veda Smith,Male,18,81.7,23.2,7.5,64.4,98.4,67.6,38.7,69.7,74.2,Bachelor,Yes,No,No,Moderate,69.1,Average,1,0,Realistic Synthetic Benchmark
+STU1945,Zoya Iyer,Male,19,85.2,22.9,5.9,74.4,96.2,68.0,35.1,66.0,76.2,Master,Yes,No,Yes,Low,70.9,Average,1,0,Realistic Synthetic Benchmark
+STU1946,Ananya Brown,Male,20,79.2,15.9,5.7,65.6,82.3,57.6,23.3,53.4,66.4,High School,Yes,Yes,No,Moderate,69.1,Average,1,0,Realistic Synthetic Benchmark
+STU1947,Priya Patel,Female,20,88.5,32.0,7.1,88.6,100.0,83.8,39.9,88.5,75.6,Associate,Yes,Yes,Yes,High,82.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1948,James Miller,Female,19,73.1,16.7,7.0,49.5,80.7,59.6,18.0,43.5,62.7,High School,Yes,Yes,Yes,Low,58.1,Average,1,0,Realistic Synthetic Benchmark
+STU1949,Pooja Pillai,Female,20,96.9,26.3,6.4,92.9,100.0,80.6,68.1,77.8,92.2,High School,Yes,No,No,Moderate,85.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1950,Aditi Patel,Male,19,83.5,25.2,5.6,63.8,98.1,67.4,37.0,74.9,74.0,Bachelor,Yes,Yes,No,High,74.0,Average,1,0,Realistic Synthetic Benchmark
+STU1951,Isha Sen,Female,18,80.2,18.5,6.8,53.7,90.2,58.8,46.5,58.4,67.7,Master,No,Yes,No,High,62.5,Average,1,0,Realistic Synthetic Benchmark
+STU1952,Chetan Verma,Male,18,73.0,18.6,5.5,61.6,84.0,56.8,31.4,48.8,72.0,Bachelor,Yes,Yes,No,Moderate,60.9,Average,1,0,Realistic Synthetic Benchmark
+STU1953,Tanvi Pillai,Male,18,100.0,30.7,6.5,90.7,100.0,98.0,75.4,86.1,97.7,High School,No,No,Yes,Low,92.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU1954,Yash Pillai,Male,19,72.5,18.8,7.7,55.1,75.8,47.6,18.0,25.7,60.4,Bachelor,Yes,Yes,No,High,50.2,Average,1,0,Realistic Synthetic Benchmark
+STU1955,Emma Saxena,Female,19,77.3,21.5,7.8,69.4,92.8,67.8,40.0,77.5,67.5,Master,Yes,Yes,Yes,Low,73.7,Average,1,0,Realistic Synthetic Benchmark
+STU1956,Rahul Johnson,Female,19,72.3,19.4,7.1,55.1,80.7,55.4,37.9,48.3,64.4,Bachelor,Yes,Yes,No,Moderate,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU1957,Kavya Patel,Female,19,98.7,31.1,4.7,84.2,100.0,96.9,81.0,88.0,98.1,Associate,Yes,Yes,No,Low,88.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1958,Zoya Nair,Male,19,85.9,25.3,6.4,80.1,100.0,87.4,58.1,82.6,74.9,Master,Yes,Yes,No,Moderate,77.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU1959,Lucas Singh,Male,20,67.7,11.8,8.7,55.3,72.2,48.2,18.0,34.5,66.7,High School,Yes,No,No,Moderate,51.2,Average,1,0,Realistic Synthetic Benchmark
+STU1960,Sophia Verma,Female,20,80.1,25.7,5.4,79.3,94.5,75.6,39.0,67.8,88.9,Master,Yes,Yes,No,High,79.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1961,Tanvi Chopra,Female,19,68.6,18.1,6.4,68.3,81.5,64.5,31.4,52.5,54.7,Master,Yes,Yes,No,Moderate,67.1,Average,1,0,Realistic Synthetic Benchmark
+STU1962,Pranav Rao,Male,19,74.9,15.6,7.8,53.5,87.4,55.0,35.2,40.7,69.5,Master,Yes,No,No,High,64.5,Average,1,0,Realistic Synthetic Benchmark
+STU1963,Mia Gupta,Male,19,88.5,25.3,6.7,65.7,96.9,67.1,56.0,54.6,79.7,High School,Yes,No,No,Moderate,68.0,Average,1,0,Realistic Synthetic Benchmark
+STU1964,Sophia Singh,Male,19,88.8,23.6,8.5,70.0,99.6,76.9,47.3,60.9,76.5,High School,Yes,Yes,No,Moderate,72.8,Average,1,0,Realistic Synthetic Benchmark
+STU1965,Aditi Williams,Female,19,76.5,15.8,5.9,61.2,88.8,64.0,34.9,66.9,66.1,Master,Yes,Yes,Yes,Low,67.4,Average,1,0,Realistic Synthetic Benchmark
+STU1966,Diya Nair,Male,19,91.7,20.4,5.5,57.4,90.3,59.8,44.1,50.3,65.3,Bachelor,Yes,No,No,Low,68.6,Average,1,0,Realistic Synthetic Benchmark
+STU1967,Sophia Williams,Female,20,80.1,25.3,7.3,74.8,94.4,66.7,33.2,68.4,76.4,Bachelor,Yes,No,No,Moderate,69.5,Average,1,0,Realistic Synthetic Benchmark
+STU1968,Olivia Singh,Male,19,74.1,20.0,5.3,58.3,85.5,60.8,35.9,64.0,66.0,Bachelor,Yes,Yes,Yes,Moderate,62.2,Average,1,0,Realistic Synthetic Benchmark
+STU1969,Zoya Iyer,Female,18,71.2,19.3,6.3,75.2,82.0,57.2,35.5,53.8,71.1,High School,No,No,No,Low,61.7,Average,1,0,Realistic Synthetic Benchmark
+STU1970,Yash Kapoor,Male,19,57.6,15.6,6.5,58.6,84.3,52.1,18.0,44.6,65.5,Bachelor,Yes,Yes,Yes,Moderate,62.6,Average,1,1,Realistic Synthetic Benchmark
+STU1971,Ananya Singh,Male,21,100.0,30.9,6.9,87.8,100.0,86.2,57.9,86.7,94.8,Master,Yes,Yes,No,Moderate,84.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1972,Pranav Rao,Male,18,76.2,11.0,7.3,46.1,76.7,45.0,18.0,34.9,51.1,Bachelor,No,Yes,No,Moderate,53.1,Average,1,0,Realistic Synthetic Benchmark
+STU1973,Madhav Kapoor,Male,20,87.4,23.2,6.7,76.1,100.0,85.0,61.2,83.5,69.0,Bachelor,Yes,No,Yes,Low,80.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU1974,Aditi Deshmukh,Female,18,67.6,20.8,6.0,61.8,80.9,60.2,44.6,64.2,76.6,Doctorate,Yes,Yes,No,Low,67.0,Average,1,0,Realistic Synthetic Benchmark
+STU1975,Zoya Reddy,Male,19,100.0,28.3,7.2,84.8,100.0,95.2,69.1,100.0,83.8,Bachelor,Yes,Yes,No,Moderate,85.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU1976,Shreya Bhatia,Female,19,65.0,13.0,9.5,55.5,72.6,51.0,18.0,26.5,59.7,High School,Yes,Yes,No,High,57.6,Average,1,0,Realistic Synthetic Benchmark
+STU1977,Rohan Singh,Male,18,67.5,10.9,7.4,46.3,67.7,48.1,18.0,36.0,55.8,Bachelor,Yes,Yes,No,High,47.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1978,Priya Smith,Male,21,77.6,17.9,6.6,43.6,74.7,51.4,19.6,40.9,59.2,High School,Yes,Yes,No,Low,58.1,Average,1,0,Realistic Synthetic Benchmark
+STU1979,Mia Rao,Female,19,86.7,22.4,5.1,63.5,96.1,63.7,33.8,66.1,70.5,Associate,Yes,Yes,No,Low,64.5,Average,1,0,Realistic Synthetic Benchmark
+STU1980,Tanvi Miller,Male,21,78.7,10.0,6.2,50.2,64.8,35.6,18.0,22.0,60.8,Bachelor,No,No,No,Moderate,48.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1981,Aarav Pillai,Female,19,74.4,17.6,6.3,59.8,78.8,58.0,30.7,37.7,59.8,Associate,Yes,Yes,No,Moderate,65.2,Average,1,0,Realistic Synthetic Benchmark
+STU1982,Priya Miller,Female,20,50.3,2.3,6.6,44.3,50.6,26.9,18.0,22.0,47.5,High School,Yes,Yes,No,High,40.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1983,Sanya Johnson,Female,21,76.2,18.1,6.5,63.6,99.4,69.1,38.7,62.5,59.9,Bachelor,No,No,Yes,Moderate,71.2,Average,1,0,Realistic Synthetic Benchmark
+STU1984,Devansh Deshmukh,Male,19,58.4,11.2,8.4,62.9,65.9,50.3,21.8,31.5,71.6,Associate,Yes,Yes,No,High,51.1,Average,1,1,Realistic Synthetic Benchmark
+STU1985,James Kapoor,Male,18,58.8,7.1,8.0,46.0,64.7,33.7,18.0,22.0,54.1,Bachelor,No,Yes,No,Low,42.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1986,Rohan Joshi,Female,20,99.1,32.2,5.8,74.5,100.0,86.9,54.3,84.1,85.2,Associate,Yes,No,No,High,86.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU1987,Gaurav Smith,Male,19,67.5,9.9,5.7,51.3,63.5,34.5,18.0,22.0,60.6,Bachelor,Yes,No,No,High,48.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU1988,Ishaan Bansal,Male,21,87.3,26.9,7.3,76.0,99.3,81.0,38.4,77.8,84.8,Master,Yes,Yes,Yes,Moderate,81.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1989,Ishaan Rao,Male,19,62.5,12.5,6.7,53.1,77.4,52.1,34.2,37.7,62.9,High School,Yes,Yes,No,High,56.3,Average,1,1,Realistic Synthetic Benchmark
+STU1990,Devansh Brown,Female,19,98.1,33.1,4.5,87.1,100.0,80.3,59.6,70.8,88.9,Master,Yes,Yes,No,Moderate,82.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU1991,James Mehta,Female,18,94.2,22.4,6.9,75.0,99.7,72.7,51.3,81.1,73.9,High School,Yes,Yes,Yes,Low,80.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU1992,Madhav Bhatia,Female,20,69.6,14.1,7.6,52.0,77.8,43.9,20.5,40.3,54.4,Associate,Yes,No,No,Moderate,54.6,Average,1,0,Realistic Synthetic Benchmark
+STU1993,Neha Das,Female,22,68.7,14.6,4.5,51.6,79.8,51.1,18.0,40.4,62.4,Associate,Yes,No,No,High,55.6,Average,1,0,Realistic Synthetic Benchmark
+STU1994,Harsh Verma,Male,18,79.0,31.1,5.2,66.0,100.0,69.8,37.0,66.1,71.9,Associate,Yes,Yes,No,High,67.5,Average,1,0,Realistic Synthetic Benchmark
+STU1995,Kavya Bansal,Female,20,81.5,21.1,6.3,63.0,82.7,58.4,22.0,61.6,79.3,High School,Yes,Yes,Yes,Moderate,67.4,Average,1,0,Realistic Synthetic Benchmark
+STU1996,Diya Smith,Male,21,52.6,15.4,7.2,59.0,82.6,50.1,24.2,52.4,70.1,Master,Yes,Yes,No,Moderate,58.5,Average,1,1,Realistic Synthetic Benchmark
+STU1997,Aarav Patel,Female,18,95.5,30.8,5.5,76.4,100.0,92.5,67.6,93.2,76.4,Master,Yes,Yes,No,Low,82.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU1998,Rahul Kapoor,Male,18,88.7,23.8,5.5,54.8,78.2,50.6,18.0,39.4,62.1,Doctorate,Yes,Yes,No,Low,62.3,Average,1,0,Realistic Synthetic Benchmark
+STU1999,Isha Rao,Female,20,67.7,14.7,7.3,71.6,76.6,65.7,41.5,56.8,72.0,Master,Yes,Yes,Yes,Moderate,66.2,Average,1,0,Realistic Synthetic Benchmark
+STU2000,Ananya Sen,Male,19,87.2,23.5,5.8,79.5,90.6,74.5,31.8,74.2,79.0,Bachelor,Yes,No,Yes,Moderate,76.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2001,Neha Mehta,Male,18,87.2,24.7,6.7,73.3,100.0,73.2,44.7,69.1,81.9,High School,Yes,No,No,Low,78.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU2002,Neha Jones,Male,20,72.7,17.6,5.5,60.5,85.3,68.7,45.1,58.1,69.6,High School,Yes,No,Yes,High,68.5,Average,1,0,Realistic Synthetic Benchmark
+STU2003,Harsh Williams,Male,19,82.5,17.9,5.3,66.1,77.8,49.0,23.1,41.9,59.2,Bachelor,Yes,No,Yes,Moderate,60.9,Average,1,0,Realistic Synthetic Benchmark
+STU2004,Harsh Joshi,Male,21,61.5,5.2,7.7,29.0,64.1,27.9,18.0,22.7,32.4,Master,Yes,No,No,Moderate,38.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2005,Harsh Iyer,Female,21,67.0,18.0,6.7,57.1,74.2,42.1,18.0,26.8,61.0,Associate,Yes,No,No,Low,58.8,Average,1,0,Realistic Synthetic Benchmark
+STU2006,Bhavya Bansal,Male,20,87.6,18.2,7.3,58.9,97.9,63.6,18.0,67.3,76.7,High School,Yes,Yes,No,Low,66.6,Average,1,0,Realistic Synthetic Benchmark
+STU2007,Kavya Das,Female,19,76.5,18.7,6.0,55.7,86.9,54.2,21.0,54.2,64.9,Bachelor,Yes,Yes,Yes,Moderate,63.3,Average,1,0,Realistic Synthetic Benchmark
+STU2008,Priya Chopra,Male,19,100.0,25.8,5.5,63.9,88.4,58.4,40.7,55.0,80.4,Master,Yes,Yes,No,High,68.6,Average,1,0,Realistic Synthetic Benchmark
+STU2009,Pranav Deshmukh,Female,19,91.1,26.9,7.3,92.5,100.0,87.7,53.2,84.6,88.3,Bachelor,Yes,No,No,Low,87.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2010,Veda Mehta,Male,18,65.8,9.6,5.4,60.6,71.0,35.2,18.0,27.6,73.6,Bachelor,Yes,No,No,High,55.4,Average,1,0,Realistic Synthetic Benchmark
+STU2011,Veda Miller,Female,20,62.5,13.4,7.8,67.2,76.9,57.5,18.0,45.7,77.2,Bachelor,Yes,Yes,Yes,High,59.5,Average,1,1,Realistic Synthetic Benchmark
+STU2012,Zoya Chopra,Female,18,76.1,20.4,7.6,70.6,82.2,64.8,25.1,62.0,79.9,Associate,No,No,Yes,High,68.9,Average,1,0,Realistic Synthetic Benchmark
+STU2013,Ishaan Williams,Male,19,78.5,14.0,7.4,45.7,77.2,38.8,23.9,41.1,51.2,Bachelor,Yes,No,No,Moderate,53.1,Average,1,0,Realistic Synthetic Benchmark
+STU2014,Harsh Malhotra,Female,18,84.4,29.3,5.4,85.5,100.0,93.9,69.2,84.4,85.6,Master,Yes,No,Yes,Moderate,83.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2015,Zoya Brown,Male,19,72.3,20.3,5.7,74.5,100.0,74.7,39.5,70.3,89.1,Bachelor,Yes,Yes,No,High,78.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU2016,Olivia Patel,Male,18,81.6,24.7,6.0,64.9,91.3,65.0,33.6,60.9,75.1,Bachelor,Yes,Yes,Yes,Moderate,70.8,Average,1,0,Realistic Synthetic Benchmark
+STU2017,Noah Mehta,Female,19,100.0,32.2,4.7,90.3,100.0,88.0,64.3,83.9,91.5,Associate,Yes,Yes,Yes,Low,85.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2018,Sanya Brown,Female,20,61.1,11.3,5.9,43.7,53.9,31.3,18.0,30.5,40.8,High School,Yes,Yes,No,Moderate,45.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2019,Tanvi Jones,Male,18,75.4,24.6,6.8,71.1,89.9,73.5,25.3,65.7,88.9,High School,Yes,No,No,Moderate,68.9,Average,1,0,Realistic Synthetic Benchmark
+STU2020,Kavya Iyer,Male,20,68.3,20.1,7.0,59.1,97.4,78.2,45.1,71.2,67.1,High School,Yes,Yes,No,Moderate,70.9,Average,1,0,Realistic Synthetic Benchmark
+STU2021,Kavya Reddy,Female,20,70.9,12.3,5.8,54.6,68.1,49.4,23.2,32.2,46.4,High School,Yes,Yes,No,High,52.0,Average,1,0,Realistic Synthetic Benchmark
+STU2022,Varun Chopra,Female,19,86.4,20.8,7.0,64.6,91.3,71.5,46.5,70.2,70.6,Bachelor,Yes,Yes,Yes,Moderate,73.9,Average,1,0,Realistic Synthetic Benchmark
+STU2023,Yash Singh,Female,20,51.9,11.4,7.2,49.2,65.7,49.5,23.8,32.2,40.0,Master,Yes,No,No,Moderate,47.6,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2024,Ishaan Joshi,Female,19,94.5,25.1,7.6,76.8,96.1,77.4,37.1,68.5,72.6,Bachelor,Yes,Yes,Yes,High,79.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2025,Rohan Williams,Female,18,95.9,24.8,6.7,73.0,100.0,85.7,57.1,85.8,97.8,Bachelor,Yes,No,No,Low,84.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU2026,Sophia Rao,Male,19,89.6,16.2,7.5,70.5,83.4,70.0,38.9,64.6,70.3,Doctorate,Yes,Yes,No,Low,69.5,Average,1,0,Realistic Synthetic Benchmark
+STU2027,Priya Das,Female,18,61.1,6.9,7.4,40.6,57.8,30.1,18.0,22.0,40.5,Doctorate,Yes,No,No,High,46.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2028,Shreya Patel,Male,21,71.8,15.6,7.5,49.5,76.4,47.4,18.0,38.3,61.2,Associate,Yes,Yes,Yes,High,52.1,Average,1,0,Realistic Synthetic Benchmark
+STU2029,Sanya Verma,Female,21,88.4,24.6,5.1,70.5,96.0,63.1,34.8,65.4,71.0,High School,No,Yes,No,Moderate,66.9,Average,1,0,Realistic Synthetic Benchmark
+STU2030,Bhavya Sen,Male,20,84.8,24.7,6.1,65.3,85.8,64.3,18.0,55.8,77.5,High School,Yes,No,No,Moderate,69.5,Average,1,0,Realistic Synthetic Benchmark
+STU2031,Bhavya Reddy,Female,19,40.0,8.6,6.8,26.4,52.6,20.0,18.0,22.0,36.1,Master,Yes,No,No,Moderate,25.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2032,Sanya Sen,Female,19,81.0,29.7,5.8,82.2,100.0,75.4,55.1,65.3,85.9,High School,Yes,No,Yes,High,82.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2033,Pooja Patel,Male,22,74.1,25.1,6.6,66.1,85.7,64.8,25.7,40.7,63.7,Associate,Yes,No,No,High,65.1,Average,1,0,Realistic Synthetic Benchmark
+STU2034,Alex Jones,Female,18,67.6,17.4,7.1,51.7,69.3,39.6,18.0,28.1,77.7,Bachelor,Yes,Yes,No,Low,46.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2035,Noah Menon,Male,18,92.4,32.3,6.3,88.5,100.0,85.2,52.5,81.9,90.4,Bachelor,No,No,No,High,81.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2036,Nikhil Williams,Female,19,72.6,22.0,6.2,59.7,83.0,55.5,21.3,26.6,66.9,Bachelor,Yes,Yes,No,Moderate,54.8,Average,1,0,Realistic Synthetic Benchmark
+STU2037,Priya Deshmukh,Male,19,78.5,19.5,5.8,54.8,81.0,52.5,18.0,39.9,63.0,Master,Yes,No,No,Low,59.7,Average,1,0,Realistic Synthetic Benchmark
+STU2038,Sophia Iyer,Male,19,90.7,25.5,7.2,71.5,99.5,68.2,44.8,54.1,75.1,Bachelor,No,No,No,Low,69.8,Average,1,0,Realistic Synthetic Benchmark
+STU2039,James Gupta,Male,18,91.9,30.5,6.3,83.0,100.0,91.7,60.5,87.6,79.0,Master,Yes,No,No,Low,86.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2040,Sophia Bhatia,Male,19,98.5,30.7,5.1,84.5,100.0,86.5,54.0,98.2,79.5,High School,Yes,No,Yes,High,84.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2041,Pranav Nair,Male,19,75.8,21.0,6.2,68.8,96.1,72.4,51.5,66.3,88.3,Master,Yes,No,Yes,Moderate,71.9,Average,1,0,Realistic Synthetic Benchmark
+STU2042,Liam Verma,Female,18,81.9,25.1,4.6,64.5,92.7,61.5,36.6,61.3,69.6,Bachelor,Yes,Yes,No,Moderate,69.4,Average,1,0,Realistic Synthetic Benchmark
+STU2043,Pranav Gupta,Female,18,89.5,23.2,6.3,78.6,100.0,78.2,49.0,80.5,67.5,Associate,No,Yes,No,Low,80.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2044,Rhea Rao,Female,19,40.0,9.7,6.6,46.6,56.1,40.9,18.0,28.0,44.4,Doctorate,Yes,No,No,High,46.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2045,Tanvi Gupta,Male,21,100.0,18.0,6.0,72.2,93.2,77.4,43.4,70.1,83.6,Master,Yes,No,Yes,Moderate,75.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2046,Diya Joshi,Male,19,73.8,21.4,7.8,53.0,84.5,47.7,18.0,49.7,63.7,Master,Yes,Yes,No,High,57.6,Average,1,0,Realistic Synthetic Benchmark
+STU2047,Varun Rao,Male,20,77.2,21.2,5.3,87.9,87.8,73.9,45.8,68.7,81.3,Master,Yes,No,No,Moderate,73.6,Average,1,0,Realistic Synthetic Benchmark
+STU2048,Ishaan Saxena,Female,20,89.8,21.4,7.0,59.1,91.0,55.1,18.0,55.0,78.6,Bachelor,Yes,Yes,No,High,65.6,Average,1,0,Realistic Synthetic Benchmark
+STU2049,Kavya Gupta,Female,19,81.2,27.9,8.1,60.1,85.6,59.7,39.0,58.4,63.6,Associate,Yes,No,No,Moderate,62.4,Average,1,0,Realistic Synthetic Benchmark
+STU2050,Gaurav Reddy,Male,20,80.4,22.0,7.3,57.9,87.2,53.2,24.7,51.4,73.0,High School,Yes,No,No,Moderate,61.0,Average,1,0,Realistic Synthetic Benchmark
+STU2051,Varun Bhatia,Female,20,40.0,4.9,7.0,30.6,40.6,20.0,18.0,22.0,35.3,Master,Yes,Yes,Yes,High,29.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2052,Lucas Pillai,Male,19,92.4,18.4,5.4,76.3,99.0,77.0,48.1,67.4,85.0,Master,Yes,Yes,No,Moderate,79.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU2053,Aarav Gupta,Male,18,84.6,32.0,4.7,70.3,95.4,68.5,46.6,75.7,74.3,Doctorate,Yes,No,No,High,73.1,Average,1,0,Realistic Synthetic Benchmark
+STU2054,Isha Bansal,Male,18,84.2,26.7,5.8,79.5,99.7,76.9,34.3,64.9,81.0,Master,Yes,Yes,No,Low,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2055,Harsh Jones,Male,22,85.8,21.0,5.7,69.1,93.0,65.4,34.3,69.2,81.4,Bachelor,Yes,No,Yes,Moderate,70.9,Average,1,0,Realistic Synthetic Benchmark
+STU2056,Isha Kapoor,Female,20,100.0,35.0,5.2,86.2,100.0,93.2,57.2,92.0,91.0,High School,Yes,Yes,No,High,85.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU2057,Bhavya Brown,Female,21,81.2,18.5,6.2,68.5,88.6,64.1,37.8,54.7,72.7,High School,Yes,Yes,Yes,High,68.9,Average,1,0,Realistic Synthetic Benchmark
+STU2058,Olivia Pillai,Male,21,91.4,22.8,6.2,72.8,95.9,69.7,24.9,70.2,75.0,Bachelor,Yes,Yes,No,Moderate,70.8,Average,1,0,Realistic Synthetic Benchmark
+STU2059,Madhav Verma,Female,18,100.0,32.4,6.3,84.8,100.0,79.4,41.5,73.3,96.4,Master,No,No,No,Moderate,84.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2060,Veda Singh,Female,20,84.6,16.8,5.4,73.1,88.3,63.9,47.3,61.4,79.9,High School,Yes,No,No,High,69.9,Average,1,0,Realistic Synthetic Benchmark
+STU2061,Lucas Roy,Female,19,68.5,16.3,5.9,50.3,80.9,50.7,22.6,39.7,60.2,Master,Yes,No,No,Moderate,56.6,Average,1,0,Realistic Synthetic Benchmark
+STU2062,Rhea Miller,Female,20,51.2,6.4,6.8,33.3,53.1,20.0,18.0,22.0,41.0,Bachelor,Yes,No,No,High,35.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2063,Emma Chopra,Male,18,82.3,24.3,6.1,71.7,84.0,62.7,23.4,59.1,80.8,Associate,No,No,No,Moderate,72.5,Average,1,0,Realistic Synthetic Benchmark
+STU2064,Aarav Patel,Female,19,82.3,19.7,8.1,77.4,96.7,83.5,44.6,79.8,81.5,Master,Yes,Yes,No,Low,79.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2065,Pooja Bhatia,Male,20,71.9,23.0,6.5,66.6,87.1,68.3,35.9,50.3,71.3,Bachelor,Yes,Yes,No,High,67.3,Average,1,0,Realistic Synthetic Benchmark
+STU2066,Aditi Mehta,Female,20,75.7,22.7,4.8,79.7,100.0,71.4,43.9,64.8,83.7,Bachelor,Yes,No,Yes,Moderate,73.2,Average,1,0,Realistic Synthetic Benchmark
+STU2067,Veda Menon,Male,19,70.8,19.1,6.8,69.6,84.9,68.6,50.7,62.6,75.4,Bachelor,No,Yes,No,Moderate,71.2,Average,1,0,Realistic Synthetic Benchmark
+STU2068,Aditi Kapoor,Female,19,88.9,24.3,6.7,83.4,100.0,85.6,57.3,84.7,84.1,Bachelor,Yes,No,No,Moderate,82.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU2069,Aryan Das,Male,19,74.2,14.8,6.5,67.5,87.6,60.3,30.9,49.8,81.5,High School,Yes,No,No,High,61.3,Average,1,0,Realistic Synthetic Benchmark
+STU2070,Liam Williams,Male,21,96.6,25.6,5.1,76.4,100.0,77.6,36.5,82.7,90.2,Bachelor,Yes,No,No,Moderate,79.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2071,Sanya Saxena,Female,19,87.8,20.2,8.0,74.2,90.0,63.0,36.5,67.6,80.6,Master,Yes,No,No,High,71.8,Average,1,0,Realistic Synthetic Benchmark
+STU2072,James Saxena,Female,19,88.4,31.7,5.0,81.4,100.0,92.0,65.4,83.2,93.3,Doctorate,Yes,No,Yes,Moderate,82.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2073,Pooja Menon,Male,19,52.9,6.7,7.5,46.1,57.3,35.4,18.0,22.0,52.9,Master,No,No,No,Moderate,42.8,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2074,Sanya Johnson,Female,19,83.0,14.2,6.8,59.6,80.3,50.8,20.2,44.6,71.8,High School,Yes,No,No,Low,60.1,Average,1,0,Realistic Synthetic Benchmark
+STU2075,Rahul Williams,Female,19,96.2,24.7,6.8,75.2,92.4,72.1,49.7,68.0,85.2,Doctorate,Yes,Yes,No,Moderate,76.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2076,Aditi Verma,Male,19,96.0,31.3,7.5,99.0,100.0,85.3,72.2,92.4,98.7,High School,Yes,Yes,Yes,Low,92.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2077,Aryan Bhatia,Female,20,77.4,20.6,6.9,59.9,96.7,63.7,38.3,69.1,79.2,High School,Yes,Yes,Yes,Low,64.8,Average,1,0,Realistic Synthetic Benchmark
+STU2078,Veda Kulkarni,Male,21,83.1,19.1,5.9,67.9,87.2,60.3,39.1,54.3,77.5,Bachelor,Yes,No,No,Moderate,73.6,Average,1,0,Realistic Synthetic Benchmark
+STU2079,Devansh Johnson,Female,21,79.3,26.7,7.1,70.7,95.8,66.8,48.2,72.2,91.0,Master,Yes,No,Yes,Moderate,72.8,Average,1,0,Realistic Synthetic Benchmark
+STU2080,Zoya Sen,Male,19,90.9,29.5,5.5,78.1,99.2,82.9,61.5,83.1,78.1,Master,Yes,No,No,Moderate,82.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2081,Priya Singh,Male,19,90.9,18.3,6.6,76.7,85.6,72.5,32.1,59.6,75.4,Master,Yes,Yes,Yes,Moderate,73.2,Average,1,0,Realistic Synthetic Benchmark
+STU2082,Aarav Joshi,Female,20,83.3,19.1,5.3,64.5,90.4,65.7,37.6,65.1,71.2,Associate,Yes,No,No,Moderate,63.8,Average,1,0,Realistic Synthetic Benchmark
+STU2083,Noah Reddy,Female,20,85.8,27.6,5.2,77.0,100.0,79.1,52.6,82.3,79.1,High School,Yes,Yes,Yes,Moderate,75.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2084,Veda Das,Female,19,100.0,33.9,5.9,90.5,100.0,93.8,72.7,94.2,73.8,High School,Yes,No,Yes,High,87.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2085,Ishaan Kulkarni,Female,20,83.0,20.1,6.7,70.6,100.0,74.7,53.7,67.9,88.4,Bachelor,Yes,Yes,No,High,79.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2086,Varun Patel,Female,20,68.1,16.8,5.0,71.9,79.4,58.6,33.6,49.0,65.0,Bachelor,Yes,No,Yes,High,59.1,Average,1,0,Realistic Synthetic Benchmark
+STU2087,Priya Williams,Female,20,82.6,18.0,6.9,62.1,87.4,58.1,38.0,53.0,71.7,High School,Yes,No,Yes,Low,62.8,Average,1,0,Realistic Synthetic Benchmark
+STU2088,Veda Menon,Female,20,92.8,23.8,5.5,77.2,95.3,73.8,41.4,65.1,70.1,Bachelor,Yes,Yes,No,Moderate,76.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2089,Aryan Joshi,Male,18,74.3,16.9,7.7,56.5,83.6,58.1,37.6,43.7,71.0,Bachelor,Yes,Yes,Yes,High,63.3,Average,1,0,Realistic Synthetic Benchmark
+STU2090,Isha Nair,Male,19,77.4,23.5,5.9,57.6,95.4,63.4,44.2,66.1,65.8,Bachelor,Yes,Yes,Yes,High,68.7,Average,1,0,Realistic Synthetic Benchmark
+STU2091,Diya Miller,Male,19,58.6,7.7,5.9,50.9,72.1,45.4,20.5,38.6,52.2,Bachelor,No,Yes,No,Moderate,48.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2092,Devansh Das,Female,18,91.8,23.4,6.3,73.5,100.0,71.9,52.2,67.0,81.4,Associate,Yes,Yes,No,Moderate,71.9,Average,1,0,Realistic Synthetic Benchmark
+STU2093,Sanya Saxena,Male,20,60.7,11.5,5.9,60.3,70.6,51.3,23.3,36.7,58.9,Bachelor,Yes,Yes,No,High,56.6,Average,1,1,Realistic Synthetic Benchmark
+STU2094,Esha Iyer,Male,19,65.4,16.3,7.7,51.2,78.7,50.6,18.0,44.5,58.6,Bachelor,Yes,Yes,No,High,59.6,Average,1,0,Realistic Synthetic Benchmark
+STU2095,Shreya Nair,Female,18,93.3,17.3,6.5,61.0,87.7,74.5,43.3,65.5,71.3,Associate,Yes,Yes,No,Moderate,70.5,Average,1,0,Realistic Synthetic Benchmark
+STU2096,Varun Verma,Male,20,100.0,31.0,5.8,94.4,100.0,92.2,70.9,84.0,95.1,High School,Yes,No,No,Low,86.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2097,Ananya Das,Male,20,77.4,16.6,7.1,57.0,87.6,58.2,18.2,43.4,62.6,Master,Yes,Yes,No,High,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU2098,Shreya Verma,Female,20,77.0,15.2,5.7,48.2,75.9,60.8,31.0,51.6,53.3,Bachelor,Yes,Yes,No,Moderate,60.1,Average,1,0,Realistic Synthetic Benchmark
+STU2099,Noah Sharma,Female,19,77.4,17.6,5.3,71.1,82.6,62.1,19.8,41.7,73.1,Associate,Yes,No,No,Low,64.4,Average,1,0,Realistic Synthetic Benchmark
+STU2100,Mia Das,Male,20,94.0,28.5,6.4,81.6,100.0,85.4,58.7,83.6,87.5,Bachelor,Yes,Yes,No,Moderate,87.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2101,Lucas Jones,Male,19,47.7,7.1,5.9,28.3,40.1,20.0,18.0,22.0,49.0,Bachelor,Yes,No,No,Moderate,34.2,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2102,Ishaan Menon,Male,19,64.5,15.2,5.6,51.7,67.7,51.2,18.0,37.6,51.5,High School,Yes,No,No,Moderate,53.1,Average,1,1,Realistic Synthetic Benchmark
+STU2103,Esha Malhotra,Female,18,100.0,34.4,6.6,99.0,100.0,95.1,77.5,99.7,89.3,High School,Yes,No,Yes,High,86.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2104,Gaurav Malhotra,Female,19,87.4,24.5,6.7,76.5,98.7,78.5,49.0,83.7,89.2,Doctorate,Yes,Yes,No,Low,77.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2105,Sophia Chopra,Male,20,62.4,13.3,5.5,46.7,67.1,37.8,18.0,22.0,70.3,Bachelor,Yes,Yes,No,Low,46.3,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2106,Aryan Iyer,Female,19,67.5,23.1,5.7,63.5,86.6,60.9,37.4,61.8,63.9,High School,Yes,No,No,Moderate,62.0,Average,1,0,Realistic Synthetic Benchmark
+STU2107,Alex Kapoor,Male,19,79.9,18.8,5.6,65.5,93.2,58.7,27.2,41.5,68.9,Master,Yes,No,No,Low,66.3,Average,1,0,Realistic Synthetic Benchmark
+STU2108,Rohan Singh,Male,20,86.2,28.0,7.7,81.5,100.0,87.5,72.9,89.2,86.3,Bachelor,Yes,Yes,Yes,Moderate,84.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2109,Isha Bansal,Female,20,85.0,31.1,6.8,82.9,100.0,86.1,63.1,73.6,80.3,Bachelor,Yes,No,Yes,Moderate,77.0,Excellent,1,0,Realistic Synthetic Benchmark
+STU2110,Siddharth Williams,Male,19,86.3,27.8,5.7,83.2,100.0,72.9,34.8,85.2,79.1,Associate,Yes,No,No,Moderate,80.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2111,Shreya Miller,Male,21,79.0,21.5,6.9,54.4,87.1,60.7,21.1,49.9,68.7,High School,Yes,No,No,High,62.8,Average,1,0,Realistic Synthetic Benchmark
+STU2112,Liam Patel,Male,20,100.0,27.0,4.9,76.2,100.0,75.3,57.1,81.9,92.1,High School,Yes,Yes,No,Low,81.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2113,Neha Gupta,Female,22,67.0,14.7,6.0,50.0,69.8,46.9,18.0,46.2,49.8,Doctorate,Yes,Yes,Yes,High,54.4,Average,1,0,Realistic Synthetic Benchmark
+STU2114,Aarav Joshi,Female,22,62.1,14.9,6.7,44.8,76.8,47.3,18.0,36.1,69.5,Bachelor,Yes,Yes,Yes,Moderate,50.2,Average,1,1,Realistic Synthetic Benchmark
+STU2115,Zoya Reddy,Female,21,49.4,7.7,7.3,37.9,60.8,32.0,18.0,22.0,46.3,Master,Yes,Yes,No,Moderate,44.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2116,Chetan Nair,Male,20,61.6,15.7,6.5,39.8,58.7,20.1,18.0,22.0,52.9,High School,Yes,No,Yes,High,39.0,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2117,Harsh Joshi,Male,19,69.2,14.9,6.8,51.9,72.7,49.5,24.1,45.0,71.9,Master,Yes,Yes,No,Low,60.0,Average,1,0,Realistic Synthetic Benchmark
+STU2118,Bhavya Menon,Female,18,58.4,10.9,6.8,44.8,83.1,43.9,20.6,35.3,63.5,Bachelor,Yes,Yes,No,High,49.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2119,Emma Malhotra,Male,19,80.3,20.7,6.2,74.2,91.5,69.4,43.0,59.2,75.3,Bachelor,Yes,Yes,No,Low,76.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU2120,Shreya Brown,Female,20,49.4,7.5,6.6,45.7,60.8,36.4,27.2,30.9,58.9,Associate,Yes,No,No,High,42.1,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2121,Liam Sharma,Female,19,48.8,2.4,6.7,25.0,35.4,20.0,18.0,22.0,34.4,Bachelor,Yes,No,No,Low,36.9,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2122,Mia Patel,Male,20,60.2,10.5,7.0,50.1,77.9,47.0,18.0,36.9,65.5,High School,Yes,No,No,Moderate,50.4,Average,1,1,Realistic Synthetic Benchmark
+STU2123,Aditi Singh,Female,18,72.3,20.7,6.7,65.8,86.1,53.4,23.2,49.7,70.3,High School,Yes,No,No,Low,65.5,Average,1,0,Realistic Synthetic Benchmark
+STU2124,Yash Patel,Male,19,60.3,11.4,6.9,59.4,81.3,53.1,40.7,42.2,73.2,Master,Yes,No,No,Moderate,58.1,Average,1,1,Realistic Synthetic Benchmark
+STU2125,Isha Rao,Male,19,91.1,30.1,4.9,85.2,100.0,87.5,75.3,82.0,75.6,High School,Yes,Yes,No,Low,86.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2126,Neha Miller,Female,19,68.8,19.8,5.5,49.4,85.7,56.4,35.2,59.3,57.1,High School,Yes,Yes,Yes,Low,59.6,Average,1,0,Realistic Synthetic Benchmark
+STU2127,Kavya Kulkarni,Male,18,88.0,19.0,6.8,70.6,93.5,69.2,40.0,67.9,66.6,Master,Yes,No,Yes,Low,69.0,Average,1,0,Realistic Synthetic Benchmark
+STU2128,Bhavya Joshi,Female,18,81.4,26.9,7.4,58.1,91.8,68.3,32.3,59.2,69.9,Associate,Yes,No,No,Low,59.4,Average,1,0,Realistic Synthetic Benchmark
+STU2129,Chetan Bansal,Female,20,88.3,19.5,6.6,73.3,89.3,72.4,33.2,61.5,65.5,Bachelor,Yes,Yes,No,Moderate,79.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2130,Nikhil Malhotra,Female,19,73.9,15.8,6.2,58.3,82.5,50.9,18.0,46.9,62.3,Master,Yes,No,No,Moderate,59.1,Average,1,0,Realistic Synthetic Benchmark
+STU2131,Liam Bansal,Female,18,84.5,22.3,6.5,60.1,90.2,55.7,41.3,47.7,62.9,Bachelor,Yes,Yes,No,Low,55.8,Average,1,0,Realistic Synthetic Benchmark
+STU2132,Devansh Gupta,Male,18,80.0,18.5,5.4,52.7,75.3,40.9,18.0,40.1,72.4,High School,Yes,No,No,High,55.7,Average,1,0,Realistic Synthetic Benchmark
+STU2133,Ishaan Smith,Male,19,84.2,22.5,7.5,63.3,91.5,66.1,37.0,63.4,65.6,Bachelor,Yes,No,No,Moderate,70.8,Average,1,0,Realistic Synthetic Benchmark
+STU2134,Ishaan Deshmukh,Female,18,75.0,21.9,6.5,57.6,77.0,50.6,31.5,35.0,55.9,Bachelor,Yes,Yes,No,Moderate,55.4,Average,1,0,Realistic Synthetic Benchmark
+STU2135,Yash Singh,Female,20,74.7,16.4,5.9,56.5,63.2,50.7,18.0,48.9,61.3,Associate,Yes,No,Yes,Moderate,52.7,Average,1,0,Realistic Synthetic Benchmark
+STU2136,Aryan Roy,Male,20,97.5,32.9,5.7,77.2,100.0,76.2,51.2,85.0,93.5,Bachelor,Yes,No,No,Moderate,80.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2137,Esha Williams,Male,18,87.8,25.0,5.7,84.0,93.9,72.9,35.7,62.6,81.9,Doctorate,Yes,No,Yes,Moderate,79.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2138,Liam Gupta,Male,19,61.9,22.8,7.5,67.7,80.6,60.5,27.0,43.8,70.4,High School,Yes,No,Yes,High,62.3,Average,1,1,Realistic Synthetic Benchmark
+STU2139,Rohan Bansal,Male,18,73.4,23.6,6.1,75.7,94.4,68.3,34.5,65.0,88.1,High School,Yes,Yes,Yes,Moderate,76.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2140,Tanvi Patel,Female,19,75.0,13.8,6.8,68.9,90.0,65.5,30.5,49.9,80.7,Bachelor,Yes,Yes,No,High,71.4,Average,1,0,Realistic Synthetic Benchmark
+STU2141,Ishaan Joshi,Male,21,73.9,23.5,6.8,52.2,81.7,54.4,23.8,54.1,67.1,Bachelor,Yes,Yes,No,Moderate,58.6,Average,1,0,Realistic Synthetic Benchmark
+STU2142,Varun Patel,Female,19,78.7,18.8,5.8,70.5,97.3,70.3,41.0,61.8,73.7,Master,Yes,Yes,No,High,67.5,Average,1,0,Realistic Synthetic Benchmark
+STU2143,Rahul Das,Female,21,79.4,21.7,6.5,55.8,84.1,54.2,22.6,58.2,69.7,High School,Yes,Yes,No,Moderate,60.7,Average,1,0,Realistic Synthetic Benchmark
+STU2144,James Nair,Female,18,77.0,15.0,6.8,63.5,75.9,53.7,23.8,37.2,57.6,High School,Yes,Yes,No,Moderate,60.9,Average,1,0,Realistic Synthetic Benchmark
+STU2145,Aarav Das,Male,19,68.3,13.9,5.2,47.3,66.5,28.7,18.0,22.0,52.2,Bachelor,Yes,Yes,No,Moderate,45.7,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2146,Aarav Verma,Male,19,82.9,16.5,6.8,62.9,75.8,57.8,33.7,57.2,76.9,Doctorate,Yes,No,Yes,High,65.3,Average,1,0,Realistic Synthetic Benchmark
+STU2147,Lucas Johnson,Female,19,76.7,25.3,6.1,74.1,100.0,76.3,45.5,70.3,89.5,High School,Yes,Yes,No,Low,78.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU2148,Veda Johnson,Female,22,73.6,15.3,6.7,67.4,64.6,56.6,21.3,44.2,68.0,Master,Yes,Yes,No,Low,60.5,Average,1,0,Realistic Synthetic Benchmark
+STU2149,Aryan Patel,Male,18,100.0,35.0,5.8,90.2,100.0,98.0,70.6,100.0,74.1,Bachelor,No,No,No,Low,88.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2150,Ishaan Sharma,Female,20,75.8,26.3,6.4,88.5,100.0,83.6,52.1,74.8,78.4,High School,Yes,No,Yes,Moderate,82.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU2151,Noah Verma,Male,20,90.8,31.4,7.1,81.8,100.0,88.9,74.7,76.0,79.1,Bachelor,Yes,No,Yes,High,90.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2152,Rhea Johnson,Female,19,97.1,19.2,5.4,67.9,95.7,70.8,45.6,60.6,74.8,Associate,Yes,Yes,No,Moderate,69.6,Average,1,0,Realistic Synthetic Benchmark
+STU2153,Yash Rao,Male,19,100.0,31.9,5.6,85.6,100.0,90.2,57.7,92.8,76.8,Bachelor,Yes,No,No,Low,87.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2154,Pranav Bhatia,Male,19,84.1,17.7,7.1,45.9,83.8,46.0,25.1,44.8,60.3,Associate,Yes,Yes,No,Moderate,62.4,Average,1,0,Realistic Synthetic Benchmark
+STU2155,Zoya Singh,Female,19,49.9,4.6,7.4,36.6,44.7,20.9,18.0,22.0,56.5,Bachelor,Yes,No,No,Low,31.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2156,Isha Pillai,Male,20,91.2,21.9,6.7,54.0,82.6,51.4,26.4,45.4,68.0,Associate,Yes,No,No,High,64.0,Average,1,0,Realistic Synthetic Benchmark
+STU2157,Noah Malhotra,Male,19,85.8,22.8,8.8,74.3,89.5,80.1,44.5,61.8,78.3,Master,Yes,Yes,No,High,78.6,Excellent,1,0,Realistic Synthetic Benchmark
+STU2158,Aditi Kapoor,Male,21,79.9,21.4,6.9,74.8,93.5,81.1,55.6,54.4,71.3,Master,Yes,No,No,Low,71.0,Average,1,0,Realistic Synthetic Benchmark
+STU2159,Noah Miller,Male,19,71.6,25.0,7.2,65.5,90.9,70.6,36.9,83.3,61.8,Bachelor,Yes,No,Yes,Moderate,71.5,Average,1,0,Realistic Synthetic Benchmark
+STU2160,Nikhil Deshmukh,Female,19,100.0,22.0,6.0,81.6,95.7,89.9,71.8,87.0,73.6,Bachelor,Yes,Yes,No,High,83.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2161,Rohan Smith,Male,20,78.6,24.3,5.3,63.1,94.3,59.2,28.1,61.6,61.6,Doctorate,Yes,Yes,No,Moderate,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU2162,James Verma,Female,19,82.3,23.9,6.0,74.1,100.0,69.7,43.3,72.7,80.9,High School,Yes,No,No,High,73.9,Average,1,0,Realistic Synthetic Benchmark
+STU2163,Isha Malhotra,Female,21,76.8,12.1,7.4,69.2,77.7,54.5,32.0,34.2,73.0,Master,Yes,Yes,No,Moderate,65.9,Average,1,0,Realistic Synthetic Benchmark
+STU2164,Aryan Williams,Male,18,74.1,15.0,7.0,56.4,72.0,47.0,18.0,31.7,55.8,Bachelor,Yes,Yes,Yes,Low,54.1,Average,1,0,Realistic Synthetic Benchmark
+STU2165,Bhavya Sen,Male,22,100.0,34.8,6.2,85.4,100.0,86.4,79.1,96.6,86.5,Master,Yes,Yes,No,Moderate,85.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2166,Olivia Roy,Female,20,76.4,24.0,6.0,63.6,100.0,59.2,31.4,64.6,85.9,Associate,Yes,No,No,Low,67.3,Average,1,0,Realistic Synthetic Benchmark
+STU2167,Zoya Rao,Female,20,70.5,15.8,6.2,57.6,77.5,57.9,28.2,42.6,78.7,Associate,Yes,Yes,No,High,59.2,Average,1,0,Realistic Synthetic Benchmark
+STU2168,Liam Singh,Female,19,70.4,19.0,6.3,58.7,82.7,65.3,44.6,44.8,72.8,Associate,Yes,No,No,High,60.7,Average,1,0,Realistic Synthetic Benchmark
+STU2169,Ananya Reddy,Female,20,76.4,19.3,7.1,55.0,77.0,57.0,18.0,43.4,62.5,High School,Yes,No,Yes,Moderate,57.4,Average,1,0,Realistic Synthetic Benchmark
+STU2170,Kavya Kapoor,Male,19,81.5,16.3,7.3,60.0,81.6,59.7,18.0,47.0,72.7,High School,Yes,Yes,No,Moderate,63.1,Average,1,0,Realistic Synthetic Benchmark
+STU2171,Harsh Chopra,Male,20,66.0,10.0,5.9,43.6,59.5,36.1,18.0,39.6,61.9,Doctorate,Yes,Yes,No,High,47.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2172,Pooja Iyer,Female,18,75.6,9.8,7.5,40.7,63.2,29.3,18.0,22.0,38.4,Associate,No,No,Yes,High,47.5,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2173,Varun Iyer,Male,19,82.5,22.2,5.7,65.7,80.8,60.3,19.3,45.2,80.2,High School,Yes,Yes,No,Moderate,65.1,Average,1,0,Realistic Synthetic Benchmark
+STU2174,Zoya Rao,Female,19,69.4,16.2,7.0,51.3,74.9,58.8,31.5,47.0,57.5,Associate,Yes,Yes,Yes,High,56.4,Average,1,0,Realistic Synthetic Benchmark
+STU2175,Sophia Reddy,Male,19,96.9,24.5,6.0,84.8,100.0,82.3,59.2,81.2,81.4,Bachelor,Yes,Yes,No,Low,80.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU2176,Aditi Deshmukh,Female,19,94.2,17.8,7.9,69.7,88.4,65.3,53.7,53.0,71.8,Bachelor,Yes,No,No,High,72.0,Average,1,0,Realistic Synthetic Benchmark
+STU2177,Emma Williams,Male,20,96.0,25.8,5.8,58.5,98.9,71.0,49.3,69.8,75.2,High School,Yes,No,No,Moderate,73.1,Average,1,0,Realistic Synthetic Benchmark
+STU2178,Esha Saxena,Male,19,78.4,14.4,6.8,57.0,84.0,59.3,28.7,57.1,59.3,Master,Yes,Yes,No,Low,62.3,Average,1,0,Realistic Synthetic Benchmark
+STU2179,Rohan Deshmukh,Male,20,76.8,20.5,6.9,54.3,86.0,52.3,37.9,51.9,64.5,Master,Yes,Yes,No,Moderate,61.7,Average,1,0,Realistic Synthetic Benchmark
+STU2180,Pranav Roy,Male,18,80.5,26.4,5.4,74.9,99.8,73.2,47.6,64.1,84.3,Associate,Yes,Yes,Yes,Moderate,77.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2181,Mia Johnson,Female,20,90.6,21.0,6.3,73.8,99.9,73.7,43.5,68.8,81.7,Master,Yes,No,No,Moderate,77.5,Excellent,1,0,Realistic Synthetic Benchmark
+STU2182,Aryan Rao,Male,20,89.5,20.5,6.1,75.9,88.5,68.7,28.4,49.4,79.8,Associate,Yes,Yes,No,Moderate,71.1,Average,1,0,Realistic Synthetic Benchmark
+STU2183,Pooja Deshmukh,Male,19,93.7,26.9,5.7,86.5,100.0,90.2,55.1,82.3,83.7,Bachelor,No,No,No,Moderate,82.7,Excellent,1,0,Realistic Synthetic Benchmark
+STU2184,Rohan Sharma,Male,20,81.5,21.8,5.9,59.7,98.0,60.2,32.9,61.6,78.0,Master,Yes,No,No,High,66.0,Average,1,0,Realistic Synthetic Benchmark
+STU2185,Bhavya Verma,Male,21,87.5,29.3,7.0,64.2,98.7,76.9,50.7,68.2,82.8,Master,Yes,Yes,Yes,Moderate,77.8,Excellent,1,0,Realistic Synthetic Benchmark
+STU2186,Isha Menon,Female,20,69.9,12.6,6.2,55.1,72.5,50.5,18.0,55.9,69.1,Associate,Yes,No,No,Low,55.2,Average,1,0,Realistic Synthetic Benchmark
+STU2187,Diya Miller,Male,19,55.9,10.3,7.3,35.1,54.8,37.5,18.0,26.7,50.0,Bachelor,Yes,No,No,High,37.4,Needs Improvement,0,1,Realistic Synthetic Benchmark
+STU2188,Harsh Verma,Female,19,82.1,25.3,6.5,80.4,98.4,77.8,45.4,58.8,89.2,Associate,Yes,No,No,Moderate,81.1,Excellent,1,0,Realistic Synthetic Benchmark
+STU2189,Kavya Menon,Male,20,99.2,25.3,4.9,75.4,100.0,76.6,52.8,62.2,87.0,Bachelor,Yes,Yes,No,Moderate,76.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2190,Bhavya Patel,Female,19,82.8,23.3,6.7,79.1,93.2,78.5,60.6,65.1,99.0,Bachelor,Yes,No,No,High,78.2,Excellent,1,0,Realistic Synthetic Benchmark
+STU2191,Liam Bansal,Male,20,83.2,24.3,5.0,69.8,84.1,65.2,41.1,71.2,81.4,High School,Yes,Yes,No,Low,71.1,Average,1,0,Realistic Synthetic Benchmark
+STU2192,Kavya Menon,Male,19,67.5,18.6,7.0,60.4,78.2,46.5,18.0,49.9,65.9,Master,Yes,No,Yes,High,56.9,Average,1,0,Realistic Synthetic Benchmark
+STU2193,Liam Reddy,Female,20,74.1,17.4,6.0,55.3,79.5,49.4,18.0,53.1,58.3,Bachelor,Yes,Yes,Yes,Moderate,50.0,Average,1,0,Realistic Synthetic Benchmark
+STU2194,Rohan Sharma,Female,18,94.6,26.4,6.2,79.8,98.3,76.3,52.1,71.8,80.5,High School,Yes,Yes,No,Low,80.4,Excellent,1,0,Realistic Synthetic Benchmark
+STU2195,Ishaan Bansal,Female,18,95.1,20.8,5.2,73.4,95.4,64.7,32.9,62.8,76.1,Master,No,No,No,High,76.9,Excellent,1,0,Realistic Synthetic Benchmark
+STU2196,Diya Miller,Male,22,73.1,19.9,6.5,52.4,77.9,49.7,28.8,35.9,66.4,Bachelor,No,Yes,No,High,59.0,Average,1,0,Realistic Synthetic Benchmark
+STU2197,Mia Rao,Male,20,95.1,31.4,6.8,90.2,100.0,76.4,62.5,78.8,82.7,Associate,Yes,Yes,No,Low,76.3,Excellent,1,0,Realistic Synthetic Benchmark
+STU2198,Neha Joshi,Female,21,66.7,15.1,5.9,52.8,75.6,45.8,18.0,37.7,70.6,Bachelor,Yes,No,No,High,60.6,Average,1,0,Realistic Synthetic Benchmark
+STU2199,Rahul Mehta,Male,21,75.2,12.0,6.2,55.7,79.5,53.4,28.3,44.6,55.2,Master,Yes,Yes,No,High,54.7,Average,1,0,Realistic Synthetic Benchmark
+STU2200,Neha Bhatia,Female,19,99.2,30.6,6.4,70.3,100.0,80.5,68.7,93.0,67.2,Doctorate,Yes,No,No,High,77.3,Excellent,1,0,Realistic Synthetic Benchmark

@@ -1,27 +1,23 @@
-/data/*
-*DS_Store
-*archive/*
-tmp/*
-*.ipynb_checkpoints/*
-telemanom/__pycache__*
-*.pyc
-# results/20*
-data.zip*
-.idea/*
-/data/
-!dashboard/src/data/**
-artifacts/isolation_forest/
-artifacts/esa_isolation_forest/
-datasets/esa-anomaly-dataset/
-*.zip
-kaggle.json
-.env
+# Python bytecode & cache
 __pycache__/
-check_*.png
-telemanom/labeled_anomalies.csv
-node_modules/
-dashboard/node_modules/
-dist/
-dashboard/dist/
-.vite/
-dashboard/.vite/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+venv/
+env/
+.env
+
+# Streamlit local credentials
+.streamlit/secrets.toml
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large archives (keep processed CSVs and model artifacts in repo for cloud deployment)
+data/raw/
+*.zip

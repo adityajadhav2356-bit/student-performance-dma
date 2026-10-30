@@ -1,0 +1,101 @@
+{
+    "n_clusters": 3,
+    "features": [
+        "attendance_rate",
+        "study_hours_per_week",
+        "previous_marks",
+        "assignment_scores",
+        "final_marks"
+    ],
+    "elbow_results": [
+        {
+            "k": 2,
+            "inertia": 2550.54,
+            "silhouette_score": 0.4501
+        },
+        {
+            "k": 3,
+            "inertia": 1671.84,
+            "silhouette_score": 0.3749
+        },
+        {
+            "k": 4,
+            "inertia": 1308.28,
+            "silhouette_score": 0.3215
+        },
+        {
+            "k": 5,
+            "inertia": 1112.92,
+            "silhouette_score": 0.2952
+        },
+        {
+            "k": 6,
+            "inertia": 1013.94,
+            "silhouette_score": 0.241
+        },
+        {
+            "k": 7,
+            "inertia": 953.0,
+            "silhouette_score": 0.2238
+        }
+    ],
+    "cluster_profiles": [
+        {
+            "cluster_id": 0,
+            "rank": 3,
+            "persona_name": "At-Risk Students Requiring Immediate Support",
+            "badge": "Urgent Attention",
+            "color": "#EF4444",
+            "student_count": 310,
+            "student_percentage": 25.8,
+            "description": "Struggling with attendance irregularities (<65%), limited study hours (<10 hrs/wk), and below-par assignment and test scores.",
+            "recommended_intervention": "Mandatory counseling, personalized remedial tutorial classes, weekly progress tracking, and parent-faculty coordination.",
+            "metrics": {
+                "avg_attendance": 63.1,
+                "avg_study_hours": 11.9,
+                "avg_previous_marks": 49.7,
+                "avg_assignment_scores": 68.2,
+                "avg_final_marks": 49.7,
+                "pass_rate": 52.3
+            }
+        },
+        {
+            "cluster_id": 1,
+            "rank": 1,
+            "persona_name": "High Achievers & Disciplined Learners",
+            "badge": "Top Tier",
+            "color": "#10B981",
+            "student_count": 386,
+            "student_percentage": 32.2,
+            "description": "Exemplary academic records characterized by consistent 85%+ attendance, diligent study habits, and top assignment and exam scores.",
+            "recommended_intervention": "Advanced enrichment programs, honors research, leadership roles, and peer tutoring opportunities.",
+            "metrics": {
+                "avg_attendance": 90.9,
+                "avg_study_hours": 27.4,
+                "avg_previous_marks": 80.5,
+                "avg_assignment_scores": 98.2,
+                "avg_final_marks": 80.7,
+                "pass_rate": 100.0
+            }
+        },
+        {
+            "cluster_id": 2,
+            "rank": 2,
+            "persona_name": "Steady Performers with Untapped Potential",
+            "badge": "Core Group",
+            "color": "#3B82F6",
+            "student_count": 504,
+            "student_percentage": 42.0,
+            "description": "Consistent attendance (72-82%) and solid grasp of fundamental concepts, but room to improve in self-study discipline and exam confidence.",
+            "recommended_intervention": "Targeted workshops in problem-solving, structured study time management, and mock test revisions.",
+            "metrics": {
+                "avg_attendance": 76.9,
+                "avg_study_hours": 19.7,
+                "avg_previous_marks": 64.2,
+                "avg_assignment_scores": 85.9,
+                "avg_final_marks": 65.3,
+                "pass_rate": 100.0
+            }
+        }
+    ]
+}
