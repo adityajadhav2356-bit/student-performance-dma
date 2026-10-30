@@ -2,6 +2,7 @@
 
 Supports single-student evaluation with real-time confidence scores and personalized
 pedagogical advice, as well as batch CSV inference with enriched output.
+Uses Decision Tree Classification only.
 """
 
 from __future__ import annotations
@@ -20,29 +21,25 @@ if hasattr(sys.stdout, "reconfigure"):
 import numpy as np
 import pandas as pd
 
-from src.model_kmeans import KMeansStudentClusterer
 from src.model_tree import DecisionTreePerformanceClassifier
 
 DEFAULT_MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 
 
 class StudentPerformancePredictor:
-    """Production inference engine for classification and clustering."""
+    """Production inference engine for Decision Tree classification."""
 
     def __init__(self, models_dir: Path | str = DEFAULT_MODELS_DIR):
         self.models_dir = Path(models_dir)
         self.tree_model_path = self.models_dir / "decision_tree_model.joblib"
-        self.kmeans_model_path = self.models_dir / "kmeans_model.joblib"
 
-        if not self.tree_model_path.exists() or not self.kmeans_model_path.exists():
+        if not self.tree_model_path.exists():
             raise FileNotFoundError(
                 f"Model artifacts missing in {self.models_dir}. Please run 'python train.py' first."
             )
 
         self.classifier = DecisionTreePerformanceClassifier.load(self.tree_model_path)
-        self.clusterer = KMeansStudentClusterer.load(self.kmeans_model_path)
         self.feature_names = self.classifier.feature_names
-        self.clustering_features = self.clusterer.clustering_features
 
     def generate_pedagogical_advice(
         self,
@@ -121,33 +118,9 @@ class StudentPerformancePredictor:
         }
         confidence = float(np.max(probas))
 
-        # Clustering prediction
-        # For clustering features: attendance_rate, study_hours_per_week, previous_marks, assignment_scores, final_marks
-        cluster_row = row.copy()
-        if "final_marks" not in cluster_row.columns:
-            # Estimate proxy final mark from components
-            prev = float(row.get("previous_marks", [60.0]).iloc[0])
-            assign = float(row.get("assignment_scores", [60.0]).iloc[0])
-            mid = float(row.get("midterm_marks", [60.0]).iloc[0])
-            cluster_row["final_marks"] = (0.3 * prev) + (0.3 * assign) + (0.4 * mid)
-
-        for col in self.clustering_features:
-            if col not in cluster_row.columns:
-                cluster_row[col] = 50.0
-
-        cluster_id = self.clusterer.predict_cluster(cluster_row[self.clustering_features].astype(float))
-
-        # Retrieve persona details
-        matching_profile = next(
-            (p for p in self.clusterer.cluster_profiles if p["cluster_id"] == cluster_id),
-            None
-        )
-        persona_name = matching_profile["persona_name"] if matching_profile else f"Cluster {cluster_id}"
-        badge = matching_profile["badge"] if matching_profile else "Standard"
-        color = matching_profile["color"] if matching_profile else "#3B82F6"
-
         # Risk level determination
-        if pred_class == "Needs Improvement" or cluster_row["attendance_rate"].iloc[0] < 60.0:
+        att = float(row["attendance_rate"].iloc[0])
+        if pred_class == "Needs Improvement" or att < 60.0:
             risk_level = "High Risk"
             risk_color = "#EF4444"
         elif pred_class == "Average":
@@ -158,7 +131,7 @@ class StudentPerformancePredictor:
             risk_color = "#10B981"
 
         advice = self.generate_pedagogical_advice(
-            attendance_rate=float(row["attendance_rate"].iloc[0]),
+            attendance_rate=att,
             study_hours=float(row["study_hours_per_week"].iloc[0]),
             previous_marks=float(row["previous_marks"].iloc[0]),
             assignment_scores=float(row["assignment_scores"].iloc[0]),
@@ -169,10 +142,6 @@ class StudentPerformancePredictor:
             "predicted_category": pred_class,
             "confidence": round(confidence, 4),
             "class_probabilities": proba_dict,
-            "cluster_id": cluster_id,
-            "cluster_persona": persona_name,
-            "cluster_badge": badge,
-            "cluster_color": color,
             "risk_level": risk_level,
             "risk_color": risk_color,
             "personalized_advice": advice
@@ -212,33 +181,12 @@ class StudentPerformancePredictor:
         probas = self.classifier.predict_proba(X)
         confidences = np.max(probas, axis=1)
 
-        # Estimate final_marks proxy if not present for clustering
-        if "final_marks" not in out_df.columns:
-            out_df["final_marks"] = (
-                0.25 * out_df["previous_marks"]
-                + 0.25 * out_df["assignment_scores"]
-                + 0.35 * out_df["midterm_marks"]
-                + 0.15 * ((out_df["attendance_rate"] / 100.0) * 80 + 20)
-            )
-
-        for col in self.clustering_features:
-            if col not in out_df.columns:
-                out_df[col] = 50.0
-
-        cluster_labels = self.clusterer.model.predict(
-            self.clusterer.scaler.transform(out_df[self.clustering_features].astype(float))
-        )
-
-        cluster_name_map = {p["cluster_id"]: p["persona_name"] for p in self.clusterer.cluster_profiles}
-
         out_df["Predicted_Category"] = predictions
         out_df["Confidence"] = np.round(confidences, 3)
-        out_df["Cluster_ID"] = cluster_labels
-        out_df["Cluster_Persona"] = [cluster_name_map.get(c, f"Cluster {c}") for c in cluster_labels]
 
         # Risk flag
         out_df["Risk_Level"] = np.where(
-            (out_df["Predicted_Category"] == "Needs Improvement") | (out_df["attendance_rate"] < 60.0),
+            (out_df["Predicted_Category"] == "Needs Improvement") | (out_df.get("attendance_rate", 100.0) < 60.0),
             "High Risk",
             np.where(out_df["Predicted_Category"] == "Average", "Moderate Risk", "Low Risk")
         )

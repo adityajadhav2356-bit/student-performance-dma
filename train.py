@@ -1,7 +1,7 @@
 """Master Training & Evaluation Pipeline for Student Performance DMA Project.
 
-Runs end-to-end data acquisition, preprocessing, Decision Tree classification,
-and K-Means clustering, generating all models and evaluation reports.
+Runs end-to-end data acquisition, preprocessing, and Decision Tree classification,
+generating all models and evaluation reports.
 """
 
 from __future__ import annotations
@@ -19,7 +19,6 @@ if hasattr(sys.stdout, "reconfigure"):
 import pandas as pd
 
 from src.data_loader import load_cleaned_dataset
-from src.model_kmeans import KMeansStudentClusterer
 from src.model_tree import DecisionTreePerformanceClassifier
 from src.preprocessor import StudentDataPreprocessor
 
@@ -35,7 +34,7 @@ def run_pipeline() -> None:
     print("=" * 75)
 
     # Step 1: Load and Validate Dataset
-    print("\n[Step 1/4] Loading and auditing student performance dataset...")
+    print("\n[Step 1/3] Loading and auditing student performance dataset...")
     df = load_cleaned_dataset()
     print(f"  ✓ Total Student Records: {len(df)}")
     print(f"  ✓ Features: {len(df.columns)}")
@@ -45,7 +44,7 @@ def run_pipeline() -> None:
         print(f"      - {cat}: {count} ({pct:.1f}%)")
 
     # Step 2: Data Preprocessing
-    print("\n[Step 2/4] Preprocessing, encoding and splitting dataset (80/20 stratified)...")
+    print("\n[Step 2/3] Preprocessing, encoding and splitting dataset (80/20 stratified)...")
     preprocessor = StudentDataPreprocessor(random_state=42)
     dataset = preprocessor.prepare_data(df, test_size=0.20)
     print(f"  ✓ Training Samples: {len(dataset.X_train)}")
@@ -53,7 +52,7 @@ def run_pipeline() -> None:
     print(f"  ✓ Classification Features ({len(dataset.feature_names)}): {', '.join(dataset.feature_names)}")
 
     # Step 3: Train & Evaluate Decision Tree Classifier
-    print("\n[Step 3/4] Training Decision Tree Classifier...")
+    print("\n[Step 3/3] Training Decision Tree Classifier...")
     tree_clf = DecisionTreePerformanceClassifier(
         criterion="gini",
         max_depth=5,
@@ -79,25 +78,6 @@ def run_pipeline() -> None:
     print("\n  Top 5 Predictive Features:")
     for item in metrics["feature_importances"][:5]:
         print(f"      - {item['feature']}: {item['importance'] * 100:.2f}%")
-
-    # Step 4: Train & Profile K-Means Clustering
-    print("\n[Step 4/4] Performing K-Means Clustering & Elbow Method Analysis...")
-    clusterer = KMeansStudentClusterer(n_clusters=3, random_state=42)
-    elbow_data = clusterer.compute_elbow_curve(df, k_min=2, k_max=7)
-    labels, df_clustered = clusterer.fit_predict(df)
-    clusterer.save_artifacts(models_dir=MODELS_DIR, reports_dir=REPORTS_DIR)
-
-    print("\n  --- Elbow Method & Silhouette Scores ---")
-    elbow_df = pd.DataFrame(elbow_data)
-    for _, row in elbow_df.iterrows():
-        print(f"      k={int(row['k'])} -> Inertia: {row['inertia']:.1f} | Silhouette Score: {row['silhouette_score']:.4f}")
-
-    print("\n  --- Identified Academic Cluster Personas ---")
-    for prof in clusterer.cluster_profiles:
-        print(f"\n  [Cluster {prof['cluster_id']}] {prof['persona_name']} ({prof['badge']})")
-        print(f"      Student Count: {prof['student_count']} ({prof['student_percentage']}%)")
-        print(f"      Avg Attendance: {prof['metrics']['avg_attendance']}% | Avg Marks: {prof['metrics']['avg_final_marks']}")
-        print(f"      Key Action: {prof['recommended_intervention']}")
 
     print("\n" + "=" * 75)
     print("✅ MASTER TRAINING PIPELINE COMPLETE! ALL MODELS SAVED.")

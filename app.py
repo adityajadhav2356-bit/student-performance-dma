@@ -1,8 +1,8 @@
 """Student Performance Analysis & Prediction Using Data Mining.
 
-A modern, responsive, high-fidelity Streamlit web application featuring
-exploratory data analysis, Decision Tree classification, K-Means clustering,
-interactive predictions, and individual student academic diagnostics.
+A modern, responsive Streamlit web application featuring exploratory data
+analysis, Decision Tree classification, interactive predictions, and
+individual student academic diagnostics.
 """
 
 from __future__ import annotations
@@ -27,7 +27,6 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src.data_loader import load_cleaned_dataset
-from src.model_kmeans import KMeansStudentClusterer
 from src.model_tree import DecisionTreePerformanceClassifier
 from src.predictor import StudentPerformancePredictor
 from src.preprocessor import StudentDataPreprocessor
@@ -120,15 +119,6 @@ CUSTOM_CSS = """
         display: inline-block;
     }
 
-    /* Persona Card */
-    .persona-card {
-        background: rgba(30, 41, 59, 0.6);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 14px;
-        padding: 18px 20px;
-        margin-bottom: 16px;
-    }
-
     /* Clean Streamlit elements */
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
@@ -163,13 +153,11 @@ def get_cached_dataset() -> pd.DataFrame:
 
 @st.cache_resource(show_spinner=False)
 def get_predictor_and_artifacts():
-    """Load or initialize models, scalers, and metadata."""
+    """Load or initialize models and metadata."""
     models_dir = Path(__file__).resolve().parent / "models"
     tree_path = models_dir / "decision_tree_model.joblib"
-    kmeans_path = models_dir / "kmeans_model.joblib"
 
-    if not tree_path.exists() or not kmeans_path.exists():
-        # Train on the fly if models are missing
+    if not tree_path.exists():
         from train import run_pipeline
         run_pipeline()
 
@@ -181,26 +169,12 @@ def get_predictor_and_artifacts():
         with open(tree_json, "r") as f:
             tree_metrics = json.load(f)
 
-    kmeans_summary = {}
-    kmeans_json = models_dir / "kmeans_summary.json"
-    if kmeans_json.exists():
-        with open(kmeans_json, "r") as f:
-            kmeans_summary = json.load(f)
-
-    return predictor, tree_metrics, kmeans_summary
+    return predictor, tree_metrics
 
 
 # Initialize data and models
 df_raw = get_cached_dataset()
-predictor, tree_metrics, kmeans_summary = get_predictor_and_artifacts()
-
-# Assign cluster labels to the working dataset for synchronized dashboard filtering
-if "cluster" not in df_raw.columns:
-    cluster_features = predictor.clusterer.clustering_features
-    scaled_feats = predictor.clusterer.scaler.transform(df_raw[cluster_features])
-    df_raw["cluster"] = predictor.clusterer.model.predict(scaled_feats)
-    cluster_name_map = {p["cluster_id"]: p["persona_name"] for p in predictor.clusterer.cluster_profiles}
-    df_raw["cluster_name"] = df_raw["cluster"].map(cluster_name_map)
+predictor, tree_metrics = get_predictor_and_artifacts()
 
 
 # ==============================================================================
@@ -227,9 +201,9 @@ with st.sidebar:
     max_study = float(df_raw["study_hours_per_week"].max())
     study_range = st.slider("Study Hours / Week", min_study, max_study, (min_study, max_study), step=0.5)
 
-    # Cluster Filter
-    all_clusters = ["All Clusters"] + [p["persona_name"] for p in predictor.clusterer.cluster_profiles]
-    selected_cluster = st.selectbox("K-Means Cluster Persona", all_clusters, index=0)
+    # Gender Filter
+    all_genders = ["All Genders"] + sorted(list(df_raw["gender"].unique()))
+    selected_gender = st.selectbox("Gender", all_genders, index=0)
 
     # Filter application
     filtered_df = df_raw.copy()
@@ -243,8 +217,8 @@ with st.sidebar:
         (filtered_df["study_hours_per_week"] <= study_range[1])
     ]
 
-    if selected_cluster != "All Clusters":
-        filtered_df = filtered_df[filtered_df["cluster_name"] == selected_cluster]
+    if selected_gender != "All Genders":
+        filtered_df = filtered_df[filtered_df["gender"] == selected_gender]
 
     st.markdown("---")
     st.markdown(f"**Filtered Cohort:** `{len(filtered_df):,}` / `{len(df_raw):,}` students")
@@ -262,7 +236,7 @@ st.markdown("""
         Student Performance Analysis & Prediction
     </h1>
     <p style="margin: 6px 0 0 0; color: #94A3B8; font-size: 1.05rem;">
-        Data Mining Mini Project: Decision Tree Classification & K-Means Academic Segmentation
+        Data Mining Mini Project &mdash; Decision Tree Classification for Academic Performance Prediction
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -275,8 +249,7 @@ tabs = st.tabs([
     "📊 Executive Overview",
     "📈 Exploratory Analytics",
     "🌳 Decision Tree Classifier",
-    "🎯 K-Means Student Clusters",
-    "🔮 Live Predictor (Single & Batch)",
+    "🔮 Live Predictor",
     "🔍 Student Deep-Dive",
     "📥 Data Explorer & Export"
 ])
@@ -333,7 +306,7 @@ with tabs[0]:
         <div class="metric-card">
             <div class="metric-title">Pass Rate</div>
             <div class="metric-value">{pass_pct:.1f}%</div>
-            <span class="metric-delta delta-green">Final Marks ≥ 50</span>
+            <span class="metric-delta delta-green">Final Marks &ge; 50</span>
         </div>
         """, unsafe_allow_html=True)
 
@@ -395,29 +368,28 @@ with tabs[0]:
         st.plotly_chart(fig_cat, use_container_width=True)
 
     with chart_col2:
-        st.markdown("#### 🎯 **Academic Cluster Segment Shares**")
-        cluster_counts = filtered_df["cluster_name"].value_counts().reset_index()
-        cluster_counts.columns = ["Cluster", "Count"]
-
-        fig_cluster_bar = px.bar(
-            cluster_counts,
-            x="Count",
-            y="Cluster",
-            orientation="h",
-            color="Cluster",
-            color_discrete_sequence=["#6366F1", "#10B981", "#F59E0B", "#EC4899"]
+        st.markdown("#### 📊 **Final Marks Distribution by Performance Category**")
+        fig_hist = px.histogram(
+            filtered_df,
+            x="final_marks",
+            color="performance_category",
+            color_discrete_map=color_map,
+            nbins=30,
+            barmode="overlay",
+            labels={"final_marks": "Final Marks (0-100)", "performance_category": "Category"},
+            opacity=0.75
         )
-        fig_cluster_bar.update_layout(
+        fig_hist.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(color="#F8FAFC", family="Outfit"),
-            showlegend=False,
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
             height=320,
-            xaxis=dict(gridcolor="rgba(255,255,255,0.08)", title="Number of Students"),
-            yaxis=dict(title="", tickfont=dict(size=11)),
+            xaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
+            yaxis=dict(gridcolor="rgba(255,255,255,0.08)", title="Number of Students"),
             margin=dict(l=10, r=10, t=10, b=10)
         )
-        st.plotly_chart(fig_cluster_bar, use_container_width=True)
+        st.plotly_chart(fig_hist, use_container_width=True)
 
     # Executive Academic Insight Box
     st.markdown("""
@@ -426,7 +398,7 @@ with tabs[0]:
         <span style="color: #CBD5E1; font-size: 0.95rem;">
             Analysis indicates a strong positive correlation between classroom attendance and final examination scores.
             Students maintaining over <b>80% attendance</b> and dedicating at least <b>14 hours/week</b> to self-study have an <b>89.2% probability</b> of scoring in the 'Average' or 'Excellent' brackets.
-            Early targeted intervention for the <b>At-Risk cohort</b> can significantly boost institution-wide pass rates.
+            Early targeted intervention for at-risk students can significantly boost institution-wide pass rates.
         </span>
     </div>
     """, unsafe_allow_html=True)
@@ -566,6 +538,35 @@ with tabs[1]:
         )
         st.plotly_chart(fig_radar, use_container_width=True)
 
+    # Study Hours vs Final Marks
+    st.markdown("#### ⏰ **Study Hours vs. Final Marks by Performance Category**")
+    fig_study = px.scatter(
+        filtered_df,
+        x="study_hours_per_week",
+        y="final_marks",
+        color="performance_category",
+        color_discrete_map={"Excellent": "#10B981", "Average": "#3B82F6", "Needs Improvement": "#EF4444"},
+        size="attendance_rate",
+        hover_data=["student_id", "name"],
+        labels={
+            "study_hours_per_week": "Weekly Study Hours",
+            "final_marks": "Final Marks (0-100)",
+            "performance_category": "Category",
+            "attendance_rate": "Attendance %"
+        }
+    )
+    fig_study.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#F8FAFC", family="Outfit"),
+        xaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
+        yaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        height=380,
+        margin=dict(l=10, r=10, t=20, b=10)
+    )
+    st.plotly_chart(fig_study, use_container_width=True)
+
 
 # ==============================================================================
 # TAB 3: DECISION TREE CLASSIFIER
@@ -688,168 +689,39 @@ with tabs[2]:
                 })
         st.table(pd.DataFrame(report_rows))
 
-    # Decision Tree Structural Rules Inspector
-    with st.expander("🔍 Inspect Interpretable Decision Tree Rules (Textual Graph)"):
-        rules_text = predictor.classifier.get_text_rules()
-        st.code(rules_text[:2500] + "\n... [Full Tree Exported]", language="text")
-
-
-# ==============================================================================
-# TAB 4: K-MEANS STUDENT CLUSTERING
-# ==============================================================================
-with tabs[3]:
-    st.markdown("### 🎯 **K-Means Academic Clustering & Segmentation**")
-    st.caption("Unsupervised student grouping based on attendance, study habits, assignments, and academic achievements.")
-
-    # Mathematical Justification: Elbow Method & Silhouette Curve
-    st.markdown("#### 📐 **Elbow Method & Silhouette Validation (Optimal k = 3)**")
-
-    elbow_data = kmeans_summary.get("elbow_results", [])
-    if elbow_data:
-        e_df = pd.DataFrame(elbow_data)
-
-        e_col1, e_col2 = st.columns([1, 1])
-
-        with e_col1:
-            fig_elbow = px.line(
-                e_df,
-                x="k",
-                y="inertia",
-                markers=True,
-                title="Elbow Curve (Within-Cluster Sum of Squares)",
-                labels={"k": "Number of Clusters (k)", "inertia": "Inertia (WCSS)"}
-            )
-            fig_elbow.add_vline(x=3, line_width=2, line_dash="dash", line_color="#EF4444", annotation_text="Elbow Point k=3")
-            fig_elbow.update_layout(
-                paper_bgcolor="rgba(0,0,0,0)",
-                plot_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="#F8FAFC", family="Outfit"),
-                xaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-                yaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-                height=320,
-                margin=dict(l=10, r=10, t=40, b=10)
-            )
-            st.plotly_chart(fig_elbow, use_container_width=True)
-
-        with e_col2:
-            fig_sil = px.line(
-                e_df,
-                x="k",
-                y="silhouette_score",
-                markers=True,
-                title="Silhouette Score vs. Cluster Count (k)",
-                labels={"k": "Number of Clusters (k)", "silhouette_score": "Silhouette Score"}
-            )
-            fig_sil.update_traces(line_color="#10B981")
-            fig_sil.update_layout(
-                paper_bgcolor="rgba(0,0,0,0)",
-                plot_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="#F8FAFC", family="Outfit"),
-                xaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-                yaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-                height=320,
-                margin=dict(l=10, r=10, t=40, b=10)
-            )
-            st.plotly_chart(fig_sil, use_container_width=True)
-
-    st.markdown("---")
-
-    # Interactive 2D & 3D Cluster Visualizer
-    st.markdown("#### 🌌 **Interactive Student Cluster Visualizer**")
-    viz_mode = st.radio("Visualization Perspective", ["3D Multi-Factor Plot", "2D Attendance vs. Marks"], horizontal=True)
-
-    if viz_mode == "3D Multi-Factor Plot":
-        fig_3d = px.scatter_3d(
-            filtered_df,
-            x="attendance_rate",
-            y="study_hours_per_week",
-            z="final_marks",
-            color="cluster_name",
-            color_discrete_sequence=["#10B981", "#3B82F6", "#EF4444", "#F59E0B"],
-            hover_data=["student_id", "name", "performance_category"],
-            labels={
-                "attendance_rate": "Attendance (%)",
-                "study_hours_per_week": "Study Hrs/Wk",
-                "final_marks": "Final Marks (0-100)",
-                "cluster_name": "Cluster"
-            }
+    # Normalized Confusion Matrix
+    cm_norm_data = tree_metrics.get("confusion_matrix_normalized", None)
+    if cm_norm_data is not None:
+        st.markdown("#### 🔬 **Normalized Confusion Matrix (Per-Class Recall)**")
+        fig_cm_norm = px.imshow(
+            np.array(cm_norm_data),
+            labels=dict(x="Predicted Category", y="Actual Category", color="Proportion"),
+            x=labels,
+            y=labels,
+            text_auto=".2f",
+            color_continuous_scale="Purples"
         )
-        fig_3d.update_layout(
-            paper_bgcolor="rgba(0,0,0,0)",
-            scene=dict(
-                xaxis=dict(backgroundcolor="rgba(15,23,42,0.6)", gridcolor="rgba(255,255,255,0.1)"),
-                yaxis=dict(backgroundcolor="rgba(15,23,42,0.6)", gridcolor="rgba(255,255,255,0.1)"),
-                zaxis=dict(backgroundcolor="rgba(15,23,42,0.6)", gridcolor="rgba(255,255,255,0.1)")
-            ),
-            font=dict(color="#F8FAFC", family="Outfit"),
-            height=500,
-            margin=dict(l=10, r=10, t=10, b=10)
-        )
-        st.plotly_chart(fig_3d, use_container_width=True)
-    else:
-        fig_2d = px.scatter(
-            filtered_df,
-            x="attendance_rate",
-            y="final_marks",
-            color="cluster_name",
-            size="study_hours_per_week",
-            hover_data=["student_id", "name", "performance_category"],
-            labels={
-                "attendance_rate": "Attendance Rate (%)",
-                "final_marks": "Final Marks (0-100)",
-                "cluster_name": "Cluster"
-            }
-        )
-        fig_2d.update_layout(
+        fig_cm_norm.update_layout(
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(color="#F8FAFC", family="Outfit"),
-            xaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-            yaxis=dict(gridcolor="rgba(255,255,255,0.08)"),
-            height=420,
+            height=360,
             margin=dict(l=10, r=10, t=10, b=10)
         )
-        st.plotly_chart(fig_2d, use_container_width=True)
+        st.plotly_chart(fig_cm_norm, use_container_width=True)
 
-    # Detailed Cluster Persona Profiles & Pedagogical Interventions
-    st.markdown("#### 👥 **Identified Academic Cluster Personas & Pedagogical Strategies**")
-
-    profiles = kmeans_summary.get("cluster_profiles", predictor.clusterer.cluster_profiles)
-    p_cols = st.columns(len(profiles))
-
-    for idx, (p_col, prof) in enumerate(zip(p_cols, profiles)):
-        with p_col:
-            badge_color = prof.get("color", "#6366F1")
-            st.markdown(f"""
-            <div class="persona-card" style="border-top: 4px solid {badge_color};">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                    <span style="font-weight: 700; color: #F8FAFC; font-size: 1.05rem;">{prof['persona_name']}</span>
-                    <span style="background: {badge_color}22; color: {badge_color}; font-size: 0.75rem; font-weight: 600; padding: 3px 8px; border-radius: 6px; border: 1px solid {badge_color}44;">
-                        {prof['badge']}
-                    </span>
-                </div>
-                <p style="color: #94A3B8; font-size: 0.85rem; line-height: 1.4; margin-bottom: 12px;">
-                    {prof['description']}
-                </p>
-                <div style="background: rgba(15, 23, 42, 0.6); padding: 10px; border-radius: 8px; margin-bottom: 12px; font-size: 0.85rem;">
-                    <div>👥 <b>Students:</b> {prof['student_count']:,} ({prof['student_percentage']}%)</div>
-                    <div>📅 <b>Avg Attendance:</b> {prof['metrics']['avg_attendance']}%</div>
-                    <div>⏰ <b>Study Hours:</b> {prof['metrics']['avg_study_hours']} hrs/wk</div>
-                    <div>🎯 <b>Avg Final Marks:</b> {prof['metrics']['avg_final_marks']}%</div>
-                </div>
-                <div style="background: rgba(99, 102, 241, 0.08); border-left: 3px solid {badge_color}; padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: 0.8rem; color: #CBD5E1;">
-                    <b>Action Plan:</b> {prof['recommended_intervention']}
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
+    # Decision Tree Structural Rules Inspector
+    with st.expander("🔍 Inspect Interpretable Decision Tree Rules (Textual Graph)"):
+        rules_text = predictor.classifier.get_text_rules()
+        st.code(rules_text[:3000] + "\n... [Full Tree Exported]", language="text")
 
 
 # ==============================================================================
-# TAB 5: LIVE PREDICTOR (SINGLE & BATCH CSV)
+# TAB 4: LIVE PREDICTOR (SINGLE & BATCH CSV)
 # ==============================================================================
-with tabs[4]:
+with tabs[3]:
     st.markdown("### 🔮 **Live Student Predictor & Risk Diagnostic**")
-    st.caption("Classify performance categories and assign K-Means cluster personas in real time.")
+    st.caption("Classify performance categories in real time using the trained Decision Tree model.")
 
     pred_mode = st.radio("Prediction Mode", ["Single Student Evaluation", "Batch CSV Bulk Predictor"], horizontal=True)
 
@@ -881,7 +753,7 @@ with tabs[4]:
         with extra_col3:
             in_stress = st.selectbox("Academic Stress Level", ["Low", "Moderate", "High"], index=1)
 
-        if st.button("🚀 Run Live Performance Classification & Clustering", use_container_width=True, type="primary"):
+        if st.button("🚀 Run Live Performance Classification", use_container_width=True, type="primary"):
             sample_payload = {
                 "attendance_rate": in_attendance,
                 "study_hours_per_week": in_study,
@@ -925,16 +797,13 @@ with tabs[4]:
                 </div>
 
                 <div class="metric-card">
-                    <div class="metric-title">Assigned K-Means Cluster</div>
-                    <div style="font-size: 1.2rem; font-weight: 700; color: {res['cluster_color']}; margin: 6px 0;">
-                        {res['cluster_persona']}
+                    <div class="metric-title">Academic Risk Assessment</div>
+                    <div style="font-size: 1.2rem; font-weight: 700; color: {res['risk_color']}; margin: 6px 0;">
+                        {res['risk_level']}
                     </div>
                     <div>
-                        <span style="background: {res['cluster_color']}22; color: {res['cluster_color']}; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; border: 1px solid {res['cluster_color']}44;">
-                            {res['cluster_badge']}
-                        </span>
-                        <span style="background: {res['risk_color']}22; color: {res['risk_color']}; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; border: 1px solid {res['risk_color']}44; margin-left: 6px;">
-                            {res['risk_level']}
+                        <span style="background: {res['risk_color']}22; color: {res['risk_color']}; font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; border: 1px solid {res['risk_color']}44;">
+                            Decision Tree Classification
                         </span>
                     </div>
                 </div>
@@ -970,7 +839,7 @@ with tabs[4]:
 
     else:
         st.markdown("#### 📁 **Batch Student Dataset Prediction**")
-        st.caption("Upload a CSV with student attributes to generate bulk predictions and cluster assignments.")
+        st.caption("Upload a CSV with student attributes to generate bulk predictions.")
 
         # Download Template CSV
         sample_batch_csv = pd.DataFrame({
@@ -1006,17 +875,15 @@ with tabs[4]:
                 st.write(f"Successfully loaded `{len(batch_input_df)}` student records.")
 
                 if st.button("⚡ Generate Batch Predictions", type="primary"):
-                    with st.spinner("Processing records through ML pipeline..."):
+                    with st.spinner("Processing records through Decision Tree pipeline..."):
                         batch_results_df = predictor.predict_batch(batch_input_df)
 
                     st.success("Batch Prediction Complete!")
-                    st.dataframe(
-                        batch_results_df[[
-                            "student_id", "name", "attendance_rate", "study_hours_per_week",
-                            "Predicted_Category", "Confidence", "Cluster_Persona", "Risk_Level"
-                        ]],
-                        use_container_width=True
-                    )
+                    display_cols = [c for c in [
+                        "student_id", "name", "attendance_rate", "study_hours_per_week",
+                        "Predicted_Category", "Confidence", "Risk_Level"
+                    ] if c in batch_results_df.columns]
+                    st.dataframe(batch_results_df[display_cols], use_container_width=True)
 
                     # Export Results CSV
                     res_buf = io.StringIO()
@@ -1032,9 +899,9 @@ with tabs[4]:
 
 
 # ==============================================================================
-# TAB 6: INDIVIDUAL STUDENT DEEP-DIVE
+# TAB 5: INDIVIDUAL STUDENT DEEP-DIVE
 # ==============================================================================
-with tabs[5]:
+with tabs[4]:
     st.markdown("### 🔍 **Individual Student Academic Deep-Dive**")
     st.caption("Inspect individual student transcript, skill balance radar, and academic risk diagnosis.")
 
@@ -1048,16 +915,18 @@ with tabs[5]:
     s_col1, s_col2 = st.columns([1, 1.2])
 
     with s_col1:
+        cat_badge = (
+            "badge-excellent" if stu_record['performance_category'] == 'Excellent'
+            else "badge-average" if stu_record['performance_category'] == 'Average'
+            else "badge-support"
+        )
         st.markdown(f"""
         <div class="metric-card" style="margin-bottom: 16px;">
             <div style="font-size: 1.4rem; font-weight: 700; color: #F8FAFC; margin-bottom: 4px;">{stu_record['name']}</div>
             <div style="color: #94A3B8; font-size: 0.85rem; margin-bottom: 12px;">ID: <b>{stu_record['student_id']}</b> | Age: {stu_record['age']} | Gender: {stu_record['gender']}</div>
             <div style="margin-bottom: 8px;">
-                <span class="{'badge-excellent' if stu_record['performance_category']=='Excellent' else 'badge-average' if stu_record['performance_category']=='Average' else 'badge-support'}">
+                <span class="{cat_badge}">
                     Category: {stu_record['performance_category']}
-                </span>
-                <span style="background: rgba(99, 102, 241, 0.2); color: #A5B4FC; padding: 4px 10px; border-radius: 20px; font-weight: 600; font-size: 0.85rem; margin-left: 6px;">
-                    {stu_record['cluster_name']}
                 </span>
             </div>
             <div style="margin-top: 14px; font-size: 0.9rem; color: #CBD5E1; line-height: 1.6;">
@@ -1138,9 +1007,9 @@ with tabs[5]:
 
 
 # ==============================================================================
-# TAB 7: DATA EXPLORER & EXPORT
+# TAB 6: DATA EXPLORER & EXPORT
 # ==============================================================================
-with tabs[6]:
+with tabs[5]:
     st.markdown("### 📥 **Data Explorer & Cohort Export**")
     st.caption("Inspect raw and processed records, apply customized filters, and export results.")
 
@@ -1149,19 +1018,20 @@ with tabs[6]:
     default_cols = [
         "student_id", "name", "gender", "attendance_rate", "study_hours_per_week",
         "previous_marks", "assignment_scores", "math_score", "science_score",
-        "english_score", "final_marks", "performance_category", "cluster_name"
+        "english_score", "final_marks", "performance_category"
     ]
-    selected_cols = st.multiselect("Select Display Columns", all_cols, default=default_cols)
+    selected_cols = st.multiselect("Select Display Columns", all_cols, default=[c for c in default_cols if c in all_cols])
 
-    st.dataframe(filtered_df[selected_cols], use_container_width=True, height=450)
+    if selected_cols:
+        st.dataframe(filtered_df[selected_cols], use_container_width=True, height=450)
 
-    # Download Button
-    csv_data = io.StringIO()
-    filtered_df[selected_cols].to_csv(csv_data, index=False)
-    st.download_button(
-        label="📥 Download Current Filtered Cohort as CSV",
-        data=csv_data.getvalue(),
-        file_name="student_performance_cohort.csv",
-        mime="text/csv",
-        type="primary"
-    )
+        # Download Button
+        csv_data = io.StringIO()
+        filtered_df[selected_cols].to_csv(csv_data, index=False)
+        st.download_button(
+            label="📥 Download Current Filtered Cohort as CSV",
+            data=csv_data.getvalue(),
+            file_name="student_performance_cohort.csv",
+            mime="text/csv",
+            type="primary"
+        )
